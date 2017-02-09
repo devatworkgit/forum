@@ -1,0 +1,606 @@
+@import "../../config/mixins";
+@import "../../config/variables";
+
+/*---- html ------*/
+a {
+	color: $green;
+	&:hover, &:focus {
+		color: $dark-grey;
+	}
+}
+
+.node {
+	blockquote {
+		border-left-color: $green;
+	}
+
+	.blockquote-reverse, 
+	blockquote.pull-right {
+		border-right-color: $green;
+	}
+}
+
+/*---- Block -----*/
+.sidebar {
+	h2 {
+		background: $green;
+	}
+	.item-list .quicktabs-tabs {
+		li {
+			a {
+				background: $green;
+			}
+			&.active {
+				a {
+					color: $green;
+				}
+			}
+		}
+	}
+	.item-list {
+		ul {
+			li {
+				a:hover, a:focus {
+					color: $green;
+				}
+			}
+		}
+	}
+	.quicktabs-tabpage {
+		.views-field-title {
+			a {
+				color: $green;
+				&:hover, &:focus {
+					color: $dark;
+				}
+			}
+		}
+	}
+	ul.menu {
+		li {
+			a {
+				&:hover, &:focus {
+					color: $green;
+				}
+			}
+			&.expanded {
+				> a {
+					color: $green;
+					&:after {
+						border-bottom: 5px solid $green;
+					}
+				}
+			}
+		}
+	}
+}
+
+.faq-question {
+	&.faq-qa-visible {
+		.active {
+			color: $green;
+		}
+	}
+}
+
+/* Login form */
+#modalContent {
+	.popups-container {
+		.modal-header {
+			background: $green;
+		}
+		#modal-content form {
+			.form-submit {
+				background: $blue;
+				&:hover, &:focus {
+					background: $green;
+				}
+			}
+			.item-list li a {
+				&:hover, &:focus {
+					color: $green;
+				}
+			}
+		}
+	}
+}
+
+/*----- menu -----*/
+.navbar-default {
+	ul.menu {
+		li {
+			a {
+				&.active,
+				&.active-trail,
+				&:hover,
+				&:focus {
+					background: $green;
+				}
+			}
+			&.expanded {
+				ul.menu {
+					li {
+						a {
+							&:hover, &:focus, &.active-trail {
+								background: $white;
+								color: $green;
+							}
+						}
+						&.expanded {
+							ul.menu {
+								li a {
+									&:hover, &:focus {
+										background: $green;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+/*----- Navigation -----*/
+.action-links {
+	li {
+		a {
+			background: $green;
+			&:hover, &:focus {
+				background: $dark;
+			}
+		}
+	}
+	&.action-links-field-collection-add li a {
+		color: $green;
+		&:hover, &:focus {
+			background-color: transparent;
+		}
+	}
+}
+
+/* pager */
+.item-list .pager {
+	li:hover a, li:focus a, .pager-current {
+		background: $green;
+	}
+	li a {
+		&:hover, &:focus {
+			background-color: $green;
+		}
+	}
+}
+
+/* Primary */
+ul.primary {
+	li {
+		a {
+			&:hover, &:focus, &.active {
+				color: $green;
+			}
+		}
+	}
+}
+
+.block-tagclouds .tagclouds-term {
+	a {
+		&:hover, &:focus {
+			background: $green;
+		}
+	}
+}
+
+/* Back to top */
+.btn-btt {
+	background: $green;
+	&:hover, &:focus {
+		background: $dark;
+	}
+}
+
+/* Button sidebar link */
+.button-sidebar-link {
+	background: $green;
+}
+
+/*----- Page -----*/
+.form-submit,
+.form-actions > a {
+	background: $blue;
+	border-color: $blue;
+	&:hover, &:focus {
+		background: $green;
+		border-color: $green;
+	}
+}
+
+/* Headline */
+.headline {
+	.social-list {
+		li {
+			a:hover, a:focus {
+				color: $green;
+			}
+		}
+	}
+	#block-search-form {
+		&:hover:before {
+			color: $green;
+		}
+	}
+	.block-menu {
+		ul.menu {
+			a {
+				&:hover, &:focus {
+					color: $green;
+				}
+			}
+		}
+	}
+}
+
+/* Header */
+.header {
+	&:after {
+		background: $green;
+	}
+}
+
+/* Search */
+.search-wrapper {
+	background: $green;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+	a {
+		border-bottom: 1px solid $green;
+		&:hover, &:focus {
+			color: $green;
+		}
+	}
+}
+
+.section-title {
+	background: url("images/bg-banner.jpg") no-repeat 50% 0 #d05a66;
+}
+
+/* Panel */
+#panel-first {
+	background: $white;
+	color: $dark-grey;
+	a {
+		color: $green;
+		&:hover, &:focus {
+			text-decoration: underline;
+		}
+	}
+}
+
+#panel-second {
+	.block {
+		ul.menu {
+			li {
+				a {
+					&:hover, &:focus {
+						color: $green;
+					}
+				}
+			}
+		}
+		.lang_dropdown_form {
+			.form-item {
+				.dd-select {
+					.dd-pointer-down {
+						border-top-color: $green;
+					}
+					.dd-pointer-up {
+						border-bottom-color: $green !important;
+					}
+				}
+			}
+		}
+	}
+}
+
+#panel-footer { 
+
+	ul.menu {
+		li {
+			a {             
+				&:hover, &:focus {
+					color: $green;
+					&:before {
+						color: $green;
+					}
+				}
+			}
+		}
+	}
+	a {     
+		color: $green;
+	}
+	.views-field-title {
+		a {
+			&:hover, &:focus {
+				color: $green;
+			}
+		}
+	}
+	.views-field-name,
+	.views-field-created {      
+		.username {
+			color: $green !important;
+		}
+	}
+	.social-list {
+		li a {
+			color: $green;            
+		}
+	}
+}
+
+/* Forum */
+#forum {
+	.forum-table {
+		td {
+			.forum-name {
+				a {
+					&:hover, &:focus {
+						color: $green;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* Footer */
+#footer {
+	.block {
+		ul.menu {
+			li {
+				a {                 
+					&:hover, &:focus, &.active {
+						color: $green;                        
+					}
+				}
+			}
+		}
+	}
+	a {     
+		&:hover, &:focus {
+			color: $green;            
+		}
+	}
+}
+
+/* Forum advance */
+.af-button-large,
+.af-button-small,
+.author-pane-link,
+.forum-post-links ul.links li a {
+	background: $green;
+}
+
+.forum-table-topics td.views-field-title {
+	span, .topic-title {
+		&:hover, &:focus {
+			color: $green;
+		}
+	}
+}
+
+.topic-icon-hot-new:before,
+.topic-icon-new:before,
+.topic-icon-sticky:before,
+td.forum-list-icon-new-posts span:before,
+.forum-list-text-legend-new-posts:before {
+	color: $green !important;
+}
+
+/* Table name and description on forum list and table header on topic list */
+.forum-table-wrap .forum-table-superheader,
+.forum-table-topics thead tr,
+#forum .forum-table thead tr,
+.forum-post-info,
+#user-login h3,
+#user-register-form h3,
+#user-pass h3, .profile h3 {
+	background: $green !important;
+}
+
+.forum-tools {
+	form {
+		> div:before {
+			border-top: 5px solid $green;
+		}
+	}
+}
+
+/* View */
+.views-field-title,
+.views-field-subject {
+	a:hover, a:focus {
+		color: $green;
+	}
+}
+
+.views-field-name,
+.views-field-created {
+	.username {
+		color: $green;
+	}
+}
+
+.forum-blog-view {
+	.views-row .views-field-title a:hover,
+	.views-row .views-field-title a:focus {
+		color: $green;
+	}
+}
+
+.views-field-field-tags {
+	.item-list ul li {
+		a {
+			&:hover, &:focus {
+				background: $green;
+			}
+		}
+	}
+}
+
+.field-name-field-tags,
+.field-name-field-section,
+.field-name-field-category {
+	div {
+		display: inline-block;
+		+ div {
+			a {
+				&:hover, &:focus {
+					background: $green;
+				}
+			}
+		}
+	}
+}
+
+.field-name-field-tags .field-items .field-item a:hover,
+.field-name-field-tags .field-items .field-item a:focus,
+.field-name-field-section .field-items .field-item a:hover,
+.field-name-field-section .field-items .field-item a:focus,
+.field-name-field-category .field-items .field-item a:hover,
+.field-name-field-category .field-items .field-item a:focus {
+	background: $green;
+}
+
+/* Node */
+.node {
+	h2 {
+		a:hover, a:focus {
+			color: $green;
+		}
+	}
+	.submitted .username {
+		color: $green;
+	}
+}
+
+.calendar-calendar {
+	background: $green;
+}
+
+span.username {
+	color: $green !important;
+}
+
+.views-field-field-video-link {
+	a {
+		&:before {
+			color: $green;
+		}
+	}
+}
+
+/* Page 404 */
+.page-404 {
+	h1 {
+		color: $green;
+	}
+	#errorbox {
+		a:hover, a:focus {
+			background: $green;
+		}
+	}
+}
+
+/* FAQs */
+.faq {
+	.faq-question {
+		a {
+			&:hover, &:focus {
+				color: $green;
+			}
+			&:before {
+				color: $green;
+			}
+		}
+		&.faq-qa-visible {
+			a {
+				color: $green;
+			}
+		}
+	}
+}
+
+#content {
+	.forum-jump-links a.af-button-large,
+	.forum-jump-links a.af-button-small,
+	.forum-jump-links a.author-pane-link {
+		&:hover, &:focus {
+			color: $green;
+		}
+	}
+}
+
+.off-canvas-toggle {
+	color: $green;
+	&:hover, &:focus {
+		color: $green;
+	}
+}
+
+ul.inline {
+	li {
+		a.active {
+			&:hover, &:focus {
+				color: $green;
+			}
+		}
+	}
+}
+
+.af-button-large,
+.af-button-small,
+.author-pane-link {
+	&:hover, &:focus {
+		background: $green !important;
+		color: $white !important;
+		border-color: $green !important;
+	}
+}
+
+.item-list .pager {
+	.pager-previous,
+	.pager-next {
+		a:before {
+			color: $green;
+		}
+	}
+}
+
+.comment {
+	ul.inline li {
+		a {
+			&:hover, &:focus {
+				background: $green;
+				color: $white;
+				border-color: $green;
+			}
+		}
+	}
+}
+
+.forum-jump-links {
+	.af-button-large, .af-button-small, .author-pane-link {
+		&:hover, &:focus {
+			background: transparent !important;
+			color: $green !important;
+		}
+	}
+}
+
+span.forum-collapsible::before {
+	background: #3fa572;
+}

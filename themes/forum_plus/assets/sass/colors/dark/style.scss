@@ -1,0 +1,150 @@
+@import "../../config/mixins";
+@import "../../config/variables";
+
+body {
+  background: $dark;
+}
+
+#page {
+  background: #333;
+}
+
+#headline {
+  background: $lighter-dark;
+}
+
+.header {
+  background: $light-dark;
+  &:after {
+    background: $white;
+  }
+}
+
+.submenu-extend {
+  color: $dark-grey;
+}
+.navbar-header {
+    color: $lighter-grey;
+}
+.navbar-default {
+  ul.menu li {
+    a {
+      color: $lighter-grey;
+    }
+    &.expanded {
+      ul.menu li {
+        a {
+          color: $dark-grey;
+          &:hover, &:focus, &.active-trail {
+            background: $light-dark;
+          }
+        }
+        &.expanded {
+          ul.menu {
+            background: $dark;
+            li a {
+              color: $lighter-grey;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.preview h3 {
+  color: $white;
+}
+
+#panel-first {
+  background: $lighter-dark;
+}
+
+#forum .forum-table thead tr th {
+  background: $lighter-dark;
+}
+
+.section-title {
+  background: url("images/bg-banner.jpg") no-repeat 50% 0 #0cacce;
+}
+
+#panel-footer {
+  background: $light-dark;
+  color: $lighter-grey;
+  h2 {
+    color: $lighter-grey;
+  }
+  .views-field-created,
+  .views-field-name {
+    color: $dark-grey;
+    .username {
+      color: $blue !important;
+    }
+  }
+  ul.menu li a {
+    color: $lighter-grey;
+    &:hover, &:focus {
+      color: $blue;
+    }
+  }
+  a {
+    color: $lighter-grey;
+    &:hover, &:focus {
+      color: $blue;
+    }
+  }
+  .social-list li a {
+    &:hover, &:focus {
+      color: $blue;
+    }
+  }
+}
+
+#forum {
+  #forum-list-legend-header,
+  #forum-statistics #forum-statistics-header {
+    background: $light-dark;
+  }
+}
+
+#content {
+  .forum-jump-links a.af-button-large,
+  .forum-jump-links a.af-button-small,
+  .forum-jump-links a.author-pane-link {
+    &:hover, &:focus {
+      color: $blue;
+    }
+  }
+}
+
+
+.af-button-large,
+.af-button-small,
+.author-pane-link {
+    &:hover, &:focus {
+        background: $light-dark !important;
+        color: $white !important;
+        border-color: $light-dark !important;
+    }
+}
+
+.item-list .pager {
+    .pager-previous,
+    .pager-next {
+        a:before {
+            color: $light-dark;
+        }
+    }
+}
+
+.comment {
+    ul.inline li {
+        a {
+            &:hover, &:focus {
+                background: $light-dark;
+                color: $white;
+                border-color: $light-dark;
+            }
+        }
+    }
+}

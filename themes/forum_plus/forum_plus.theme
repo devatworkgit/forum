@@ -1,0 +1,232 @@
+<?php
+
+/**
+ * @file
+ * Functions to support theming in the forum_plus theme.
+ */
+//Type here
+use Drupal\Core\Template\Attribute;
+
+/**
+ * Implements hook_preprocess_HOOK() for HTML document templates.
+ *
+ * Adds body classes if certain regions have content.
+ */
+$active_theme = \Drupal::theme()->getActiveTheme()->getName();
+include_once(drupal_get_path('theme', $active_theme) . '/assets/includes/skins-menu/skins_menu.inc');
+
+function forum_plus_preprocess_html(&$variables) {
+
+
+
+  // Add information about the number of sidebars.
+  if (!empty($variables['page']['sidebar_first']) && !empty($variables['page']['sidebar_second'])) {
+    $variables['attributes']['class'][] = 'layout-two-sidebars';
+  }
+  elseif (!empty($variables['page']['sidebar_first'])) {
+    $variables['attributes']['class'][] = 'layout-one-sidebar';
+    $variables['attributes']['class'][] = 'layout-sidebar-first';
+  }
+  elseif (!empty($variables['page']['sidebar_second'])) {
+    $variables['attributes']['class'][] = 'layout-one-sidebar';
+    $variables['attributes']['class'][] = 'layout-sidebar-second';
+  }
+  else {
+    $variables['attributes']['class'][] = 'layout-no-sidebars';
+  }
+
+  if (!empty($variables['page']['featured_top'])) {
+    $variables['attributes']['class'][] = 'has-featured-top';
+  }
+
+  skmn_preprocess_html($variables);
+
+}
+
+function forum_plus_preprocess_page(&$variables)
+{
+	skmn_preprocess_page($variables);
+}
+
+/**
+ * Implements hook_preprocess_HOOK() for page templates.
+ */
+function forum_plus_preprocess_page_title(&$variables) {
+  // Since the title and the shortcut link are both block level elements,
+  // positioning them next to each other is much simpler with a wrapper div.
+  if (!empty($variables['title_suffix']['add_or_remove_shortcut']) && $variables['title']) {
+    // Add a wrapper div using the title_prefix and title_suffix render
+    // elements.
+    $variables['title_prefix']['shortcut_wrapper'] = array(
+      '#markup' => '<div class="shortcut-wrapper clearfix">',
+      '#weight' => 100,
+    );
+    $variables['title_suffix']['shortcut_wrapper'] = array(
+      '#markup' => '</div>',
+      '#weight' => -99,
+    );
+    // Make sure the shortcut link is the first item in title_suffix.
+    $variables['title_suffix']['add_or_remove_shortcut']['#weight'] = -100;
+  }
+}
+
+/**
+ * Implements hook_preprocess_HOOK() for maintenance-page.html.twig.
+ */
+function forum_plus_preprocess_maintenance_page(&$variables) {
+  // By default, site_name is set to Drupal if no db connection is available
+  // or during site installation. Setting site_name to an empty string makes
+  // the site and update pages look cleaner.
+  // @see template_preprocess_maintenance_page
+  if (!$variables['db_is_active']) {
+    $variables['site_name'] = '';
+  }
+
+  // forum_plus has custom styling for the maintenance page.
+  $variables['#attached']['library'][] = 'forum_plus/maintenance_page';
+}
+
+/**
+ * Implements hook_preprocess_HOOK() for node.html.twig.
+ */
+function forum_plus_preprocess_node(&$variables) {
+  // Remove the "Add new comment" link on teasers or when the comment form is
+  // displayed on the page.
+  if ($variables['teaser'] || !empty($variables['content']['comments']['comment_form'])) {
+    unset($variables['content']['links']['comment']['#links']['comment-add']);
+  }
+
+	$node = $variables['node'];
+/*	var_dump($node->getType());
+	var_dump($node);
+	exit;*/
+	if ($node->getType() == 'forum') {
+		// general info
+		$variables['links'] = isset($variables['content']['links'])?$variables['content']['links']:null;
+		$variables['comment'] = isset($variables['content']['comment_forum'])?$variables['content']['comment_forum']:null;
+		unset($variables['content']['links']);
+		unset($variables['content']['comment_forum']);
+
+		// count posts total in topic
+		$query = \Drupal::entityQuery('comment')
+			->condition('entity_id', $node->id())
+			->count()
+			->execute();
+		$variables['total_posts'] = $query + 1;
+
+		// user info
+		$user = $node->getOwner();
+		$deltaLastAccess = time() - $user->getLastAccessedTime();
+		$minutes = 15;
+		$variables['author_joined_date'] = date('m/d/Y - H:i', $user->getCreatedTime());
+		$variables['author_last_access'] = date('m/d/Y - H:i', $user->getLastAccessedTime());
+		$variables['author_is_online'] = ($deltaLastAccess <= $minutes * 60) ? 1:0;
+	}
+}
+
+function forum_plus_preprocess_comment(&$variables) {
+	$comment = $variables['comment'];
+	if(!$comment->id()) {
+		return;
+	}
+	if ($comment->getTypeId() == 'comment_forum') {
+		// post index
+		$comment_storage = \Drupal::entityManager()->getStorage('comment');
+		$entity = $comment_storage->load($comment->id());
+		$entity_id = $entity->getCommentedEntityId();
+		$cids = \Drupal::entityQuery('comment')
+			->condition('entity_id', $entity_id)
+			->execute();
+		$index = 0;
+		$i = 0;
+		foreach ($cids as $key => $value) {
+			if ($value == $comment->id()) {
+				$index = $i;
+				break;
+			}
+			$i++;
+		}
+		$index += 2;
+		$permalink_url = $variables['permalink']->getGeneratedLink();
+		$permalink_url = explode(" ", $permalink_url)[1]; // result: href="/forum_plus/forum/headline-news-0#comment-x"
+		$permalink_url = explode("\"", $permalink_url)[1]; // result: /forum_plus/forum/headline-news-0#comment-x
+		$permalink_title = "#" . $index;
+		$permalink = \Drupal::l($permalink_title, $comment->permalink());
+		$variables['permalink'] = $permalink;
+
+		// user info
+		$user = $comment->getOwner();
+		$deltaLastAccess = time() - $user->getLastAccessedTime();
+		$minutes = 15;
+		$variables['author_joined_date'] = date('m/d/Y - H:i', $user->getCreatedTime());
+		$variables['author_last_access'] = date('m/d/Y - H:i', $user->getLastAccessedTime());
+		$variables['author_is_online'] = ($deltaLastAccess <= $minutes * 60) ? 1:0;
+		$variables['title'] = strip_tags($variables['title']);
+	}
+}
+
+/**
+ * Implements hook_preprocess_HOOK() for block.html.twig.
+ */
+function forum_plus_preprocess_block(&$variables) {
+  // Add a clearfix class to system branding blocks.
+  if ($variables['plugin_id'] == 'system_branding_block') {
+    $variables['attributes']['class'][] = 'clearfix';
+  }
+}
+
+/**
+ * Implements hook_preprocess_HOOK() for menu.html.twig.
+ */
+function forum_plus_preprocess_menu(&$variables) {
+  $variables['attributes']['class'][] = 'clearfix';
+}
+
+/**
+ * Implements hook_theme_suggestions_HOOK_alter() for form templates.
+ */
+function forum_plus_theme_suggestions_form_alter(array &$suggestions, array $variables) {
+  if ($variables['element']['#form_id'] == 'search_block_form') {
+    $suggestions[] = 'form__search_block_form';
+  }
+}
+
+/**
+ * Implements hook_form_alter() to add classes to the search form.
+ */
+function forum_plus_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+  if (in_array($form_id, ['search_block_form', 'search_form'])) {
+    $key = ($form_id == 'search_block_form') ? 'actions' : 'basic';
+    if (!isset($form[$key]['submit']['#attributes'])) {
+      $form[$key]['submit']['#attributes'] = new Attribute();
+    }
+    $form[$key]['submit']['#attributes']->addClass('search-form__submit');
+  }
+}
+
+/**
+ * Implements hook_preprocess_HOOK() for forum_list.html.twig.
+ */
+function forum_plus_preprocess_forum_list(&$variables) {
+	// use for a container template
+	$forum_id = $variables['forum_id'];
+	if ($forum_id > 0) {
+		$query = db_select('taxonomy_term_field_data', 'e')
+			->condition('tid', $forum_id)
+			->fields('e', array('name', 'description__value'))
+			->execute()->fetchAll();
+		$row = $query[0];
+		$container_name = $row->name;
+		$container_description = $row->description__value;
+
+		$variables['container_name'] = $container_name;
+		$variables['container_description'] = strip_tags($container_description);
+	}
+	//exit();
+}
+
+function forum_plus_form_system_theme_settings_alter(&$form, $form_state) {
+
+  skmn_form_system_theme_settings_alter($form, $form_state);
+}
+

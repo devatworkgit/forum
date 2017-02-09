@@ -1,0 +1,607 @@
+@import "../../config/mixins";
+@import "../../config/variables";
+
+/*---- html ------*/
+a {
+	color: $orange;
+	&:hover, &:focus {
+		color: $dark-grey;
+	}
+}
+
+.node {
+	blockquote {
+		border-left-color: $orange;
+	}
+
+	.blockquote-reverse, 
+	blockquote.pull-right {
+		border-right-color: $orange;
+	}
+}
+
+
+/*---- Block -----*/
+.sidebar {
+	h2 {
+		background: $orange;
+	}
+	.item-list .quicktabs-tabs {
+		li {
+			a {
+				background: $orange;
+			}
+			&.active {
+				a {
+					color: $orange;
+				}
+			}
+		}
+	}
+	.item-list {
+		ul {
+			li {
+				a:hover, a:focus {
+					color: $orange;
+				}
+			}
+		}
+	}
+	.quicktabs-tabpage {
+		.views-field-title {
+			a {
+				color: $orange;
+				&:hover, &:focus {
+					color: $dark;
+				}
+			}
+		}
+	}
+	ul.menu {
+		li {
+			a {
+				&:hover, &:focus {
+					color: $orange;
+				}
+			}
+			&.expanded {
+				> a {
+					color: $orange;
+					&:after {
+						border-bottom: 5px solid $orange;
+					}
+				}
+			}
+		}
+	}
+}
+
+.faq-question {
+	&.faq-qa-visible {
+		.active {
+			color: $orange;
+		}
+	}
+}
+
+/* Login form */
+#modalContent {
+	.popups-container {
+		.modal-header {
+			background: $orange;
+		}
+		#modal-content form {
+			.form-submit {
+				background: #c2c40f;
+				&:hover, &:focus {
+					background: $orange;
+				}
+			}
+			.item-list li a {
+				&:hover, &:focus {
+					color: $orange;
+				}
+			}
+		}
+	}
+}
+
+/*----- menu -----*/
+.navbar-default {
+	ul.menu {
+		li {
+			a {
+				&.active,
+				&.active-trail,
+				&:hover,
+				&:focus {
+					background: $orange;
+				}
+			}
+			&.expanded {
+				ul.menu {
+					li {
+						a {
+							&:hover, &:focus, &.active-trail {
+								background: $white;
+								color: $orange;
+							}
+						}
+						&.expanded {
+							ul.menu {
+								li a {
+									&:hover, &:focus {
+										background: $orange;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+/*----- Navigation -----*/
+.action-links {
+	li {
+		a {
+			background: $orange;
+			&:hover, &:focus {
+				background: $dark;
+			}
+		}
+	}
+	&.action-links-field-collection-add li a {
+		color: $orange;
+		&:hover, &:focus {
+			background-color: transparent;
+		}
+	}
+}
+
+/* pager */
+.item-list .pager {
+	li:hover a, li:focus a, .pager-current {
+		background: $orange;
+	}
+	li a {
+		&:hover, &:focus {
+			background-color: $orange;
+		}
+	}
+}
+
+/* Primary */
+ul.primary {
+	li {
+		a {
+			&:hover, &:focus, &.active {
+				color: $orange;
+			}
+		}
+	}
+}
+
+.block-tagclouds .tagclouds-term {
+	a {
+		&:hover, &:focus {
+			background: $orange;
+		}
+	}
+}
+
+/* Back to top */
+.btn-btt {
+	background: $orange;
+	&:hover, &:focus {
+		background: $dark;
+	}
+}
+
+/* Button sidebar link */
+.button-sidebar-link {
+	background: $orange;
+}
+
+/*----- Page -----*/
+.form-submit,
+.form-actions > a {
+	background: #c2c40f;
+	border-color: #c2c40f;
+	&:hover, &:focus {
+		background: $orange;
+		border-color: $orange;
+	}
+}
+
+/* Headline */
+.headline {
+	.social-list {
+		li {
+			a:hover, a:focus {
+				color: $orange;
+			}
+		}
+	}
+	#block-search-form {
+		&:hover:before {
+			color: $orange;
+		}
+	}
+	.block-menu {
+		ul.menu {
+			a {
+				&:hover, &:focus {
+					color: $orange;
+				}
+			}
+		}
+	}
+}
+
+/* Header */
+.header {
+	&:after {
+		background: $orange;
+	}
+}
+
+/* Search */
+.search-wrapper {
+	background: $orange;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+	a {
+		border-bottom: 1px solid $orange;
+		&:hover, &:focus {
+			color: $orange;
+		}
+	}
+}
+
+.section-title {
+	background: url("images/bg-banner.jpg") no-repeat 50% 0 #d05a66;
+}
+
+/* Panel */
+#panel-first {
+	background: $white;
+	color: $dark-grey;
+	a {
+		color: $orange;
+		&:hover, &:focus {
+			text-decoration: underline;
+		}
+	}
+}
+
+#panel-second {
+	.block {
+		ul.menu {
+			li {
+				a {
+					&:hover, &:focus {
+						color: $orange;
+					}
+				}
+			}
+		}
+		.lang_dropdown_form {
+			.form-item {
+				.dd-select {
+					.dd-pointer-down {
+						border-top-color: $orange;
+					}
+					.dd-pointer-up {
+						border-bottom-color: $orange !important;
+					}
+				}
+			}
+		}
+	}
+}
+
+#panel-footer { 
+
+	ul.menu {
+		li {
+			a {             
+				&:hover, &:focus {
+					color: $orange;
+					&:before {
+						color: $orange;
+					}
+				}
+			}
+		}
+	}
+	a {     
+		color: $orange;
+	}
+	.views-field-title {
+		a {
+			&:hover, &:focus {
+				color: $orange;
+			}
+		}
+	}
+	.views-field-name,
+	.views-field-created {      
+		.username {
+			color: $orange !important;
+		}
+	}
+	.social-list {
+		li a {
+			color: $orange;            
+		}
+	}
+}
+
+/* Forum */
+#forum {
+	.forum-table {
+		td {
+			.forum-name {
+				a {
+					&:hover, &:focus {
+						color: $orange;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* Footer */
+#footer {
+	.block {
+		ul.menu {
+			li {
+				a {                 
+					&:hover, &:focus, &.active {
+						color: $orange;                        
+					}
+				}
+			}
+		}
+	}
+	a {     
+		&:hover, &:focus {
+			color: $orange;            
+		}
+	}
+}
+
+/* Forum advance */
+.af-button-large,
+.af-button-small,
+.author-pane-link,
+.forum-post-links ul.links li a {
+	background: $orange;
+}
+
+.forum-table-topics td.views-field-title {
+	span, .topic-title {
+		&:hover, &:focus {
+			color: $orange;
+		}
+	}
+}
+
+.topic-icon-hot-new:before,
+.topic-icon-new:before,
+.topic-icon-sticky:before,
+td.forum-list-icon-new-posts span:before,
+.forum-list-text-legend-new-posts:before {
+	color: $orange !important;
+}
+
+/* Table name and description on forum list and table header on topic list */
+.forum-table-wrap .forum-table-superheader,
+.forum-table-topics thead tr,
+#forum .forum-table thead tr,
+.forum-post-info,
+#user-login h3,
+#user-register-form h3,
+#user-pass h3, .profile h3 {
+	background: $orange !important;
+}
+
+.forum-tools {
+	form {
+		> div:before {
+			border-top: 5px solid $orange;
+		}
+	}
+}
+
+/* View */
+.views-field-title,
+.views-field-subject {
+	a:hover, a:focus {
+		color: $orange;
+	}
+}
+
+.views-field-name,
+.views-field-created {
+	.username {
+		color: $orange;
+	}
+}
+
+.forum-blog-view {
+	.views-row .views-field-title a:hover,
+	.views-row .views-field-title a:focus {
+		color: $orange;
+	}
+}
+
+.views-field-field-tags {
+	.item-list ul li {
+		a {
+			&:hover, &:focus {
+				background: $orange;
+			}
+		}
+	}
+}
+
+.field-name-field-tags,
+.field-name-field-section,
+.field-name-field-category {
+	div {
+		display: inline-block;
+		+ div {
+			a {
+				&:hover, &:focus {
+					background: $orange;
+				}
+			}
+		}
+	}
+}
+
+.field-name-field-tags .field-items .field-item a:hover,
+.field-name-field-tags .field-items .field-item a:focus,
+.field-name-field-section .field-items .field-item a:hover,
+.field-name-field-section .field-items .field-item a:focus,
+.field-name-field-category .field-items .field-item a:hover,
+.field-name-field-category .field-items .field-item a:focus {
+	background: $orange;
+}
+
+/* Node */
+.node {
+	h2 {
+		a:hover, a:focus {
+			color: $orange;
+		}
+	}
+	.submitted .username {
+		color: $orange;
+	}
+}
+
+.calendar-calendar {
+	background: $orange;
+}
+
+span.username {
+	color: $orange !important;
+}
+
+.views-field-field-video-link {
+	a {
+		&:before {
+			color: $orange;
+		}
+	}
+}
+
+/* Page 404 */
+.page-404 {
+	h1 {
+		color: $orange;
+	}
+	#errorbox {
+		a:hover, a:focus {
+			background: $orange;
+		}
+	}
+}
+
+/* FAQs */
+.faq {
+	.faq-question {
+		a {
+			&:hover, &:focus {
+				color: $orange;
+			}
+			&:before {
+				color: $orange;
+			}
+		}
+		&.faq-qa-visible {
+			a {
+				color: $orange;
+			}
+		}
+	}
+}
+
+#content {
+	.forum-jump-links a.af-button-large,
+	.forum-jump-links a.af-button-small,
+	.forum-jump-links a.author-pane-link {
+		&:hover, &:focus {
+			color: $orange;
+		}
+	}
+}
+
+.off-canvas-toggle {
+	color: $orange;
+	&:hover, &:focus {
+		color: $orange;
+	}
+}
+
+ul.inline {
+	li {
+		a.active {
+			&:hover, &:focus {
+				color: $orange;
+			}
+		}
+	}
+}
+
+.af-button-large,
+.af-button-small,
+.author-pane-link {
+	&:hover, &:focus {
+		background: $orange !important;
+		color: $white !important;
+		border-color: $orange !important;
+	}
+}
+
+.item-list .pager {
+	.pager-previous,
+	.pager-next {
+		a:before {
+			color: $orange;
+		}
+	}
+}
+
+.comment {
+	ul.inline li {
+		a {
+			&:hover, &:focus {
+				background: $orange;
+				color: $white;
+				border-color: $orange;
+			}
+		}
+	}
+}
+
+.forum-jump-links {
+	.af-button-large, .af-button-small, .author-pane-link {
+		&:hover, &:focus {
+			background: transparent !important;
+			color: $orange !important;
+		}
+	}
+}
+
+span.forum-collapsible::before {
+	background: #bdab14;
+}

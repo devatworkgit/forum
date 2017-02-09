@@ -1,0 +1,473 @@
+/*---- html ------*/
+/* line 5, ../../../sass/colors/red/style.scss */
+a {
+  color: #da3e3e;
+}
+/* line 7, ../../../sass/colors/red/style.scss */
+a:hover, a:focus {
+  color: #7d7d7d;
+}
+
+/* line 13, ../../../sass/colors/red/style.scss */
+.node blockquote {
+  border-left-color: #da3e3e;
+}
+/* line 17, ../../../sass/colors/red/style.scss */
+.node .blockquote-reverse,
+.node blockquote.pull-right {
+  border-right-color: #da3e3e;
+}
+
+/*---- Block -----*/
+/* line 25, ../../../sass/colors/red/style.scss */
+.sidebar h2 {
+  background: #da3e3e;
+}
+/* line 30, ../../../sass/colors/red/style.scss */
+.sidebar .item-list .quicktabs-tabs li a {
+  background: #da3e3e;
+}
+/* line 34, ../../../sass/colors/red/style.scss */
+.sidebar .item-list .quicktabs-tabs li.active a {
+  color: #da3e3e;
+}
+/* line 43, ../../../sass/colors/red/style.scss */
+.sidebar .item-list ul li a:hover, .sidebar .item-list ul li a:focus {
+  color: #da3e3e;
+}
+/* line 51, ../../../sass/colors/red/style.scss */
+.sidebar .quicktabs-tabpage .views-field-title a {
+  color: #da3e3e;
+}
+/* line 53, ../../../sass/colors/red/style.scss */
+.sidebar .quicktabs-tabpage .views-field-title a:hover, .sidebar .quicktabs-tabpage .views-field-title a:focus {
+  color: #333;
+}
+/* line 62, ../../../sass/colors/red/style.scss */
+.sidebar ul.menu li a:hover, .sidebar ul.menu li a:focus {
+  color: #da3e3e;
+}
+/* line 67, ../../../sass/colors/red/style.scss */
+.sidebar ul.menu li.expanded > a {
+  color: #da3e3e;
+}
+/* line 69, ../../../sass/colors/red/style.scss */
+.sidebar ul.menu li.expanded > a:after {
+  border-bottom: 5px solid #da3e3e;
+}
+
+/* line 80, ../../../sass/colors/red/style.scss */
+.faq-question.faq-qa-visible .active {
+  color: #da3e3e;
+}
+
+/* Login form */
+/* line 89, ../../../sass/colors/red/style.scss */
+#modalContent .popups-container .modal-header {
+  background: #da3e3e;
+}
+/* line 93, ../../../sass/colors/red/style.scss */
+#modalContent .popups-container #modal-content form .form-submit {
+  background: #da6e3e;
+}
+/* line 95, ../../../sass/colors/red/style.scss */
+#modalContent .popups-container #modal-content form .form-submit:hover, #modalContent .popups-container #modal-content form .form-submit:focus {
+  background: #da3e3e;
+}
+/* line 100, ../../../sass/colors/red/style.scss */
+#modalContent .popups-container #modal-content form .item-list li a:hover, #modalContent .popups-container #modal-content form .item-list li a:focus {
+  color: #da3e3e;
+}
+
+/*----- menu -----*/
+/* line 113, ../../../sass/colors/red/style.scss */
+.navbar-default ul.menu li a.active, .navbar-default ul.menu li a.active-trail, .navbar-default ul.menu li a:hover, .navbar-default ul.menu li a:focus {
+  background: #da3e3e;
+}
+/* line 124, ../../../sass/colors/red/style.scss */
+.navbar-default ul.menu li.expanded ul.menu li a:hover, .navbar-default ul.menu li.expanded ul.menu li a:focus, .navbar-default ul.menu li.expanded ul.menu li a.active-trail {
+  background: #fff;
+  color: #da3e3e;
+}
+/* line 132, ../../../sass/colors/red/style.scss */
+.navbar-default ul.menu li.expanded ul.menu li.expanded ul.menu li a:hover, .navbar-default ul.menu li.expanded ul.menu li.expanded ul.menu li a:focus {
+  background: #da3e3e;
+}
+
+/*----- Navigation -----*/
+/* line 148, ../../../sass/colors/red/style.scss */
+.action-links li a {
+  background: #da3e3e;
+}
+/* line 150, ../../../sass/colors/red/style.scss */
+.action-links li a:hover, .action-links li a:focus {
+  background: #333;
+}
+/* line 155, ../../../sass/colors/red/style.scss */
+.action-links.action-links-field-collection-add li a {
+  color: #da3e3e;
+}
+/* line 157, ../../../sass/colors/red/style.scss */
+.action-links.action-links-field-collection-add li a:hover, .action-links.action-links-field-collection-add li a:focus {
+  background-color: transparent;
+}
+
+/* pager */
+/* line 165, ../../../sass/colors/red/style.scss */
+.item-list .pager li:hover a, .item-list .pager li:focus a, .item-list .pager .pager-current {
+  background: #da3e3e;
+}
+/* line 169, ../../../sass/colors/red/style.scss */
+.item-list .pager li a:hover, .item-list .pager li a:focus {
+  background-color: #da3e3e;
+}
+
+/* Primary */
+/* line 179, ../../../sass/colors/red/style.scss */
+ul.primary li a:hover, ul.primary li a:focus, ul.primary li a.active {
+  color: #da3e3e;
+}
+
+/* line 188, ../../../sass/colors/red/style.scss */
+.block-tagclouds .tagclouds-term a:hover, .block-tagclouds .tagclouds-term a:focus {
+  background: #da3e3e;
+}
+
+/* Back to top */
+/* line 195, ../../../sass/colors/red/style.scss */
+.btn-btt {
+  background: #da3e3e;
+}
+/* line 197, ../../../sass/colors/red/style.scss */
+.btn-btt:hover, .btn-btt:focus {
+  background: #333;
+}
+
+/* Button sidebar link */
+/* line 203, ../../../sass/colors/red/style.scss */
+.button-sidebar-link {
+  background: #da3e3e;
+}
+
+/*----- Page -----*/
+/* line 208, ../../../sass/colors/red/style.scss */
+.form-submit,
+.form-actions > a {
+  background: #da6e3e;
+  border-color: #da6e3e;
+}
+/* line 212, ../../../sass/colors/red/style.scss */
+.form-submit:hover, .form-submit:focus,
+.form-actions > a:hover,
+.form-actions > a:focus {
+  background: #da3e3e;
+  border-color: #da3e3e;
+}
+
+/* Headline */
+/* line 222, ../../../sass/colors/red/style.scss */
+.headline .social-list li a:hover, .headline .social-list li a:focus {
+  color: #da3e3e;
+}
+/* line 228, ../../../sass/colors/red/style.scss */
+.headline #block-search-form:hover:before {
+  color: #da3e3e;
+}
+/* line 235, ../../../sass/colors/red/style.scss */
+.headline .block-menu ul.menu a:hover, .headline .block-menu ul.menu a:focus {
+  color: #da3e3e;
+}
+
+/* Header */
+/* line 245, ../../../sass/colors/red/style.scss */
+.header:after {
+  background: #da3e3e;
+}
+
+/* Search */
+/* line 251, ../../../sass/colors/red/style.scss */
+.search-wrapper {
+  background: #da3e3e;
+}
+
+/* Breadcrumb */
+/* line 257, ../../../sass/colors/red/style.scss */
+.breadcrumb a {
+  border-bottom: 1px solid #da3e3e;
+}
+/* line 259, ../../../sass/colors/red/style.scss */
+.breadcrumb a:hover, .breadcrumb a:focus {
+  color: #da3e3e;
+}
+
+/* line 265, ../../../sass/colors/red/style.scss */
+.section-title {
+  background: url("images/bg-banner.jpg") no-repeat 50% 0 #d05a66;
+}
+
+/* Panel */
+/* line 270, ../../../sass/colors/red/style.scss */
+#panel-first {
+  background: #fff;
+  color: #7d7d7d;
+}
+/* line 273, ../../../sass/colors/red/style.scss */
+#panel-first a {
+  color: #da3e3e;
+}
+/* line 275, ../../../sass/colors/red/style.scss */
+#panel-first a:hover, #panel-first a:focus {
+  text-decoration: underline;
+}
+
+/* line 286, ../../../sass/colors/red/style.scss */
+#panel-second .block ul.menu li a:hover, #panel-second .block ul.menu li a:focus {
+  color: #da3e3e;
+}
+/* line 295, ../../../sass/colors/red/style.scss */
+#panel-second .block .lang_dropdown_form .form-item .dd-select .dd-pointer-down {
+  border-top-color: #da3e3e;
+}
+/* line 298, ../../../sass/colors/red/style.scss */
+#panel-second .block .lang_dropdown_form .form-item .dd-select .dd-pointer-up {
+  border-bottom-color: #da3e3e !important;
+}
+
+/* line 312, ../../../sass/colors/red/style.scss */
+#panel-footer ul.menu li a:hover, #panel-footer ul.menu li a:focus {
+  color: #da3e3e;
+}
+/* line 314, ../../../sass/colors/red/style.scss */
+#panel-footer ul.menu li a:hover:before, #panel-footer ul.menu li a:focus:before {
+  color: #da3e3e;
+}
+/* line 321, ../../../sass/colors/red/style.scss */
+#panel-footer a {
+  color: #da3e3e;
+}
+/* line 326, ../../../sass/colors/red/style.scss */
+#panel-footer .views-field-title a:hover, #panel-footer .views-field-title a:focus {
+  color: #da3e3e;
+}
+/* line 333, ../../../sass/colors/red/style.scss */
+#panel-footer .views-field-name .username,
+#panel-footer .views-field-created .username {
+  color: #da3e3e !important;
+}
+/* line 338, ../../../sass/colors/red/style.scss */
+#panel-footer .social-list li a {
+  color: #da3e3e;
+}
+
+/* Forum */
+/* line 350, ../../../sass/colors/red/style.scss */
+#forum .forum-table td .forum-name a:hover, #forum .forum-table td .forum-name a:focus {
+  color: #da3e3e;
+}
+
+/* Footer */
+/* line 365, ../../../sass/colors/red/style.scss */
+#footer .block ul.menu li a:hover, #footer .block ul.menu li a:focus, #footer .block ul.menu li a.active {
+  color: #da3e3e;
+}
+/* line 373, ../../../sass/colors/red/style.scss */
+#footer a:hover, #footer a:focus {
+  color: #da3e3e;
+}
+
+/* Forum advance */
+/* line 380, ../../../sass/colors/red/style.scss */
+.af-button-large,
+.af-button-small,
+.author-pane-link,
+.forum-post-links ul.links li a {
+  background: #da3e3e;
+}
+
+/* line 389, ../../../sass/colors/red/style.scss */
+.forum-table-topics td.views-field-title span:hover, .forum-table-topics td.views-field-title span:focus, .forum-table-topics td.views-field-title .topic-title:hover, .forum-table-topics td.views-field-title .topic-title:focus {
+  color: #da3e3e;
+}
+
+/* line 395, ../../../sass/colors/red/style.scss */
+.topic-icon-hot-new:before,
+.topic-icon-new:before,
+.topic-icon-sticky:before,
+td.forum-list-icon-new-posts span:before,
+.forum-list-text-legend-new-posts:before {
+  color: #da3e3e !important;
+}
+
+/* Table name and description on forum list and table header on topic list */
+/* line 404, ../../../sass/colors/red/style.scss */
+.forum-table-wrap .forum-table-superheader,
+.forum-table-topics thead tr,
+#forum .forum-table thead tr,
+.forum-post-info,
+#user-login h3,
+#user-register-form h3,
+#user-pass h3, .profile h3 {
+  background: #da3e3e !important;
+}
+
+/* line 416, ../../../sass/colors/red/style.scss */
+.forum-tools form > div:before {
+  border-top: 5px solid #da3e3e;
+}
+
+/* View */
+/* line 425, ../../../sass/colors/red/style.scss */
+.views-field-title a:hover, .views-field-title a:focus,
+.views-field-subject a:hover,
+.views-field-subject a:focus {
+  color: #da3e3e;
+}
+
+/* line 432, ../../../sass/colors/red/style.scss */
+.views-field-name .username,
+.views-field-created .username {
+  color: #da3e3e;
+}
+
+/* line 438, ../../../sass/colors/red/style.scss */
+.forum-blog-view .views-row .views-field-title a:hover,
+.forum-blog-view .views-row .views-field-title a:focus {
+  color: #da3e3e;
+}
+
+/* line 447, ../../../sass/colors/red/style.scss */
+.views-field-field-tags .item-list ul li a:hover, .views-field-field-tags .item-list ul li a:focus {
+  background: #da3e3e;
+}
+
+/* line 457, ../../../sass/colors/red/style.scss */
+.field-name-field-tags div,
+.field-name-field-section div,
+.field-name-field-category div {
+  display: inline-block;
+}
+/* line 461, ../../../sass/colors/red/style.scss */
+.field-name-field-tags div + div a:hover, .field-name-field-tags div + div a:focus,
+.field-name-field-section div + div a:hover,
+.field-name-field-section div + div a:focus,
+.field-name-field-category div + div a:hover,
+.field-name-field-category div + div a:focus {
+  background: #da3e3e;
+}
+
+/* line 469, ../../../sass/colors/red/style.scss */
+.field-name-field-tags .field-items .field-item a:hover,
+.field-name-field-tags .field-items .field-item a:focus,
+.field-name-field-section .field-items .field-item a:hover,
+.field-name-field-section .field-items .field-item a:focus,
+.field-name-field-category .field-items .field-item a:hover,
+.field-name-field-category .field-items .field-item a:focus {
+  background: #da3e3e;
+}
+
+/* Node */
+/* line 481, ../../../sass/colors/red/style.scss */
+.node h2 a:hover, .node h2 a:focus {
+  color: #da3e3e;
+}
+/* line 485, ../../../sass/colors/red/style.scss */
+.node .submitted .username {
+  color: #da3e3e;
+}
+
+/* line 490, ../../../sass/colors/red/style.scss */
+.calendar-calendar {
+  background: #da3e3e;
+}
+
+/* line 494, ../../../sass/colors/red/style.scss */
+span.username {
+  color: #da3e3e !important;
+}
+
+/* line 500, ../../../sass/colors/red/style.scss */
+.views-field-field-video-link a:before {
+  color: #da3e3e;
+}
+
+/* Page 404 */
+/* line 508, ../../../sass/colors/red/style.scss */
+.page-404 h1 {
+  color: #da3e3e;
+}
+/* line 512, ../../../sass/colors/red/style.scss */
+.page-404 #errorbox a:hover, .page-404 #errorbox a:focus {
+  background: #da3e3e;
+}
+
+/* FAQs */
+/* line 522, ../../../sass/colors/red/style.scss */
+.faq .faq-question a:hover, .faq .faq-question a:focus {
+  color: #da3e3e;
+}
+/* line 525, ../../../sass/colors/red/style.scss */
+.faq .faq-question a:before {
+  color: #da3e3e;
+}
+/* line 530, ../../../sass/colors/red/style.scss */
+.faq .faq-question.faq-qa-visible a {
+  color: #da3e3e;
+}
+
+/* line 541, ../../../sass/colors/red/style.scss */
+#content .forum-jump-links a.af-button-large:hover, #content .forum-jump-links a.af-button-large:focus,
+#content .forum-jump-links a.af-button-small:hover,
+#content .forum-jump-links a.af-button-small:focus,
+#content .forum-jump-links a.author-pane-link:hover,
+#content .forum-jump-links a.author-pane-link:focus {
+  color: #da3e3e;
+}
+
+/* line 547, ../../../sass/colors/red/style.scss */
+.off-canvas-toggle {
+  color: #da3e3e;
+}
+/* line 549, ../../../sass/colors/red/style.scss */
+.off-canvas-toggle:hover, .off-canvas-toggle:focus {
+  color: #da3e3e;
+}
+
+/* line 557, ../../../sass/colors/red/style.scss */
+ul.inline li a.active:hover, ul.inline li a.active:focus {
+  color: #da3e3e;
+}
+
+/* line 567, ../../../sass/colors/red/style.scss */
+.af-button-large:hover, .af-button-large:focus,
+.af-button-small:hover,
+.af-button-small:focus,
+.author-pane-link:hover,
+.author-pane-link:focus {
+  background: #da3e3e !important;
+  color: #fff !important;
+  border-color: #da3e3e !important;
+}
+
+/* line 577, ../../../sass/colors/red/style.scss */
+.item-list .pager .pager-previous a:before,
+.item-list .pager .pager-next a:before {
+  color: #da3e3e;
+}
+
+/* line 586, ../../../sass/colors/red/style.scss */
+.comment ul.inline li a:hover, .comment ul.inline li a:focus {
+  background: #da3e3e;
+  color: #fff;
+  border-color: #da3e3e;
+}
+
+/* line 597, ../../../sass/colors/red/style.scss */
+.forum-jump-links .af-button-large:hover, .forum-jump-links .af-button-large:focus, .forum-jump-links .af-button-small:hover, .forum-jump-links .af-button-small:focus, .forum-jump-links .author-pane-link:hover, .forum-jump-links .author-pane-link:focus {
+  background: transparent !important;
+  color: #da3e3e !important;
+}
+
+/* line 604, ../../../sass/colors/red/style.scss */
+span.forum-collapsible::before {
+  background: #a60505;
+}

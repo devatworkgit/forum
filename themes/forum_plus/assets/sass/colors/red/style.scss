@@ -1,0 +1,606 @@
+@import "../../config/mixins";
+@import "../../config/variables";
+
+/*---- html ------*/
+a {
+	color: $red;
+	&:hover, &:focus {
+		color: $dark-grey;
+	}
+}
+
+.node {
+	blockquote {
+		border-left-color: $red;
+	}
+
+	.blockquote-reverse, 
+	blockquote.pull-right {
+		border-right-color: $red;
+	}
+}
+
+/*---- Block -----*/
+.sidebar {
+	h2 {
+		background: $red;
+	}
+	.item-list .quicktabs-tabs {
+		li {
+			a {
+				background: $red;
+			}
+			&.active {
+				a {
+					color: $red;
+				}
+			}
+		}
+	}
+	.item-list {
+		ul {
+			li {
+				a:hover, a:focus {
+					color: $red;
+				}
+			}
+		}
+	}
+	.quicktabs-tabpage {
+		.views-field-title {
+			a {
+				color: $red;
+				&:hover, &:focus {
+					color: $dark;
+				}
+			}
+		}
+	}
+	ul.menu {
+		li {
+			a {
+				&:hover, &:focus {
+					color: $red;
+				}
+			}
+			&.expanded {
+				> a {
+					color: $red;
+					&:after {
+						border-bottom: 5px solid $red;
+					}
+				}
+			}
+		}
+	}
+}
+
+.faq-question {
+	&.faq-qa-visible {
+		.active {
+			color: $red;
+		}
+	}
+}
+
+/* Login form */
+#modalContent {
+	.popups-container {
+		.modal-header {
+			background: $red;
+		}
+		#modal-content form {
+			.form-submit {
+				background: #da6e3e;
+				&:hover, &:focus {
+					background: $red;
+				}
+			}
+			.item-list li a {
+				&:hover, &:focus {
+					color: $red;
+				}
+			}
+		}
+	}
+}
+
+/*----- menu -----*/
+.navbar-default {
+	ul.menu {
+		li {
+			a {
+				&.active,
+				&.active-trail,
+				&:hover,
+				&:focus {
+					background: $red;
+				}
+			}
+			&.expanded {
+				ul.menu {
+					li {
+						a {
+							&:hover, &:focus, &.active-trail {
+								background: $white;
+								color: $red;
+							}
+						}
+						&.expanded {
+							ul.menu {
+								li a {
+									&:hover, &:focus {
+										background: $red;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+/*----- Navigation -----*/
+.action-links {
+	li {
+		a {
+			background: $red;
+			&:hover, &:focus {
+				background: $dark;
+			}
+		}
+	}
+	&.action-links-field-collection-add li a {
+		color: $red;
+		&:hover, &:focus {
+			background-color: transparent;
+		}
+	}
+}
+
+/* pager */
+.item-list .pager {
+	li:hover a, li:focus a, .pager-current {
+		background: $red;
+	}
+	li a {
+		&:hover, &:focus {
+			background-color: $red;
+		}
+	}
+}
+
+/* Primary */
+ul.primary {
+	li {
+		a {
+			&:hover, &:focus, &.active {
+				color: $red;
+			}
+		}
+	}
+}
+
+.block-tagclouds .tagclouds-term {
+	a {
+		&:hover, &:focus {
+			background: $red;
+		}
+	}
+}
+
+/* Back to top */
+.btn-btt {
+	background: $red;
+	&:hover, &:focus {
+		background: $dark;
+	}
+}
+
+/* Button sidebar link */
+.button-sidebar-link {
+	background: $red;
+}
+
+/*----- Page -----*/
+.form-submit,
+.form-actions > a {
+	background: #da6e3e;
+	border-color: #da6e3e;
+	&:hover, &:focus {
+		background: $red;
+		border-color: $red;
+	}
+}
+
+/* Headline */
+.headline {
+	.social-list {
+		li {
+			a:hover, a:focus {
+				color: $red;
+			}
+		}
+	}
+	#block-search-form {
+		&:hover:before {
+			color: $red;
+		}
+	}
+	.block-menu {
+		ul.menu {
+			a {
+				&:hover, &:focus {
+					color: $red;
+				}
+			}
+		}
+	}
+}
+
+/* Header */
+.header {
+	&:after {
+		background: $red;
+	}
+}
+
+/* Search */
+.search-wrapper {
+	background: $red;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+	a {
+		border-bottom: 1px solid $red;
+		&:hover, &:focus {
+			color: $red;
+		}
+	}
+}
+
+.section-title {
+	background: url("images/bg-banner.jpg") no-repeat 50% 0 #d05a66;
+}
+
+/* Panel */
+#panel-first {
+	background: $white;
+	color: $dark-grey;
+	a {
+		color: $red;
+		&:hover, &:focus {
+			text-decoration: underline;
+		}
+	}
+}
+
+#panel-second {
+	.block {
+		ul.menu {
+			li {
+				a {
+					&:hover, &:focus {
+						color: $red;
+					}
+				}
+			}
+		}
+		.lang_dropdown_form {
+			.form-item {
+				.dd-select {
+					.dd-pointer-down {
+						border-top-color: $red;
+					}
+					.dd-pointer-up {
+						border-bottom-color: $red !important;
+					}
+				}
+			}
+		}
+	}
+}
+
+#panel-footer {	
+
+	ul.menu {
+		li {
+			a {				
+				&:hover, &:focus {
+					color: $red;
+					&:before {
+						color: $red;
+					}
+				}
+			}
+		}
+	}
+	a {		
+		color: $red;
+	}
+	.views-field-title {
+		a {
+			&:hover, &:focus {
+				color: $red;
+			}
+		}
+	}
+	.views-field-name,
+	.views-field-created {		
+		.username {
+			color: $red !important;
+		}
+	}
+	.social-list {
+		li a {
+			color: $red;			
+		}
+	}
+}
+
+/* Forum */
+#forum {
+	.forum-table {
+		td {
+			.forum-name {
+				a {
+					&:hover, &:focus {
+						color: $red;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* Footer */
+#footer {
+	.block {
+		ul.menu {
+			li {
+				a {					
+					&:hover, &:focus, &.active {
+						color: $red;						
+					}
+				}
+			}
+		}
+	}
+	a {		
+		&:hover, &:focus {
+			color: $red;			
+		}
+	}
+}
+
+/* Forum advance */
+.af-button-large,
+.af-button-small,
+.author-pane-link,
+.forum-post-links ul.links li a {
+	background: $red;
+}
+
+.forum-table-topics td.views-field-title {
+	span, .topic-title {
+		&:hover, &:focus {
+			color: $red;
+		}
+	}
+}
+
+.topic-icon-hot-new:before,
+.topic-icon-new:before,
+.topic-icon-sticky:before,
+td.forum-list-icon-new-posts span:before,
+.forum-list-text-legend-new-posts:before {
+	color: $red !important;
+}
+
+/* Table name and description on forum list and table header on topic list */
+.forum-table-wrap .forum-table-superheader,
+.forum-table-topics thead tr,
+#forum .forum-table thead tr,
+.forum-post-info,
+#user-login h3,
+#user-register-form h3,
+#user-pass h3, .profile h3 {
+	background: $red !important;
+}
+
+.forum-tools {
+	form {
+		> div:before {
+			border-top: 5px solid $red;
+		}
+	}
+}
+
+/* View */
+.views-field-title,
+.views-field-subject {
+	a:hover, a:focus {
+		color: $red;
+	}
+}
+
+.views-field-name,
+.views-field-created {
+	.username {
+		color: $red;
+	}
+}
+
+.forum-blog-view {
+	.views-row .views-field-title a:hover,
+	.views-row .views-field-title a:focus {
+		color: $red;
+	}
+}
+
+.views-field-field-tags {
+	.item-list ul li {
+		a {
+			&:hover, &:focus {
+				background: $red;
+			}
+		}
+	}
+}
+
+.field-name-field-tags,
+.field-name-field-section,
+.field-name-field-category {
+	div {
+		display: inline-block;
+		+ div {
+			a {
+				&:hover, &:focus {
+					background: $red;
+				}
+			}
+		}
+	}
+}
+
+.field-name-field-tags .field-items .field-item a:hover,
+.field-name-field-tags .field-items .field-item a:focus,
+.field-name-field-section .field-items .field-item a:hover,
+.field-name-field-section .field-items .field-item a:focus,
+.field-name-field-category .field-items .field-item a:hover,
+.field-name-field-category .field-items .field-item a:focus {
+	background: $red;
+}
+
+/* Node */
+.node {
+	h2 {
+		a:hover, a:focus {
+			color: $red;
+		}
+	}
+	.submitted .username {
+		color: $red;
+	}
+}
+
+.calendar-calendar {
+	background: $red;
+}
+
+span.username {
+	color: $red !important;
+}
+
+.views-field-field-video-link {
+	a {
+		&:before {
+			color: $red;
+		}
+	}
+}
+
+/* Page 404 */
+.page-404 {
+	h1 {
+		color: $red;
+	}
+	#errorbox {
+		a:hover, a:focus {
+			background: $red;
+		}
+	}
+}
+
+/* FAQs */
+.faq {
+	.faq-question {
+		a {
+			&:hover, &:focus {
+				color: $red;
+			}
+			&:before {
+				color: $red;
+			}
+		}
+		&.faq-qa-visible {
+			a {
+				color: $red;
+			}
+		}
+	}
+}
+
+#content {
+	.forum-jump-links a.af-button-large,
+	.forum-jump-links a.af-button-small,
+	.forum-jump-links a.author-pane-link {
+		&:hover, &:focus {
+			color: $red;
+		}
+	}
+}
+
+.off-canvas-toggle {
+	color: $red;
+	&:hover, &:focus {
+		color: $red;
+	}
+}
+
+ul.inline {
+	li {
+		a.active {
+			&:hover, &:focus {
+				color: $red;
+			}
+		}
+	}
+}
+
+.af-button-large,
+.af-button-small,
+.author-pane-link {
+	&:hover, &:focus {
+		background: $red !important;
+		color: $white !important;
+		border-color: $red !important;
+	}
+}
+
+.item-list .pager {
+	.pager-previous,
+	.pager-next {
+		a:before {
+			color: $red;
+		}
+	}
+}
+
+.comment {
+	ul.inline li {
+		a {
+			&:hover, &:focus {
+				background: $red;
+				color: $white;
+				border-color: $red;
+			}
+		}
+	}
+}
+
+.forum-jump-links {
+	.af-button-large, .af-button-small, .author-pane-link {
+		&:hover, &:focus {
+			background: transparent !important;
+			color: $red !important;
+		}
+	}
+}
+
+span.forum-collapsible::before {
+	background: #a60505;
+}

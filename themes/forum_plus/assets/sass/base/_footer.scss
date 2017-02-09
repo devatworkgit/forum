@@ -1,0 +1,160 @@
+.site-footer-top {
+	background-color: $dark;
+	color: $dark-grey-2;
+	padding: 50px 0 40px;
+	margin-bottom: 0;
+	a {
+		color: $blue;
+		&:hover,
+		&:focus {
+			color: #fff;
+		}
+	}
+	h2 {
+		@include font-style;
+		color: $white;
+		margin-bottom: 30px;
+	}
+	ul.menu {
+		li {
+			padding-bottom: 3px;
+			a {
+				color: $dark-grey-2;
+				display: block;
+				position: relative;
+				padding-left: 10px;
+				font: {
+					family: $font-armata;
+					size: $fs-12;
+				};
+				&:before {
+					@include nucleo_mini;
+					content: "\e93d";
+					position: absolute;
+					left: 0;
+					top: 0;
+				}
+				&:hover,
+				&:focus,
+				&.is-active{
+					color: $blue;
+				}
+			}
+		}
+	}
+	.views-row{
+		margin-bottom: 15px;
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+	.views-field-user-picture{
+		float: left;
+		margin-right: 10px;
+	}
+	.views-field-title {
+		font-family: $font-body;
+		font-size: $fs-16;
+		line-height: 1;
+		margin-bottom: 3px;
+		a {
+			color: #fff;
+			&:hover,
+			&:focus {
+				color: $blue;
+			}
+		}
+	}
+	.views-field-created,
+	.views-field-name {
+		color: #666;
+		line-height: 1.2;
+		font-size: $fs-14;
+		.username {
+			color: $blue;
+			&:hover, &:focus {
+				color: #fff;
+			}
+		}
+	}
+	.views-field-name{
+		margin-bottom: 3px;
+	}
+	.region-footer-fourth {
+		text-align: right;
+	}
+	.social-list {
+		@include social-list;
+		margin-top: 0;
+		float: right;
+		li {
+			margin-left: 15px;
+			margin-right: 0;
+			a:hover,
+			a:focus {
+				color: $blue;
+				&:before {
+					color: $blue;
+				}
+			}
+			a:before {
+				color: $dark-grey-2;
+				font-size: 15px;
+			}
+		}
+	}
+	.last-block {
+		text-align: right;
+	}
+}
+
+/* Footer */
+
+.footer {
+	font-family: $font-secondary;
+	background: #444;
+	color: $white;
+	padding: 10px 0;
+	line-height: 1;
+	p {
+		margin-bottom: 0;
+	}
+	.block {
+		float: left;
+		padding: 8px 0;
+		width: 40%;
+		&:last-child {
+			width: 60%;
+			text-align: right;
+		}
+	}
+	ul.menu {
+		li {
+			display: inline-block;
+			margin-right: 20px;
+			a {
+				color: $white;
+				&:hover, &:focus, &.is-active {
+					color: $blue;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+	a:hover,
+	a:focus {
+		color: $blue;
+		text-decoration: underline;
+	}
+	.copyright {
+		margin: 0;
+		text-align: right;
+		a {
+			&:hover,
+			&:focus {
+				text-decoration: none;
+				color: $white;
+			}
+		}
+	}
+}

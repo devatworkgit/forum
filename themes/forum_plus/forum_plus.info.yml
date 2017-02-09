@@ -1,0 +1,46 @@
+name: Forum Plus
+type: theme
+base theme: classy
+description: 'A flexible, recolorable theme with many regions and a responsive, mobile-first layout.'
+package: Core
+version: 8.x
+# core: 8.x
+libraries:
+  - forum_plus/global-styling
+  - forum_plus/corescript
+ckeditor_stylesheets:
+  - css/base/elements.css
+  - css/components/captions.css
+  - css/components/table.css
+regions:
+  headline: 'Headline'
+  header: Header
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  slideshow: 'Slideshow'
+  help: 'Help'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  highlighted: Highlighted
+  featured_top: 'Featured top'
+  breadcrumb: Breadcrumb
+  content: Content
+  welcome: 'Welcome'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  panel_first: 'Panel first'
+  panel_second: 'Panel second'
+  panel_third: 'Panel third'
+  gmap: 'Gmap'
+  footer_first: 'Footer first'
+  footer_second: 'Footer second'
+  footer_third: 'Footer third'
+  footer_fourth: 'Footer fourth'
+  panel_footer: 'Panel Footer'
+  footer: Footer
+
+# Information added by Drupal.org packaging script on 2015-10-21
+version: VERSION
+core: '8.x'
+project: 'drupal'
+datestamp: 1445469654

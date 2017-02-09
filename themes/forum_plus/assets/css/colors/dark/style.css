@@ -1,0 +1,153 @@
+/* line 4, ../../../sass/colors/dark/style.scss */
+body {
+  background: #333;
+}
+
+/* line 8, ../../../sass/colors/dark/style.scss */
+#page {
+  background: #333;
+}
+
+/* line 12, ../../../sass/colors/dark/style.scss */
+#headline {
+  background: #4e4e4e;
+}
+
+/* line 16, ../../../sass/colors/dark/style.scss */
+.header {
+  background: #3d3d3d;
+}
+/* line 18, ../../../sass/colors/dark/style.scss */
+.header:after {
+  background: #fff;
+}
+
+/* line 23, ../../../sass/colors/dark/style.scss */
+.submenu-extend {
+  color: #7d7d7d;
+}
+
+/* line 26, ../../../sass/colors/dark/style.scss */
+.navbar-header {
+  color: #c3c3c3;
+}
+
+/* line 31, ../../../sass/colors/dark/style.scss */
+.navbar-default ul.menu li a {
+  color: #c3c3c3;
+}
+/* line 36, ../../../sass/colors/dark/style.scss */
+.navbar-default ul.menu li.expanded ul.menu li a {
+  color: #7d7d7d;
+}
+/* line 38, ../../../sass/colors/dark/style.scss */
+.navbar-default ul.menu li.expanded ul.menu li a:hover, .navbar-default ul.menu li.expanded ul.menu li a:focus, .navbar-default ul.menu li.expanded ul.menu li a.active-trail {
+  background: #3d3d3d;
+}
+/* line 43, ../../../sass/colors/dark/style.scss */
+.navbar-default ul.menu li.expanded ul.menu li.expanded ul.menu {
+  background: #333;
+}
+/* line 45, ../../../sass/colors/dark/style.scss */
+.navbar-default ul.menu li.expanded ul.menu li.expanded ul.menu li a {
+  color: #c3c3c3;
+}
+
+/* line 55, ../../../sass/colors/dark/style.scss */
+.preview h3 {
+  color: #fff;
+}
+
+/* line 59, ../../../sass/colors/dark/style.scss */
+#panel-first {
+  background: #4e4e4e;
+}
+
+/* line 63, ../../../sass/colors/dark/style.scss */
+#forum .forum-table thead tr th {
+  background: #4e4e4e;
+}
+
+/* line 67, ../../../sass/colors/dark/style.scss */
+.section-title {
+  background: url("images/bg-banner.jpg") no-repeat 50% 0 #0cacce;
+}
+
+/* line 71, ../../../sass/colors/dark/style.scss */
+#panel-footer {
+  background: #3d3d3d;
+  color: #c3c3c3;
+}
+/* line 74, ../../../sass/colors/dark/style.scss */
+#panel-footer h2 {
+  color: #c3c3c3;
+}
+/* line 77, ../../../sass/colors/dark/style.scss */
+#panel-footer .views-field-created,
+#panel-footer .views-field-name {
+  color: #7d7d7d;
+}
+/* line 80, ../../../sass/colors/dark/style.scss */
+#panel-footer .views-field-created .username,
+#panel-footer .views-field-name .username {
+  color: #348bc2 !important;
+}
+/* line 84, ../../../sass/colors/dark/style.scss */
+#panel-footer ul.menu li a {
+  color: #c3c3c3;
+}
+/* line 86, ../../../sass/colors/dark/style.scss */
+#panel-footer ul.menu li a:hover, #panel-footer ul.menu li a:focus {
+  color: #348bc2;
+}
+/* line 90, ../../../sass/colors/dark/style.scss */
+#panel-footer a {
+  color: #c3c3c3;
+}
+/* line 92, ../../../sass/colors/dark/style.scss */
+#panel-footer a:hover, #panel-footer a:focus {
+  color: #348bc2;
+}
+/* line 97, ../../../sass/colors/dark/style.scss */
+#panel-footer .social-list li a:hover, #panel-footer .social-list li a:focus {
+  color: #348bc2;
+}
+
+/* line 104, ../../../sass/colors/dark/style.scss */
+#forum #forum-list-legend-header,
+#forum #forum-statistics #forum-statistics-header {
+  background: #3d3d3d;
+}
+
+/* line 114, ../../../sass/colors/dark/style.scss */
+#content .forum-jump-links a.af-button-large:hover, #content .forum-jump-links a.af-button-large:focus,
+#content .forum-jump-links a.af-button-small:hover,
+#content .forum-jump-links a.af-button-small:focus,
+#content .forum-jump-links a.author-pane-link:hover,
+#content .forum-jump-links a.author-pane-link:focus {
+  color: #348bc2;
+}
+
+/* line 124, ../../../sass/colors/dark/style.scss */
+.af-button-large:hover, .af-button-large:focus,
+.af-button-small:hover,
+.af-button-small:focus,
+.author-pane-link:hover,
+.author-pane-link:focus {
+  background: #3d3d3d !important;
+  color: #fff !important;
+  border-color: #3d3d3d !important;
+}
+
+/* line 134, ../../../sass/colors/dark/style.scss */
+.item-list .pager .pager-previous a:before,
+.item-list .pager .pager-next a:before {
+  color: #3d3d3d;
+}
+
+/* line 143, ../../../sass/colors/dark/style.scss */
+.comment ul.inline li a:hover, .comment ul.inline li a:focus {
+  background: #3d3d3d;
+  color: #fff;
+  border-color: #3d3d3d;
+}
