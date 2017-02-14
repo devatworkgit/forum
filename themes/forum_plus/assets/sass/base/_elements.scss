@@ -346,10 +346,10 @@ input[type="checkbox"] {
     }
 }
 
-.comment {
+.comment, .question {
     padding: 20px 30px 20px 105px;
     position: relative;
-
+    @include clearfix;
     h3 {
         font-size: $fs-18;
         font-weight: bold;
@@ -379,12 +379,12 @@ input[type="checkbox"] {
         max-width: 60px;
     }
 
-    ul.links.inline {
+    ul.links.inline, .link-wrapper {
         border-top: none;
         padding-top: 0 !important;
         margin-bottom: 0 !important;
 
-        li {
+        li, .link {
             color: $dark-grey;
             display: inline-block;
             margin: 0 15px 5px 0;
@@ -414,6 +414,64 @@ input[type="checkbox"] {
                 }
             }
         }
+    }
+    .link-wrapper {
+      @include clearfix;
+    }
+    .views-field-uid, .views-field-field-payer {
+      float: left;
+      font-weight: 700;
+      .views-label-field-payer {
+        float: left;
+        color: $dark-grey;        
+      }
+      
+    }
+    .views-field-uid {
+      margin-right: 15px;
+    }
+    .views-field-field-payer {
+      .field-content {
+        float: left;
+        margin-left: 5px;
+      }
+    }
+    .views-field-body {
+      width: 100%;
+      float: left;
+      margin-top: 20px;
+    }
+    .link-wrapper {
+      float: right;
+    }
+    .views-field-comment-count {
+      float: right;
+    }
+    .views-field-last-comment-timestamp {
+      float: left;
+      color: $dark-grey;
+    }
+    .views-field-comment-count {
+      span {
+        height: 17px;
+        min-width: 20px;
+        text-align: center;
+        display: block;
+        color: $white;
+        background-color: $dark-grey;
+        z-index: 2;
+        position: relative;
+      }
+      &:after {
+        content: '';
+        display: block;
+        width: 10px;
+        height: 10px;
+        background-color: $dark-grey;
+        margin: 0 auto;
+        @include rotate(45deg);
+        margin-top: -5px;
+      }
     }
 
     .new {

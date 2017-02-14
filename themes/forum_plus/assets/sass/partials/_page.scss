@@ -78,10 +78,9 @@
     }
 
     .content {
-        p {
-            color: $white;
-            font-size: 3em;
-        }
+      p {
+        color: $white;
+      }
     }
 }
 
@@ -414,7 +413,8 @@ td.forum-number-topics, td.forum-number-posts {
 }
 
 /******/
-.node__content {
+.node__content, .questions {
+    @include clearfix;
     .field--name-field-tags {
         margin-bottom: 10px;
 
@@ -453,10 +453,10 @@ td.forum-number-topics, td.forum-number-posts {
         }
     }
 
-    .field--type-comment {
+    .field--type-comment, .view-content {
         margin-top: 30px;
 
-        .comment {
+        .comment, .question {
             margin-bottom: 20px;
             padding: 20px 0 0 75px;
 
