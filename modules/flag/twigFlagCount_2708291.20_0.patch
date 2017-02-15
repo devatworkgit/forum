@@ -1,0 +1,67 @@
+diff --git a/flag.services.yml b/flag.services.yml
+index ffbe5c1..8031bff 100644
+--- a/flag.services.yml
++++ b/flag.services.yml
+@@ -26,3 +26,8 @@ services:
+   flag.link_builder:
+     class: Drupal\flag\FlagLinkBuilder
+     arguments: ['@entity.manager', '@flag']
++  flag.twig.count:
++    arguments: ['@renderer']
++    class: Drupal\flag\TwigExtension\FlagCount
++    tags:
++      - { name: twig.extension }
+diff --git a/src/TwigExtension/FlagCount.php b/src/TwigExtension/FlagCount.php
+new file mode 100644
+index 0000000..669924a
+--- /dev/null
++++ b/src/TwigExtension/FlagCount.php
+@@ -0,0 +1,48 @@
++<?php
++
++namespace Drupal\flag\TwigExtension;
++
++use Drupal\Core\Entity\EntityInterface;
++use Drupal\Core\Template\TwigExtension;
++
++/**
++ * Provides a Twig extension to get the flag count given a flag and flaggable.
++ */
++class FlagCount extends TwigExtension {
++
++  /**
++   * {@inheritdoc}
++   */
++  public function getFunctions() {
++    return [
++      'flagcount' => new \Twig_Function_Function(array(
++        'Drupal\flag\TwigExtension\FlagCount',
++        'flagCount'
++      )),
++    ];
++  }
++
++  /**
++   * {@inheritdoc}
++   */
++  public function getName() {
++    return 'flag.count';
++  }
++
++  /**
++   * Gets the number of flaggings for the given flag and flaggable.
++   *
++   * @param \Drupal\flag\FlagInterface $flag
++   *  The flag entity.
++   * @param \Drupal\Core\Entity\EntityInterface $flaggable
++   *  The flaggable entity.
++   *
++   * @return string
++   *  The number of times the flaggings for the given parameters.
++   */
++  public static function flagCount($flag, $flaggable) {
++    $counts = \Drupal::service('flag.count')->getEntityFlagCounts($flaggable);
++    return empty($counts) || !isset($counts[$flag->id()]) ? '0' : $counts[$flag->id()];
++  }
++
++}

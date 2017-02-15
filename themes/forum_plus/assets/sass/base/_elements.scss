@@ -444,7 +444,7 @@ input[type="checkbox"] {
     .link-wrapper {
       float: right;
     }
-    .views-field-comment-count {
+    .views-field-comment-count, .views-field-count {
       float: right;
     }
     .views-field-last-comment-timestamp {
@@ -452,8 +452,8 @@ input[type="checkbox"] {
       color: $dark-grey;
     }
     .views-field-comment-count {
+      margin: 0 15px 5px 0;
       span {
-        height: 17px;
         min-width: 20px;
         text-align: center;
         display: block;
@@ -471,6 +471,26 @@ input[type="checkbox"] {
         margin: 0 auto;
         @include rotate(45deg);
         margin-top: -5px;
+      }
+    }
+    .views-field-count {
+      span {
+        min-width: 20px;
+        text-align: center;
+        display: block;
+        color: $white;
+        z-index: 2;
+        position: relative;
+        line-height: 30px;
+      }
+      &:after {
+        content: '\2665';
+        display: block;
+        color: #7d7d7d;
+        margin: 0 auto;
+        font-size: 45px;
+        line-height: 30px;
+        margin-top: -29px;
       }
     }
 
