@@ -308,7 +308,7 @@ ul.primary {
 
 	ul.menu {
 		li {
-			a {             
+			a {       
 				&:hover, &:focus {
 					color: $green;
 					&:before {
@@ -318,7 +318,7 @@ ul.primary {
 			}
 		}
 	}
-	a {     
+	a {   
 		color: $green;
 	}
 	.views-field-title {
@@ -329,14 +329,14 @@ ul.primary {
 		}
 	}
 	.views-field-name,
-	.views-field-created {      
+	.views-field-created {    
 		.username {
 			color: $green !important;
 		}
 	}
 	.social-list {
 		li a {
-			color: $green;            
+			color: $green;      
 		}
 	}
 }
@@ -361,17 +361,17 @@ ul.primary {
 	.block {
 		ul.menu {
 			li {
-				a {                 
+				a {         
 					&:hover, &:focus, &.active {
-						color: $green;                        
+						color: $green;            
 					}
 				}
 			}
 		}
 	}
-	a {     
+	a {   
 		&:hover, &:focus {
-			color: $green;            
+			color: $green;      
 		}
 	}
 }

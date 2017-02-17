@@ -41,7 +41,7 @@ a:hover, a:focus {
 }
 /* line 54, ../../../sass/colors/yellow/style.scss */
 .sidebar .quicktabs-tabpage .views-field-title a:hover, .sidebar .quicktabs-tabpage .views-field-title a:focus {
-  color: #333;
+  color: #2e2e2e;
 }
 /* line 63, ../../../sass/colors/yellow/style.scss */
 .sidebar ul.menu li a:hover, .sidebar ul.menu li a:focus {
@@ -101,7 +101,7 @@ a:hover, a:focus {
 }
 /* line 151, ../../../sass/colors/yellow/style.scss */
 .action-links li a:hover, .action-links li a:focus {
-  background: #333;
+  background: #2e2e2e;
 }
 /* line 156, ../../../sass/colors/yellow/style.scss */
 .action-links.action-links-field-collection-add li a {
@@ -140,7 +140,7 @@ ul.primary li a:hover, ul.primary li a:focus, ul.primary li a.active {
 }
 /* line 198, ../../../sass/colors/yellow/style.scss */
 .btn-btt:hover, .btn-btt:focus {
-  background: #333;
+  background: #2e2e2e;
 }
 
 /* Button sidebar link */

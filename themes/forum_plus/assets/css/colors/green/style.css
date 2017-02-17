@@ -41,7 +41,7 @@ a:hover, a:focus {
 }
 /* line 53, ../../../sass/colors/green/style.scss */
 .sidebar .quicktabs-tabpage .views-field-title a:hover, .sidebar .quicktabs-tabpage .views-field-title a:focus {
-  color: #333;
+  color: #2e2e2e;
 }
 /* line 62, ../../../sass/colors/green/style.scss */
 .sidebar ul.menu li a:hover, .sidebar ul.menu li a:focus {
@@ -68,7 +68,7 @@ a:hover, a:focus {
 }
 /* line 93, ../../../sass/colors/green/style.scss */
 #modalContent .popups-container #modal-content form .form-submit {
-  background: #348bc2;
+  background: #4585f2;
 }
 /* line 95, ../../../sass/colors/green/style.scss */
 #modalContent .popups-container #modal-content form .form-submit:hover, #modalContent .popups-container #modal-content form .form-submit:focus {
@@ -101,7 +101,7 @@ a:hover, a:focus {
 }
 /* line 150, ../../../sass/colors/green/style.scss */
 .action-links li a:hover, .action-links li a:focus {
-  background: #333;
+  background: #2e2e2e;
 }
 /* line 155, ../../../sass/colors/green/style.scss */
 .action-links.action-links-field-collection-add li a {
@@ -140,7 +140,7 @@ ul.primary li a:hover, ul.primary li a:focus, ul.primary li a.active {
 }
 /* line 197, ../../../sass/colors/green/style.scss */
 .btn-btt:hover, .btn-btt:focus {
-  background: #333;
+  background: #2e2e2e;
 }
 
 /* Button sidebar link */
@@ -153,8 +153,8 @@ ul.primary li a:hover, ul.primary li a:focus, ul.primary li a.active {
 /* line 208, ../../../sass/colors/green/style.scss */
 .form-submit,
 .form-actions > a {
-  background: #348bc2;
-  border-color: #348bc2;
+  background: #4585f2;
+  border-color: #4585f2;
 }
 /* line 212, ../../../sass/colors/green/style.scss */
 .form-submit:hover, .form-submit:focus,

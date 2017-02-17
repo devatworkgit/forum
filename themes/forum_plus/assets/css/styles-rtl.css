@@ -1,10 +1,10 @@
 /* line 5, ../sass/styles-rtl.scss */
 [dir="rtl"] {
    /*******************************************************************************
-*              bootstrap-rtl (Version 3.2.0-rc7)
-*      Author: Morteza Ansarinia <ansarinia@me.com> (http://github.com/morteza)
+*        bootstrap-rtl (Version 3.2.0-rc7)
+*    Author: Morteza Ansarinia <ansarinia@me.com> (http://github.com/morteza)
 *  Created on: November 11,2014
-*     Project: bootstrap-rtl
+*   Project: bootstrap-rtl
 *   Copyright: No license.
 *******************************************************************************/
   /*# sourceMappingURL=bootstrap-rtl.css.map */
@@ -2184,7 +2184,7 @@
 /* line 2225, ../sass/styles-rtl.scss */
 [dir="rtl"] #main-wrapper .node blockquote {
   margin: 0 20px 0 0;
-  border-right-color: #348bc2;
+  border-right-color: #4585f2;
 }
 /* line 2230, ../sass/styles-rtl.scss */
 [dir="rtl"] #main-wrapper .field--name-body ul {
@@ -2410,7 +2410,7 @@
   /* line 1875, ../sass/styles-rtl.scss */
   [dir="rtl"] {
     /* .site-footer .footer .block {
-        left: 15%;
+      left: 15%;
     } */
   }
 }

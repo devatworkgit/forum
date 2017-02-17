@@ -289,26 +289,26 @@
   }
   /* form search */
   #search-form{
-    label{
-      display: block;
-    }
-    .form-text,
+  label{
+    display: block;
+  }
+  .form-text,
+  .form-search{
+    width: 100%;
+  }
+  #edit-basic{
     .form-search{
-      width: 100%;
+    margin-bottom: 10px;
     }
-    #edit-basic{
-      .form-search{
-        margin-bottom: 10px;
-      }
+  }
+  .form-checkboxes{
+    label{
+    display: inline-block;
     }
-    .form-checkboxes{
-      label{
-        display: inline-block;
-      }
-    }
-    .button {
-    	margin-left: 0;
-    }
+  }
+  .button {
+  	margin-left: 0;
+  }
   }
   /* end form search */
 }
@@ -388,27 +388,27 @@
 		padding-left: 20px;
 	}
 	#edit-author {
-	    .description {
-	        padding: {
-	        	left: 0;
-	        	right: 0;
-	        }
+	  .description {
+	    padding: {
+	    	left: 0;
+	    	right: 0;
 	    }
-	    .form-url {
-	    	width: 100%;
-	    }
-	    #edit-date {
-	    	@include clearfix;
-	    	margin: 0 -5px;
-	    	> .form-item {
-	    		float: left;
-	    		width: 50%;
-	    		padding: 0 5px;
-	    	}
-	    	input {
-	    		width: 100%;
-	    	}
-	    }
+	  }
+	  .form-url {
+	  	width: 100%;
+	  }
+	  #edit-date {
+	  	@include clearfix;
+	  	margin: 0 -5px;
+	  	> .form-item {
+	  		float: left;
+	  		width: 50%;
+	  		padding: 0 5px;
+	  	}
+	  	input {
+	  		width: 100%;
+	  	}
+	  }
 	}
 
 }

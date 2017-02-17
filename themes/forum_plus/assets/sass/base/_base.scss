@@ -2,98 +2,98 @@
 /* Typography */
 
 body {
-    background: #f6f6f6;
-    color: $dark-grey-1;
-    font: {
-        family: $font-body;
-        size: $body-fs;
-    };
+  background: #f4f4f4;
+  color: $dark-grey-1;
+  font: {
+    family: $font-body;
+    size: $body-fs;
+  };
 }
 
 h1, h2, h3 {
-    color: $dark;
-    line-height: normal;
-    margin: 0 0 20px;
+  color: $dark;
+  line-height: normal;
+  margin: 0 0 20px;
 }
 
 a {
-    color: $blue;
+  color: $blue;
 
-    &:hover, &:focus {
-        color: $dark-grey;
-        outline: none;
-        text-decoration: none;
-    }
+  &:hover, &:focus {
+    color: $dark-grey;
+    outline: none;
+    text-decoration: none;
+  }
 }
 
 address {}
 
 label {
-    font-weight: 100;
+  font-weight: 100;
 }
 
 blockquote {
-    border-left-color: $blue;
-    font-size: 1em;
-    font-style: italic;
+  border-left-color: $blue;
+  font-size: 1em;
+  font-style: italic;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .form-text {
-    @include border-radius(3px);
+  @include border-radius(3px);
 
+  color: $dark-grey-2;
+
+  &:hover, &:focus {
     color: $dark-grey-2;
-
-    &:hover, &:focus {
-        color: $dark-grey-2;
-    }
+  }
 }
 
 input, button, select, textarea {
-    background: $white;
-    border: 1px solid $border-color;
-    padding: 7px 10px;
-    line-height: 1;
-    max-width: 100%;
+  background: $white;
+  border: 1px solid $border-color;
+  padding: 7px 10px;
+  line-height: 1;
+  max-width: 100%;
 
-    &:focus {
-        border-color: $dark-grey-2;
-        outline: none;
-    }
+  &:focus {
+    border-color: $dark-grey-2;
+    outline: none;
+  }
 }
 
 textarea {
-    -webkit-border-radius: 3px 3px 0 0;
-    border-radius: 3px 3px 0 0;
+  -webkit-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
 }
 
 input[type="file"] {
-    width: 100%;
+  width: 100%;
 }
 
 select {
-    border-color: #d8d8d8;
-    color: #777;
-    min-width: 150px;
+  border-color: #d8d8d8;
+  color: #777;
+  min-width: 150px;
 
-    @include border-radius(3px);
+  @include border-radius(3px);
 
-    padding: 7px 10px;
+  padding: 7px 10px;
 }
 
 iframe {
-    max-width: 100%;
-    border: none;
+  max-width: 100%;
+  border: none;
 }
 
 p {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 pre {
-    border-radius: 0;
+  border-radius: 0;
 }

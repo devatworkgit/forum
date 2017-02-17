@@ -37,7 +37,7 @@ td.forum-list-icon-new-posts span:before {
 
 /* line 32, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
 td.forum-list-icon-new-posts span:before {
-  color: #348bc2;
+  color: #4585f2;
 }
 
 /* line 38, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
@@ -102,7 +102,7 @@ span.topic-icon:before {
 /* line 85, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
 .topic-icon-new:before {
   content: "\e964";
-  color: #348bc2;
+  color: #4585f2;
 }
 
 /* line 92, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
@@ -114,13 +114,13 @@ span.topic-icon:before {
 /* line 99, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
 .topic-icon-hot-new:before {
   content: "\eaaa";
-  color: #348bc2;
+  color: #4585f2;
 }
 
 /* line 106, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
 .topic-icon-sticky:before {
   content: "\ec65";
-  color: #348bc2;
+  color: #4585f2;
 }
 
 /* line 113, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
@@ -276,7 +276,7 @@ a.af-button-large:active,
 a.af-button-small:active,
 a.author-pane-link:active {
   background: #2587C4;
-  color: #333;
+  color: #2e2e2e;
   border-top-color: #EFEFEF;
 }
 

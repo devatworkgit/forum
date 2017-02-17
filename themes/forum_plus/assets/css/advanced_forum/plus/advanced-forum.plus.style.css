@@ -33,34 +33,34 @@ see advanced_forum-structure.css.
 /* Other pagers in the forum */
 /* .forum-pager .pager a,
 #forum-comments .pager a {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .forum-pager .pager a:link,
 .forum-pager .pager a:visited,
 #forum-comments .pager a:link,
 #forum-comments .pager a:visited {
-    text-decoration: none;
-    border: 1px solid #91CDF5;
-    background: #EDF5FA;
-    background: -webkit-gradient(linear, left top, left bottom, from(#CBE2F1), to(#EDF5FA));
-    background: -moz-linear-gradient(top, #CBE2F1, #EDF5FA);
-    font-weight: bold;
+  text-decoration: none;
+  border: 1px solid #91CDF5;
+  background: #EDF5FA;
+  background: -webkit-gradient(linear, left top, left bottom, from(#CBE2F1), to(#EDF5FA));
+  background: -moz-linear-gradient(top, #CBE2F1, #EDF5FA);
+  font-weight: bold;
 }
 
 .forum-pager .pager-current,
 .forum-pager .pager a:hover,
 #forum-comments .pager-current,
 #forum-comments .pager a:hover {
-    color: #0062A0;
+  color: #0062A0;
 }
 
 .forum-pager .pager a.active,
 #forum-comments .pager a.active {
-    background: #EDF5FA;
-    background: -webkit-gradient(linear, left top, left bottom, from(#CBE2F1), to(#EDF5FA));
-    background: -moz-linear-gradient(top, #CBE2F1, #EDF5FA);
-    color: #0062A0;
+  background: #EDF5FA;
+  background: -webkit-gradient(linear, left top, left bottom, from(#CBE2F1), to(#EDF5FA));
+  background: -moz-linear-gradient(top, #CBE2F1, #EDF5FA);
+  color: #0062A0;
 } */
 /* line 72, ../../../sass/advanced_forum/plus/advanced-forum.plus.style.scss */
 .forum-node-create-links,
@@ -104,7 +104,7 @@ see advanced_forum-structure.css.
 }
 /* line 103, ../../../sass/advanced_forum/plus/advanced-forum.plus.style.scss */
 .forum-table-topics td.views-field-title span:hover, .forum-table-topics td.views-field-title span:focus, .forum-table-topics td.views-field-title .topic-title:hover, .forum-table-topics td.views-field-title .topic-title:focus, .forum-table-topics td.views-field-title .sticky-label:hover, .forum-table-topics td.views-field-title .sticky-label:focus {
-  color: #348bc2;
+  color: #4585f2;
 }
 /* line 107, ../../../sass/advanced_forum/plus/advanced-forum.plus.style.scss */
 .forum-table-topics td.views-field-title .sticky-label {
@@ -112,15 +112,15 @@ see advanced_forum-structure.css.
 }
 /* line 110, ../../../sass/advanced_forum/plus/advanced-forum.plus.style.scss */
 .forum-table-topics td.views-field-title .username {
-  color: #348bc2;
+  color: #4585f2;
 }
 /* line 112, ../../../sass/advanced_forum/plus/advanced-forum.plus.style.scss */
 .forum-table-topics td.views-field-title .username:hover, .forum-table-topics td.views-field-title .username:focus {
-  color: #333;
+  color: #2e2e2e;
 }
 /* line 117, ../../../sass/advanced_forum/plus/advanced-forum.plus.style.scss */
 .forum-table-topics td.views-field-title:hover span, .forum-table-topics td.views-field-title:hover .topic-title, .forum-table-topics td.views-field-title:hover .sticky-label, .forum-table-topics td.views-field-title:focus span, .forum-table-topics td.views-field-title:focus .topic-title, .forum-table-topics td.views-field-title:focus .sticky-label {
-  color: #348bc2;
+  color: #4585f2;
 }
 /* line 122, ../../../sass/advanced_forum/plus/advanced-forum.plus.style.scss */
 .forum-table-topics td.views-field-last-updated {
@@ -131,14 +131,14 @@ see advanced_forum-structure.css.
 
 /* line 129, ../../../sass/advanced_forum/plus/advanced-forum.plus.style.scss */
 span.username {
-  color: #348bc2 !important;
+  color: #4585f2 !important;
   font-size: 1em !important;
 }
 
 /* Table name and description on forum list and table header on topic list */
 /* line 136, ../../../sass/advanced_forum/plus/advanced-forum.plus.style.scss */
 .forum-table-wrap .forum-table-superheader {
-  background-color: #348bc2;
+  background-color: #4585f2;
   border-radius: 5px 5px 0 0;
   -webkit-border-radius: 5px 5px 0 0;
   padding: 15px;
@@ -173,12 +173,12 @@ td.forum-last-reply {
 }
 /* line 165, ../../../sass/advanced_forum/plus/advanced-forum.plus.style.scss */
 td.forum-last-reply .username {
-  color: #348bc2;
+  color: #4585f2;
   font-size: 14px;
 }
 /* line 168, ../../../sass/advanced_forum/plus/advanced-forum.plus.style.scss */
 td.forum-last-reply .username:hover, td.forum-last-reply .username:focus {
-  color: #333;
+  color: #2e2e2e;
 }
 
 /* line 174, ../../../sass/advanced_forum/plus/advanced-forum.plus.style.scss */
@@ -229,12 +229,12 @@ td.forum-last-reply .username:hover, td.forum-last-reply .username:focus {
 }
 /* line 208, ../../../sass/advanced_forum/plus/advanced-forum.plus.style.scss */
 .forum-list-icon-legend .forum-list-legend-item .forum-list-text-legend-new-posts:before {
-  color: #348bc2;
+  color: #4585f2;
 }
 
 /* line 215, ../../../sass/advanced_forum/plus/advanced-forum.plus.style.scss */
 #forum-list-legend-header {
-  background: #333;
+  background: #2e2e2e;
   border-bottom: 1px solid #eaeaea;
   -webkit-border-radius: 5px 5px 0 0;
   border-radius: 5px 5px 0 0;
@@ -250,7 +250,7 @@ td.forum-last-reply .username:hover, td.forum-last-reply .username:focus {
 
 /* line 228, ../../../sass/advanced_forum/plus/advanced-forum.plus.style.scss */
 .forum-list-legend-sub-header {
-  color: #333;
+  color: #2e2e2e;
   background: #fff;
   font-family: "rajdhanisemibold";
   font-size: 1.2em;
@@ -296,7 +296,7 @@ td.forum-last-reply a {
 }
 /* line 260, ../../../sass/advanced_forum/plus/advanced-forum.plus.style.scss */
 td.forum-last-reply a:hover, td.forum-last-reply a:focus {
-  color: #348bc2;
+  color: #4585f2;
 }
 
 /* line 265, ../../../sass/advanced_forum/plus/advanced-forum.plus.style.scss */
@@ -352,32 +352,32 @@ th.forum-icon {
 .forum-tools {
   margin: 15px 15px 0 0;
   form {
-    background: $white;
-    border: 1px solid $dark-grey;
-    position: relative;
-    &:before {
-      display: inline-block;
-      content: "- Forum Tools -";
-      line-height: 45px;
-      margin-left: 3px;
-      position: absolute;
-    }
-    > div:before {
-      content: "";
-      width: 0;
-      height: 0;
-      border-left: 5px solid transparent;
-      border-right: 5px solid transparent;
-      border-top: 5px solid $blue;
-      margin-top: -2px;
-      position: absolute;
-      right: 10px;
-      top: 50%;
-    }
-    select {
-      border: none;
-      opacity: 0;
-    }
+  background: $white;
+  border: 1px solid $dark-grey;
+  position: relative;
+  &:before {
+    display: inline-block;
+    content: "- Forum Tools -";
+    line-height: 45px;
+    margin-left: 3px;
+    position: absolute;
+  }
+  > div:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid $blue;
+    margin-top: -2px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+  }
+  select {
+    border: none;
+    opacity: 0;
+  }
   }
 }
 */
@@ -499,7 +499,7 @@ th.forum-icon {
 
 /* line 448, ../../../sass/advanced_forum/plus/advanced-forum.plus.style.scss */
 .forum-post-info {
-  background-color: #348bc2;
+  background-color: #4585f2;
   -webkit-border-radius: 5px 5px 0 0;
   border-radius: 5px 5px 0 0;
   padding: 15px 10px;
@@ -666,7 +666,7 @@ div.forum-post {
 }
 /* line 590, ../../../sass/advanced_forum/plus/advanced-forum.plus.style.scss */
 .forum-post-links ul.links li a {
-  background: #348bc2;
+  background: #4585f2;
   color: #fff;
 }
 /* line 593, ../../../sass/advanced_forum/plus/advanced-forum.plus.style.scss */
@@ -686,7 +686,7 @@ div.forum-post {
 
 /* line 609, ../../../sass/advanced_forum/plus/advanced-forum.plus.style.scss */
 #advanced-forum-forum-topic-list-sort-form input {
-  background-color: #333;
+  background-color: #2e2e2e;
   border: none;
   border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -700,7 +700,7 @@ div.forum-post {
 }
 /* line 619, ../../../sass/advanced_forum/plus/advanced-forum.plus.style.scss */
 #advanced-forum-forum-topic-list-sort-form input:hover, #advanced-forum-forum-topic-list-sort-form input:focus {
-  background-color: #348bc2;
+  background-color: #4585f2;
 }
 
 /* Forum advanced */
@@ -717,7 +717,7 @@ div.forum-post {
 }
 /* line 634, ../../../sass/advanced_forum/plus/advanced-forum.plus.style.scss */
 .forum-table thead tr th {
-  background: #333;
+  background: #2e2e2e;
   color: #fff;
   font-weight: 500;
   padding: 3px 10px 2px;
@@ -748,7 +748,7 @@ div.forum-post {
 }
 /* line 661, ../../../sass/advanced_forum/plus/advanced-forum.plus.style.scss */
 .forum-table td .forum-name a:hover, .forum-table td .forum-name a:focus {
-  color: #348bc2;
+  color: #4585f2;
 }
 /* line 667, ../../../sass/advanced_forum/plus/advanced-forum.plus.style.scss */
 .forum-table td .forum-description {
@@ -762,7 +762,7 @@ div.forum-post {
 
 /* line 677, ../../../sass/advanced_forum/plus/advanced-forum.plus.style.scss */
 .forum-table-topics {
-  background-color: #348bc2;
+  background-color: #4585f2;
 }
 /* line 680, ../../../sass/advanced_forum/plus/advanced-forum.plus.style.scss */
 .forum-table-topics thead tr {
@@ -801,7 +801,7 @@ div.forum-post {
 }
 /* line 711, ../../../sass/advanced_forum/plus/advanced-forum.plus.style.scss */
 #forum-statistics #forum-statistics-header {
-  background: #333;
+  background: #2e2e2e;
   border-bottom: 1px solid #eaeaea;
   font-family: "rajdhanisemibold";
   font-size: 1.2em;
@@ -811,7 +811,7 @@ div.forum-post {
 /* line 717, ../../../sass/advanced_forum/plus/advanced-forum.plus.style.scss */
 #forum-statistics .forum-statistics-sub-header {
   background: #fff;
-  color: #333;
+  color: #2e2e2e;
   border-top: 1px solid #eaeaea;
   font-family: "rajdhanisemibold";
   font-size: 1.2em;
@@ -840,7 +840,7 @@ div.forum-post {
 
 /* line 738, ../../../sass/advanced_forum/plus/advanced-forum.plus.style.scss */
 table.sticky-header {
-  background: #333;
+  background: #2e2e2e;
 }
 /* line 740, ../../../sass/advanced_forum/plus/advanced-forum.plus.style.scss */
 table.sticky-header th {
@@ -874,7 +874,7 @@ table.sticky-header th a {
 .forum-jump-links a.author-pane-link:visited {
   background: none;
   padding: 0 !important;
-  color: #333;
+  color: #2e2e2e;
 }
 /* line 769, ../../../sass/advanced_forum/plus/advanced-forum.plus.style.scss */
 .forum-jump-links a.af-button-large:hover, .forum-jump-links a.af-button-large:focus,
@@ -894,5 +894,5 @@ table.sticky-header th a {
 .forum-jump-links a.author-pane-link:link:focus,
 .forum-jump-links a.author-pane-link:visited:hover,
 .forum-jump-links a.author-pane-link:visited:focus {
-  color: #348bc2;
+  color: #4585f2;
 }

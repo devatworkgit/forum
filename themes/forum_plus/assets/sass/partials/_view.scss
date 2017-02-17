@@ -1,327 +1,327 @@
 .block-views-blockget-product-block-1 {
-    .sidebar & {
-        .content {
-            padding: 0;
-        }
-
-        .flex-direction-nav {
-            display: none;
-        }
-
-        .views-row {
-            border-bottom: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        .views-field-field-image {
-            margin: 0;
-            border: none;
-            float: none;
-        }
+  .sidebar & {
+    .content {
+      padding: 0;
     }
+
+    .flex-direction-nav {
+      display: none;
+    }
+
+    .views-row {
+      border-bottom: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .views-field-field-image {
+      margin: 0;
+      border: none;
+      float: none;
+    }
+  }
 }
 
 .views-field-field-image,
 .field-type-image,
 .field-type-video-embed-field {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .views-field-name, .views-field-created {
-    color: #bababa;
+  color: #bababa;
 
-    // font-size: $fs-14;
+  // font-size: $fs-14;
 }
 
 /******/
 .one-column {
-    .views-row {
-        @include border-radius(5px 5px 0 0);
+  .views-row {
+    @include border-radius(5px 5px 0 0);
 
-        overflow: hidden;
-        padding: 30px;
-        background: $white;
-        margin-bottom: 30px;
-    }
+    overflow: hidden;
+    padding: 30px;
+    background: $white;
+    margin-bottom: 30px;
+  }
 }
 
 .two-column {
-    .views-row {
-        margin-bottom: 30px;
-        margin-left: -30px;
-        float: none;
-        width: auto;
-    }
+  .views-row {
+    margin-bottom: 30px;
+    margin-left: -30px;
+    float: none;
+    width: auto;
+  }
 
-    .view-col-inner {
-        background: $white;
+  .view-col-inner {
+    background: $white;
 
-        @include border-radius(5px 5px 0 0);
+    @include border-radius(5px 5px 0 0);
 
-        margin-left: 30px;
-        overflow: hidden;
-        padding: 30px;
-    }
+    margin-left: 30px;
+    overflow: hidden;
+    padding: 30px;
+  }
 }
 
 .three-column {
-    .views-row {
-        float: none;
-        margin-bottom: 30px;
-        margin-left: -30px;
-        width: auto;
-    }
+  .views-row {
+    float: none;
+    margin-bottom: 30px;
+    margin-left: -30px;
+    width: auto;
+  }
 
-    .view-col-inner {
-        @include border-radius(5px 5px 0 0);
+  .view-col-inner {
+    @include border-radius(5px 5px 0 0);
 
-        margin-left: 30px;
-        overflow: hidden;
-        padding: 30px;
-        background: $white;
-    }
+    margin-left: 30px;
+    overflow: hidden;
+    padding: 30px;
+    background: $white;
+  }
 
-    .views-field-title {
-        a {
-            display: block;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            white-space: nowrap;
-        }
+  .views-field-title {
+    a {
+      display: block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
     }
+  }
 }
 
 /*******/
 .forum-blog-view {
-    .views-field-field-image {
-        margin: -30px -30px 20px -30px;
+  .views-field-field-image {
+    margin: -30px -30px 20px -30px;
 
-        img {
-            width: 100%;
-        }
+    img {
+      width: 100%;
     }
+  }
 
-    .views-field-title {
-        font-size: $fs-25;
-        font-family: $font-primary;
-        margin-bottom: 8px;
+  .views-field-title {
+    font-size: $fs-25;
+    font-family: $font-primary;
+    margin-bottom: 8px;
+
+    a {
+      color: $dark-grey-1;
+
+      &:hover, &:focus {
+        color: $blue;
+      }
+    }
+  }
+
+  .views-field-created {
+    margin-bottom: 15px;
+  }
+
+  .views-field-field-tags {
+    float: left;
+    overflow: hidden;
+
+    ul {
+      @include clearfix;
+
+      margin: 7px 0 0;
+
+      li {
+        list-style: none;
+        float: left;
+        margin: 0;
 
         a {
-            color: $dark-grey-1;
+          border: 1px solid #ededed;
 
-            &:hover, &:focus {
-                color: $blue;
-            }
+          @include border-radius(3px);
+
+          color: $dark-grey-2;
+          display: inline-block;
+          font-size: $fs-14;
+          margin: 0 3px 5px 0;
+          padding: 6px 10px 4px;
+
+          @include transition;
+
+          &:hover, &:focus {
+            background: $blue;
+            border-color: $blue;
+            color: $white;
+          }
         }
+      }
     }
+  }
 
-    .views-field-created {
-        margin-bottom: 15px;
+  .views-field-view-node {
+    float: right;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+
+  .views-field-comment-count, .views-field-counter {
+    float: left;
+    color: #bababa;
+    margin-right: 20px;
+    margin-top: 6px;
+    font-family: $font-armata;
+    font-size: $fs-12;
+
+    .field-content {
+      &:before {
+        @include nucleo_mini;
+
+        content: "\ee70";
+        margin-right: 4px;
+      }
     }
+  }
 
-    .views-field-field-tags {
-        float: left;
-        overflow: hidden;
+  .views-field-comment-count {
+    clear: right;
+  }
 
-        ul {
-            @include clearfix;
-
-            margin: 7px 0 0;
-
-            li {
-                list-style: none;
-                float: left;
-                margin: 0;
-
-                a {
-                    border: 1px solid #ededed;
-
-                    @include border-radius(3px);
-
-                    color: $dark-grey-2;
-                    display: inline-block;
-                    font-size: $fs-14;
-                    margin: 0 3px 5px 0;
-                    padding: 6px 10px 4px;
-
-                    @include transition;
-
-                    &:hover, &:focus {
-                        background: $blue;
-                        border-color: $blue;
-                        color: $white;
-                    }
-                }
-            }
-        }
+  .views-field-counter {
+    .field-content {
+      &:before {
+        content: "\ee71";
+      }
     }
-
-    .views-field-view-node {
-        float: right;
-        margin-bottom: 15px;
-        margin-top: 15px;
-    }
-
-    .views-field-comment-count, .views-field-counter {
-        float: left;
-        color: #bababa;
-        margin-right: 20px;
-        margin-top: 6px;
-        font-family: $font-armata;
-        font-size: $fs-12;
-
-        .field-content {
-            &:before {
-                @include nucleo_mini;
-
-                content: "\ee70";
-                margin-right: 4px;
-            }
-        }
-    }
-
-    .views-field-comment-count {
-        clear: right;
-    }
-
-    .views-field-counter {
-        .field-content {
-            &:before {
-                content: "\ee71";
-            }
-        }
-    }
+  }
 }
 
 /******/
 
 .node {
-    h2 {
-        font-family: $font-primary;
-        font-size: $fs-25;
+  h2 {
+    font-family: $font-primary;
+    font-size: $fs-25;
 
-        // margin-bottom: 8px;
-        text-transform: uppercase;
+    // margin-bottom: 8px;
+    text-transform: uppercase;
 
-        a {
-            color: $dark-grey-1;
+    a {
+      color: $dark-grey-1;
 
-            &:hover, &:focus {
-                color: $blue;
-            }
+      &:hover, &:focus {
+        color: $blue;
+      }
+    }
+  }
+
+  .node__meta {
+    font-size: $fs-13;
+    color: #bababa;
+    margin-bottom: 15px;
+  }
+
+  .node__links {
+    ul.links {
+      @include clearfix;
+
+      margin-bottom: 0;
+
+      li {
+        display: inline-block;
+        padding: 0 5px 5px 0;
+        margin-right: 10px;
+
+        &.node-readmore {
+          float: right;
+          padding-right: 0;
+          margin-right: 0;
         }
-    }
 
-    .node__meta {
-        font-size: $fs-13;
-        color: #bababa;
-        margin-bottom: 15px;
-    }
-
-    .node__links {
-        ul.links {
-            @include clearfix;
-
-            margin-bottom: 0;
-
-            li {
-                display: inline-block;
-                padding: 0 5px 5px 0;
-                margin-right: 10px;
-
-                &.node-readmore {
-                    float: right;
-                    padding-right: 0;
-                    margin-right: 0;
-                }
-
-                &.comment-new-comments {
-                    display: none;
-                }
-
-                &.comment-comments {
-                    color: #999;
-
-                    &:before {
-                        @include nucleo_mini;
-
-                        content: "\ee71";
-                        margin-right: 5px;
-                    }
-                }
-            }
+        &.comment-new-comments {
+          display: none;
         }
+
+        &.comment-comments {
+          color: #999;
+
+          &:before {
+            @include nucleo_mini;
+
+            content: "\ee71";
+            margin-right: 5px;
+          }
+        }
+      }
     }
+  }
 }
 
 // .forum-articles-teaser, .view-blogs {
-//     .views-row {
-//         @include border-radius(5px 5px 0 0);
+//   .views-row {
+//     @include border-radius(5px 5px 0 0);
 
-//         overflow: hidden;
-//         margin-bottom: 30px;
+//     overflow: hidden;
+//     margin-bottom: 30px;
+//   }
+
+//   .field--type-image {
+//     margin-bottom: 15px;
+
+//     img {
+//       width: 100%;
+//     }
+//   }
+
+//   .field--name-field-tags {
+//     margin-bottom: 15px;
+
+//     .field__label {
+//       display: none;
 //     }
 
-//     .field--type-image {
-//         margin-bottom: 15px;
+//     ul {
+//       @include clearfix;
 
-//         img {
-//             width: 100%;
+//       margin: 0;
+//       padding: 0;
+
+//       li {
+//         list-style: none;
+//         float: left;
+//         margin: 0;
+
+//         a {
+//           background: none;
+//           border: 1px solid #ededed;
+
+//           @include border-radius(3px);
+
+//           color: $dark-grey-2;
+//           display: inline-block;
+//           font-size: $fs-14;
+//           margin: 0 3px 5px 0;
+//           padding: 5px 10px;
+
+//           @include transition;
+
+//           &:hover, &:focus {
+//             background: $blue;
+//             border-color: $blue;
+//             color: $white;
+//           }
 //         }
+//       }
 //     }
-
-//     .field--name-field-tags {
-//         margin-bottom: 15px;
-
-//         .field__label {
-//             display: none;
-//         }
-
-//         ul {
-//             @include clearfix;
-
-//             margin: 0;
-//             padding: 0;
-
-//             li {
-//                 list-style: none;
-//                 float: left;
-//                 margin: 0;
-
-//                 a {
-//                     background: none;
-//                     border: 1px solid #ededed;
-
-//                     @include border-radius(3px);
-
-//                     color: $dark-grey-2;
-//                     display: inline-block;
-//                     font-size: $fs-14;
-//                     margin: 0 3px 5px 0;
-//                     padding: 5px 10px;
-
-//                     @include transition;
-
-//                     &:hover, &:focus {
-//                         background: $blue;
-//                         border-color: $blue;
-//                         color: $white;
-//                     }
-//                 }
-//             }
-//         }
-//     }
+//   }
 // }
 
 .mix-blog {
-    .views-row {
-        @include clearfix;
-    }
+  .views-row {
+    @include clearfix;
+  }
 
-    .views-field-field-image {
-        margin: 0 20px 20px 0;
-        float: left;
-        max-width: 350px;
-    }
+  .views-field-field-image {
+    margin: 0 20px 20px 0;
+    float: left;
+    max-width: 350px;
+  }
 }
