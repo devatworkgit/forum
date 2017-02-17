@@ -1,65 +1,57 @@
 {
 	"country_code": "BS",
-	"parent_id": null,
-	"locale": "en",
 	"subdivisions": {
-		"BS-fc2a25": {
-			"name": "Abaco"
+		"Abaco": {
+			"name": "Abaco Islands"
 		},
-		"BS-AK": {
-			"name": "Acklins"
+		"Acklins": {
+			"iso_code": "BS-AK"
 		},
-		"BS-0adc5a": {
-			"name": "Andros"
+		"Andros": {
+			"name": "Andros Island"
 		},
-		"BS-BY": {
-			"name": "Berry Islands"
+		"Berry Islands": {
+			"iso_code": "BS-BY"
 		},
-		"BS-BI": {
-			"name": "Bimini"
+		"Bimini": {
+			"iso_code": "BS-BI"
 		},
-		"BS-CI": {
-			"name": "Cat Island"
+		"Cat Island": {
+			"iso_code": "BS-CI"
 		},
-		"BS-7390e7": {
-			"name": "Crooked Island"
+		"Crooked Island": [],
+		"Eleuthera": [],
+		"Exuma": {
+			"name": "Exuma and Cays",
+			"iso_code": "BS-EX"
 		},
-		"BS-c55623": {
-			"name": "Eleuthera"
+		"Grand Bahama": [],
+		"Harbour Island": {
+			"iso_code": "BS-HI"
 		},
-		"BS-EX": {
-			"name": "Exuma"
+		"Inagua": {
+			"iso_code": "BS-IN"
 		},
-		"BS-5c967e": {
-			"name": "Grand Bahama"
+		"Long Island": {
+			"iso_code": "BS-LI"
 		},
-		"BS-HI": {
-			"name": "Harbour Island"
+		"Mayaguana": {
+			"iso_code": "BS-MG"
 		},
-		"BS-IN": {
-			"name": "Inagua"
-		},
-		"BS-LI": {
-			"name": "Long Island"
-		},
-		"BS-MG": {
-			"name": "Mayaguana"
-		},
-		"BS-418c39": {
-			"code": "N.P.",
+		"N.P.": {
 			"name": "New Providence"
 		},
-		"BS-RI": {
-			"name": "Ragged Island"
+		"Ragged Island": {
+			"iso_code": "BS-RI"
 		},
-		"BS-RC": {
-			"name": "Rum Cay"
+		"Rum Cay": {
+			"iso_code": "BS-RC"
 		},
-		"BS-SS": {
-			"name": "San Salvador"
+		"San Salvador": {
+			"iso_code": "BS-SS"
 		},
-		"BS-SW": {
-			"name": "Spanish Wells"
+		"Spanish Wells": {
+			"iso_code": "BS-SW"
 		}
 	}
 }

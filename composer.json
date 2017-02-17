@@ -6,8 +6,7 @@
     "require": {
         "composer/installers": "^1.0.21",
         "wikimedia/composer-merge-plugin": "~1.3",
-        "commerceguys/zone": "^0.7.1",
-        "commerceguys/addressing": "^0.8.4"
+        "drupal/address": "~1.0"
     },
     "replace": {
         "drupal/core": "~8.2"
