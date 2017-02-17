@@ -2,13 +2,12 @@
 
 namespace CommerceGuys\Addressing\Formatter;
 
-use CommerceGuys\Addressing\AddressInterface;
-use CommerceGuys\Addressing\AddressFormat\AddressField;
-use CommerceGuys\Addressing\AddressFormat\AddressFormat;
-use CommerceGuys\Addressing\AddressFormat\AddressFormatRepositoryInterface;
-use CommerceGuys\Addressing\Country\CountryRepositoryInterface;
-use CommerceGuys\Addressing\LocaleHelper;
-use CommerceGuys\Addressing\Subdivision\SubdivisionRepositoryInterface;
+use CommerceGuys\Addressing\Enum\AddressField;
+use CommerceGuys\Addressing\Model\AddressInterface;
+use CommerceGuys\Addressing\Model\AddressFormatInterface;
+use CommerceGuys\Addressing\Repository\AddressFormatRepositoryInterface;
+use CommerceGuys\Addressing\Repository\CountryRepositoryInterface;
+use CommerceGuys\Addressing\Repository\SubdivisionRepositoryInterface;
 
 /**
  * Formats an address for display.
@@ -148,13 +147,14 @@ class DefaultFormatter implements FormatterInterface
     public function format(AddressInterface $address)
     {
         $countryCode = $address->getCountryCode();
-        $addressFormat = $this->addressFormatRepository->get($countryCode);
+        $addressFormat = $this->addressFormatRepository->get($countryCode, $address->getLocale());
+        $formatString = $addressFormat->getFormat();
         // Add the country to the bottom or the top of the format string,
         // depending on whether the format is minor-to-major or major-to-minor.
-        if (LocaleHelper::match($addressFormat->getLocale(), $address->getLocale())) {
-            $formatString = '%country' . "\n" . $addressFormat->getLocalFormat();
+        if (strpos($formatString, AddressField::ADDRESS_LINE1) < strpos($formatString, AddressField::ADDRESS_LINE2)) {
+            $formatString .= "\n" . '%country';
         } else {
-            $formatString = $addressFormat->getFormat() . "\n" . '%country';
+            $formatString = '%country' . "\n" . $formatString;
         }
 
         $view = $this->buildView($address, $addressFormat);
@@ -182,16 +182,15 @@ class DefaultFormatter implements FormatterInterface
     /**
      * Builds the view for the given address.
      *
-     * @param AddressInterface $address       The address.
-     * @param AddressFormat    $addressFormat The address format.
+     * @param AddressInterface       $address       The address.
+     * @param AddressFormatInterface $addressFormat The address format.
      *
      * @return array The view.
      */
-    protected function buildView(AddressInterface $address, AddressFormat $addressFormat)
+    protected function buildView(AddressInterface $address, AddressFormatInterface $addressFormat)
     {
         $countries = $this->countryRepository->getList($this->locale);
         $values = $this->getValues($address, $addressFormat);
-
         $view = [];
         $view['country'] = [
             'html_tag' => 'span',
@@ -284,12 +283,12 @@ class DefaultFormatter implements FormatterInterface
     /**
      * Gets the address values used to build the view.
      *
-     * @param AddressInterface $address       The address.
-     * @param AddressFormat    $addressFormat The address format.
+     * @param AddressInterface       $address       The address.
+     * @param AddressFormatInterface $addressFormat The address format.
      *
      * @return array The values, keyed by address field.
      */
-    protected function getValues(AddressInterface $address, AddressFormat $addressFormat)
+    protected function getValues(AddressInterface $address, AddressFormatInterface $addressFormat)
     {
         $values = [];
         foreach (AddressField::getAll() as $field) {
@@ -298,25 +297,18 @@ class DefaultFormatter implements FormatterInterface
         }
 
         // Replace the subdivision values with the names of any predefined ones.
-        $originalValues = [];
-        $subdivisionFields = $addressFormat->getUsedSubdivisionFields();
-        $parents = [];
-        foreach ($subdivisionFields as $index => $field) {
+        foreach ($addressFormat->getUsedSubdivisionFields() as $field) {
             if (empty($values[$field])) {
                 // This level is empty, so there can be no sublevels.
                 break;
             }
-            $parents[] = $index ? $originalValues[$subdivisionFields[$index - 1]] : $address->getCountryCode();
-            $subdivision = $this->subdivisionRepository->get($values[$field], $parents);
+            $subdivision = $this->subdivisionRepository->get($values[$field], $address->getLocale());
             if (!$subdivision) {
+                // This level has no predefined subdivisions, stop.
                 break;
             }
 
-            // Remember the original value so that it can be used for $parents.
-            $originalValues[$field] = $values[$field];
-            // Replace the value with the expected code.
-            $useLocalName = LocaleHelper::match($address->getLocale(), $subdivision->getLocale());
-            $values[$field] = $useLocalName ? $subdivision->getLocalCode() : $subdivision->getCode();
+            $values[$field] = $subdivision->getCode();
             if (!$subdivision->hasChildren()) {
                 // The current subdivision has no children, stop.
                 break;

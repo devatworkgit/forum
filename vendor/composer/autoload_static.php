@@ -93,7 +93,6 @@ class ComposerStaticInitDrupal8
             'Composer\\Semver\\' => 16,
             'Composer\\Installers\\' => 20,
             'CommerceGuys\\Zone\\' => 18,
-            'CommerceGuys\\Intl\\' => 18,
             'CommerceGuys\\Enum\\' => 18,
             'CommerceGuys\\Addressing\\' => 24,
         ),
@@ -294,10 +293,6 @@ class ComposerStaticInitDrupal8
         'CommerceGuys\\Zone\\' => 
         array (
             0 => __DIR__ . '/..' . '/commerceguys/zone/src',
-        ),
-        'CommerceGuys\\Intl\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/commerceguys/intl/src',
         ),
         'CommerceGuys\\Enum\\' => 
         array (

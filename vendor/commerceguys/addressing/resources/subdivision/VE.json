@@ -1,80 +1,82 @@
 {
 	"country_code": "VE",
+	"parent_id": null,
+	"locale": "es",
 	"subdivisions": {
-		"Amazonas": {
-			"iso_code": "VE-Z"
+		"VE-Z": {
+			"name": "Amazonas"
 		},
-		"Anzoátegui": {
-			"iso_code": "VE-B"
+		"VE-B": {
+			"name": "Anzoátegui"
 		},
-		"Apure": {
-			"iso_code": "VE-C"
+		"VE-C": {
+			"name": "Apure"
 		},
-		"Aragua": {
-			"iso_code": "VE-D"
+		"VE-D": {
+			"name": "Aragua"
 		},
-		"Barinas": {
-			"iso_code": "VE-E"
+		"VE-E": {
+			"name": "Barinas"
 		},
-		"Bolívar": {
-			"iso_code": "VE-F"
+		"VE-F": {
+			"name": "Bolívar"
 		},
-		"Carabobo": {
-			"iso_code": "VE-G"
+		"VE-G": {
+			"name": "Carabobo"
 		},
-		"Cojedes": {
-			"iso_code": "VE-H"
+		"VE-H": {
+			"name": "Cojedes"
 		},
-		"Delta Amacuro": {
-			"iso_code": "VE-Y"
+		"VE-Y": {
+			"name": "Delta Amacuro"
 		},
-		"Dependencias Federales": {
-			"iso_code": "VE-W"
+		"VE-W": {
+			"name": "Dependencias Federales"
 		},
-		"Distrito Federal": {
-			"iso_code": "VE-A"
+		"VE-A": {
+			"name": "Distrito Federal"
 		},
-		"Falcón": {
-			"iso_code": "VE-I"
+		"VE-I": {
+			"name": "Falcón"
 		},
-		"Guárico": {
-			"iso_code": "VE-J"
+		"VE-J": {
+			"name": "Guárico"
 		},
-		"Lara": {
-			"iso_code": "VE-K"
+		"VE-K": {
+			"name": "Lara"
 		},
-		"Mérida": {
-			"iso_code": "VE-L"
+		"VE-L": {
+			"name": "Mérida"
 		},
-		"Miranda": {
-			"iso_code": "VE-M"
+		"VE-M": {
+			"name": "Miranda"
 		},
-		"Monagas": {
-			"iso_code": "VE-N"
+		"VE-N": {
+			"name": "Monagas"
 		},
-		"Nueva Esparta": {
-			"iso_code": "VE-O"
+		"VE-O": {
+			"name": "Nueva Esparta"
 		},
-		"Portuguesa": {
-			"iso_code": "VE-P"
+		"VE-P": {
+			"name": "Portuguesa"
 		},
-		"Sucre": {
-			"iso_code": "VE-R"
+		"VE-R": {
+			"name": "Sucre"
 		},
-		"Táchira": {
-			"iso_code": "VE-S"
+		"VE-S": {
+			"name": "Táchira"
 		},
-		"Trujillo": {
-			"iso_code": "VE-T"
+		"VE-T": {
+			"name": "Trujillo"
 		},
-		"Vargas": {
-			"iso_code": "VE-X"
+		"VE-X": {
+			"name": "Vargas"
 		},
-		"Yaracuy": {
-			"iso_code": "VE-U"
+		"VE-U": {
+			"name": "Yaracuy"
 		},
-		"Zulia": {
-			"iso_code": "VE-V"
+		"VE-V": {
+			"name": "Zulia"
 		}
 	}
 }

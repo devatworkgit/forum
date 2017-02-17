@@ -2,7 +2,7 @@
 
 namespace CommerceGuys\Zone\Model;
 
-use CommerceGuys\Addressing\AddressInterface;
+use CommerceGuys\Addressing\Model\AddressInterface;
 
 /**
  * Matches the EU zone.

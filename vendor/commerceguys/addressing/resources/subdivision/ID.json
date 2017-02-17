@@ -1,107 +1,109 @@
 {
 	"country_code": "ID",
+	"parent_id": null,
+	"locale": "id",
 	"subdivisions": {
-		"Aceh": {
-			"iso_code": "ID-AC"
+		"ID-AC": {
+			"name": "Aceh"
 		},
-		"Bali": {
-			"iso_code": "ID-BA"
+		"ID-BA": {
+			"name": "Bali"
 		},
-		"Banten": {
-			"iso_code": "ID-BT"
+		"ID-BT": {
+			"name": "Banten"
 		},
-		"Bengkulu": {
-			"iso_code": "ID-BE"
+		"ID-BE": {
+			"name": "Bengkulu"
 		},
-		"Daerah Istimewa Yogyakarta": {
-			"iso_code": "ID-YO"
+		"ID-YO": {
+			"name": "Daerah Istimewa Yogyakarta"
 		},
-		"DKI Jakarta": {
-			"iso_code": "ID-JK"
+		"ID-JK": {
+			"name": "DKI Jakarta"
 		},
-		"Gorontalo": {
-			"iso_code": "ID-GO"
+		"ID-GO": {
+			"name": "Gorontalo"
 		},
-		"Jambi": {
-			"iso_code": "ID-JA"
+		"ID-JA": {
+			"name": "Jambi"
 		},
-		"Jawa Barat": {
-			"iso_code": "ID-JB"
+		"ID-JB": {
+			"name": "Jawa Barat"
 		},
-		"Jawa Tengah": {
-			"iso_code": "ID-JT"
+		"ID-JT": {
+			"name": "Jawa Tengah"
 		},
-		"Jawa Timur": {
-			"iso_code": "ID-JI"
+		"ID-JI": {
+			"name": "Jawa Timur"
 		},
-		"Kalimantan Barat": {
-			"iso_code": "ID-KB"
+		"ID-KB": {
+			"name": "Kalimantan Barat"
 		},
-		"Kalimantan Selatan": {
-			"iso_code": "ID-KS"
+		"ID-KS": {
+			"name": "Kalimantan Selatan"
 		},
-		"Kalimantan Tengah": {
-			"iso_code": "ID-KT"
+		"ID-KT": {
+			"name": "Kalimantan Tengah"
 		},
-		"Kalimantan Timur": {
-			"iso_code": "ID-KI"
+		"ID-KI": {
+			"name": "Kalimantan Timur"
 		},
-		"Kalimantan Utara": {
-			"iso_code": "ID-KU"
+		"ID-KU": {
+			"name": "Kalimantan Utara"
 		},
-		"Kepulauan Bangka Belitung": {
-			"iso_code": "ID-BB"
+		"ID-BB": {
+			"name": "Kepulauan Bangka Belitung"
 		},
-		"Kepulauan Riau": {
-			"iso_code": "ID-KR"
+		"ID-KR": {
+			"name": "Kepulauan Riau"
 		},
-		"Lampung": {
-			"iso_code": "ID-LA"
+		"ID-LA": {
+			"name": "Lampung"
 		},
-		"Maluku": {
-			"iso_code": "ID-MA"
+		"ID-MA": {
+			"name": "Maluku"
 		},
-		"Maluku Utara": {
-			"iso_code": "ID-MU"
+		"ID-MU": {
+			"name": "Maluku Utara"
 		},
-		"Nusa Tenggara Barat": {
-			"iso_code": "ID-NB"
+		"ID-NB": {
+			"name": "Nusa Tenggara Barat"
 		},
-		"Nusa Tenggara Timur": {
-			"iso_code": "ID-NT"
+		"ID-NT": {
+			"name": "Nusa Tenggara Timur"
 		},
-		"Papua": {
-			"iso_code": "ID-PA"
+		"ID-PA": {
+			"name": "Papua"
 		},
-		"Papua Barat": {
-			"iso_code": "ID-PB"
+		"ID-PB": {
+			"name": "Papua Barat"
 		},
-		"Riau": {
-			"iso_code": "ID-RI"
+		"ID-RI": {
+			"name": "Riau"
 		},
-		"Sulawesi Barat": {
-			"iso_code": "ID-SR"
+		"ID-SR": {
+			"name": "Sulawesi Barat"
 		},
-		"Sulawesi Selatan": {
-			"iso_code": "ID-SN"
+		"ID-SN": {
+			"name": "Sulawesi Selatan"
 		},
-		"Sulawesi Tengah": {
-			"iso_code": "ID-ST"
+		"ID-ST": {
+			"name": "Sulawesi Tengah"
 		},
-		"Sulawesi Tenggara": {
-			"iso_code": "ID-SG"
+		"ID-SG": {
+			"name": "Sulawesi Tenggara"
 		},
-		"Sulawesi Utara": {
-			"iso_code": "ID-SA"
+		"ID-SA": {
+			"name": "Sulawesi Utara"
 		},
-		"Sumatera Barat": {
-			"iso_code": "ID-SB"
+		"ID-SB": {
+			"name": "Sumatera Barat"
 		},
-		"Sumatera Selatan": {
-			"iso_code": "ID-SS"
+		"ID-SS": {
+			"name": "Sumatera Selatan"
 		},
-		"Sumatera Utara": {
-			"iso_code": "ID-SU"
+		"ID-SU": {
+			"name": "Sumatera Utara"
 		}
 	}
 }

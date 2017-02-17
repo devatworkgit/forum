@@ -1,17 +1,36 @@
 {
 	"country_code": "HK",
-	"locale": "zh-Hant",
+	"parent_id": null,
+	"locale": "zh-Latn",
 	"subdivisions": {
-		"Kowloon": {
-			"local_code": "九龍",
+		"HK-71f850": {
+			"code": "九龍",
+			"name": "Kowloon",
+			"translations": {
+				"zh-hant": {
+					"name": "九龍"
+				}
+			},
 			"has_children": true
 		},
-		"Hong Kong Island": {
-			"local_code": "香港島",
+		"HK-9f4b5f": {
+			"code": "香港島",
+			"name": "Hong Kong Island",
+			"translations": {
+				"zh-hant": {
+					"name": "香港島"
+				}
+			},
 			"has_children": true
 		},
-		"New Territories": {
-			"local_code": "新界",
+		"HK-87ea5e": {
+			"code": "新界",
+			"name": "New Territories",
+			"translations": {
+				"zh-hant": {
+					"name": "新界"
+				}
+			},
 			"has_children": true
 		}
 	}

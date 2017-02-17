@@ -1,326 +1,330 @@
 {
 	"country_code": "PH",
+	"parent_id": null,
+	"locale": "en",
 	"subdivisions": {
-		"Abra": {
-			"iso_code": "PH-ABR",
+		"PH-ABR": {
+			"name": "Abra",
 			"postal_code_pattern": "28[0-2]"
 		},
-		"Agusan del Norte": {
-			"iso_code": "PH-AGN",
+		"PH-AGN": {
+			"name": "Agusan del Norte",
 			"postal_code_pattern": "86[01]"
 		},
-		"Agusan del Sur": {
-			"iso_code": "PH-AGS",
+		"PH-AGS": {
+			"name": "Agusan del Sur",
 			"postal_code_pattern": "85[01]"
 		},
-		"Aklan": {
-			"iso_code": "PH-AKL",
+		"PH-AKL": {
+			"name": "Aklan",
 			"postal_code_pattern": "56[01]"
 		},
-		"Albay": {
-			"iso_code": "PH-ALB",
+		"PH-ALB": {
+			"name": "Albay",
 			"postal_code_pattern": "45[01]"
 		},
-		"Antique": {
-			"iso_code": "PH-ANT",
+		"PH-ANT": {
+			"name": "Antique",
 			"postal_code_pattern": "57[01]"
 		},
-		"Apayao": {
-			"iso_code": "PH-APA",
+		"PH-APA": {
+			"name": "Apayao",
 			"postal_code_pattern": "380[0-68]"
 		},
-		"Aurora": {
-			"iso_code": "PH-AUR",
+		"PH-AUR": {
+			"name": "Aurora",
 			"postal_code_pattern": "320"
 		},
-		"Basilan": {
-			"iso_code": "PH-BAS",
+		"PH-BAS": {
+			"name": "Basilan",
 			"postal_code_pattern": "730"
 		},
-		"Bataan": {
-			"iso_code": "PH-BAN",
+		"PH-BAN": {
+			"name": "Bataan",
 			"postal_code_pattern": "21[01]"
 		},
-		"Batanes": {
-			"iso_code": "PH-BTN",
+		"PH-BTN": {
+			"name": "Batanes",
 			"postal_code_pattern": "390"
 		},
-		"Batangas": {
-			"iso_code": "PH-BTG",
+		"PH-BTG": {
+			"name": "Batangas",
 			"postal_code_pattern": "42[0-3]"
 		},
-		"Benguet": {
-			"iso_code": "PH-BEN",
+		"PH-BEN": {
+			"name": "Benguet",
 			"postal_code_pattern": "26(0|1[0-5])"
 		},
-		"Biliran": {
-			"iso_code": "PH-BIL",
+		"PH-BIL": {
+			"name": "Biliran",
 			"postal_code_pattern": "65(4[3-9]|5)"
 		},
-		"Bohol": {
-			"iso_code": "PH-BOH",
+		"PH-BOH": {
+			"name": "Bohol",
 			"postal_code_pattern": "63[0-3]"
 		},
-		"Bukidnon": {
-			"iso_code": "PH-BUK",
+		"PH-BUK": {
+			"name": "Bukidnon",
 			"postal_code_pattern": "87[0-2]"
 		},
-		"Bulacan": {
-			"iso_code": "PH-BUL",
+		"PH-BUL": {
+			"name": "Bulacan",
 			"postal_code_pattern": "30[0-2]"
 		},
-		"Cagayan": {
-			"iso_code": "PH-CAG",
+		"PH-CAG": {
+			"name": "Cagayan",
 			"postal_code_pattern": "35[0-2]"
 		},
-		"Camarines Norte": {
-			"iso_code": "PH-CAN",
+		"PH-CAN": {
+			"name": "Camarines Norte",
 			"postal_code_pattern": "46[01]"
 		},
-		"Camarines Sur": {
-			"iso_code": "PH-CAS",
+		"PH-CAS": {
+			"name": "Camarines Sur",
 			"postal_code_pattern": "44[0-3]"
 		},
-		"Camiguin": {
-			"iso_code": "PH-CAM",
+		"PH-CAM": {
+			"name": "Camiguin",
 			"postal_code_pattern": "910"
 		},
-		"Capiz": {
-			"iso_code": "PH-CAP",
+		"PH-CAP": {
+			"name": "Capiz",
 			"postal_code_pattern": "58[01]"
 		},
-		"Catanduanes": {
-			"iso_code": "PH-CAT",
+		"PH-CAT": {
+			"name": "Catanduanes",
 			"postal_code_pattern": "48[01]"
 		},
-		"Cavite": {
-			"iso_code": "PH-CAV",
+		"PH-CAV": {
+			"name": "Cavite",
 			"postal_code_pattern": "41[0-2]"
 		},
-		"Cebu": {
-			"iso_code": "PH-CEB",
+		"PH-CEB": {
+			"name": "Cebu",
 			"postal_code_pattern": "60[0-5]"
 		},
-		"Compostela Valley": {
-			"iso_code": "PH-COM",
+		"PH-COM": {
+			"name": "Compostela Valley",
 			"postal_code_pattern": "88[01]"
 		},
-		"Cotabato": {
-			"iso_code": "PH-NCO",
+		"PH-NCO": {
+			"name": "Cotabato",
 			"postal_code_pattern": "94[01]"
 		},
-		"Davao del Norte": {
-			"iso_code": "PH-DAV",
+		"PH-DAV": {
+			"name": "Davao del Norte",
 			"postal_code_pattern": "81[0-2]"
 		},
-		"Davao del Sur": {
-			"iso_code": "PH-DAS",
+		"PH-DAS": {
+			"name": "Davao del Sur",
 			"postal_code_pattern": "80[01]"
 		},
-		"Davao Occidental": [],
-		"Davao Oriental": {
-			"iso_code": "PH-DAO",
+		"PH-a9dd0b": {
+			"name": "Davao Occidental"
+		},
+		"PH-DAO": {
+			"name": "Davao Oriental",
 			"postal_code_pattern": "82[01]"
 		},
-		"Dinagat Islands": {
-			"iso_code": "PH-DIN"
+		"PH-DIN": {
+			"name": "Dinagat Islands"
 		},
-		"Eastern Samar": {
-			"iso_code": "PH-EAS",
+		"PH-EAS": {
+			"name": "Eastern Samar",
 			"postal_code_pattern": "68[0-2]"
 		},
-		"Guimaras": {
-			"iso_code": "PH-GUI",
+		"PH-GUI": {
+			"name": "Guimaras",
 			"postal_code_pattern": "504[4-6]"
 		},
-		"Ifugao": {
-			"iso_code": "PH-IFU",
+		"PH-IFU": {
+			"name": "Ifugao",
 			"postal_code_pattern": "36[01]"
 		},
-		"Ilocos Norte": {
-			"iso_code": "PH-ILN",
+		"PH-ILN": {
+			"name": "Ilocos Norte",
 			"postal_code_pattern": "29[0-2]"
 		},
-		"Ilocos Sur": {
-			"iso_code": "PH-ILS",
+		"PH-ILS": {
+			"name": "Ilocos Sur",
 			"postal_code_pattern": "27[0-3]"
 		},
-		"Iloilo": {
-			"iso_code": "PH-ILI",
+		"PH-ILI": {
+			"name": "Iloilo",
 			"postal_code_pattern": "50([0-3]|4[0-3])"
 		},
-		"Isabela": {
-			"iso_code": "PH-ISA",
+		"PH-ISA": {
+			"name": "Isabela",
 			"postal_code_pattern": "33[0-3]"
 		},
-		"Kalinga": {
-			"iso_code": "PH-KAL",
+		"PH-KAL": {
+			"name": "Kalinga",
 			"postal_code_pattern": "38(0[79]|1[0-4])"
 		},
-		"La Union": {
-			"iso_code": "PH-LUN",
+		"PH-LUN": {
+			"name": "La Union",
 			"postal_code_pattern": "25[0-2]"
 		},
-		"Laguna": {
-			"iso_code": "PH-LAG",
+		"PH-LAG": {
+			"name": "Laguna",
 			"postal_code_pattern": "40[0-3]"
 		},
-		"Lanao del Norte": {
-			"iso_code": "PH-LAN",
+		"PH-LAN": {
+			"name": "Lanao del Norte",
 			"postal_code_pattern": "92[0-2]"
 		},
-		"Lanao del Sur": {
-			"iso_code": "PH-LAS",
+		"PH-LAS": {
+			"name": "Lanao del Sur",
 			"postal_code_pattern": "9(3[0-2]|7[01])"
 		},
-		"Leyte": {
-			"iso_code": "PH-LEY",
+		"PH-LEY": {
+			"name": "Leyte",
 			"postal_code_pattern": "65([0-3]|4[0-2])"
 		},
-		"Maguindanao": {
-			"iso_code": "PH-MAG",
+		"PH-MAG": {
+			"name": "Maguindanao",
 			"postal_code_pattern": "96[01]"
 		},
-		"Marinduque": {
-			"iso_code": "PH-MAD",
+		"PH-MAD": {
+			"name": "Marinduque",
 			"postal_code_pattern": "490"
 		},
-		"Masbate": {
-			"iso_code": "PH-MAS",
+		"PH-MAS": {
+			"name": "Masbate",
 			"postal_code_pattern": "54[0-2]"
 		},
-		"Metro Manila": {
-			"iso_code": "PH-00"
+		"PH-00": {
+			"name": "Metro Manila"
 		},
-		"Mindoro Occidental": {
-			"iso_code": "PH-MDC",
+		"PH-MDC": {
+			"name": "Mindoro Occidental",
 			"postal_code_pattern": "51[01]"
 		},
-		"Mindoro Oriental": {
-			"iso_code": "PH-MDR",
+		"PH-MDR": {
+			"name": "Mindoro Oriental",
 			"postal_code_pattern": "52[01]"
 		},
-		"Misamis Occidental": {
-			"iso_code": "PH-MSC",
+		"PH-MSC": {
+			"name": "Misamis Occidental",
 			"postal_code_pattern": "72[01]"
 		},
-		"Misamis Oriental": {
-			"iso_code": "PH-MSR",
+		"PH-MSR": {
+			"name": "Misamis Oriental",
 			"postal_code_pattern": "90[0-2]"
 		},
-		"Mountain Province": {
-			"iso_code": "PH-MOU",
+		"PH-MOU": {
+			"name": "Mountain Province",
 			"postal_code_pattern": "26(1[6-9]|2[0-5])"
 		},
-		"Negros Occidental": {
-			"iso_code": "PH-NEC",
+		"PH-NEC": {
+			"name": "Negros Occidental",
 			"postal_code_pattern": "61[0-3]"
 		},
-		"Negros Oriental": {
-			"iso_code": "PH-NER",
+		"PH-NER": {
+			"name": "Negros Oriental",
 			"postal_code_pattern": "62[0-2]"
 		},
-		"Northern Samar": {
-			"iso_code": "PH-NSA",
+		"PH-NSA": {
+			"name": "Northern Samar",
 			"postal_code_pattern": "64[0-2]"
 		},
-		"Nueva Ecija": {
-			"iso_code": "PH-NUE",
+		"PH-NUE": {
+			"name": "Nueva Ecija",
 			"postal_code_pattern": "31[0-3]"
 		},
-		"Nueva Vizcaya": {
-			"iso_code": "PH-NUV",
+		"PH-NUV": {
+			"name": "Nueva Vizcaya",
 			"postal_code_pattern": "37[01]"
 		},
-		"Palawan": {
-			"iso_code": "PH-PLW",
+		"PH-PLW": {
+			"name": "Palawan",
 			"postal_code_pattern": "53[0-2]"
 		},
-		"Pampanga": {
-			"iso_code": "PH-PAM",
+		"PH-PAM": {
+			"name": "Pampanga",
 			"postal_code_pattern": "20[0-2]"
 		},
-		"Pangasinan": {
-			"iso_code": "PH-PAN",
+		"PH-PAN": {
+			"name": "Pangasinan",
 			"postal_code_pattern": "24[0-4]"
 		},
-		"Quezon Province": {
-			"iso_code": "PH-QUE",
+		"PH-QUE": {
+			"name": "Quezon Province",
 			"postal_code_pattern": "43[0-4]"
 		},
-		"Quirino": {
-			"iso_code": "PH-QUI",
+		"PH-QUI": {
+			"name": "Quirino",
 			"postal_code_pattern": "340"
 		},
-		"Rizal": {
-			"iso_code": "PH-RIZ",
+		"PH-RIZ": {
+			"name": "Rizal",
 			"postal_code_pattern": "1[89]"
 		},
-		"Romblon": {
-			"iso_code": "PH-ROM",
+		"PH-ROM": {
+			"name": "Romblon",
 			"postal_code_pattern": "55[01]"
 		},
-		"Samar": {
-			"iso_code": "PH-WSA",
+		"PH-WSA": {
+			"name": "Samar",
 			"postal_code_pattern": "67[0-2]"
 		},
-		"Sarangani": {
-			"iso_code": "PH-SAR",
+		"PH-SAR": {
+			"name": "Sarangani",
 			"postal_code_pattern": "8015"
 		},
-		"Siquijor": {
-			"iso_code": "PH-SIG",
+		"PH-SIG": {
+			"name": "Siquijor",
 			"postal_code_pattern": "62(2[5-9]|30)"
 		},
-		"Sorsogon": {
-			"iso_code": "PH-SOR",
+		"PH-SOR": {
+			"name": "Sorsogon",
 			"postal_code_pattern": "47[01]"
 		},
-		"South Cotabato": {
-			"iso_code": "PH-SCO",
+		"PH-SCO": {
+			"name": "South Cotabato",
 			"postal_code_pattern": "95[01]"
 		},
-		"Southern Leyte": {
-			"iso_code": "PH-SLE"
+		"PH-SLE": {
+			"name": "Southern Leyte"
 		},
-		"Sultan Kudarat": {
-			"iso_code": "PH-SUK",
+		"PH-SUK": {
+			"name": "Sultan Kudarat",
 			"postal_code_pattern": "98[01]"
 		},
-		"Sulu": {
-			"iso_code": "PH-SLU",
+		"PH-SLU": {
+			"name": "Sulu",
 			"postal_code_pattern": "74[01]"
 		},
-		"Surigao del Norte": {
-			"iso_code": "PH-SUN",
+		"PH-SUN": {
+			"name": "Surigao del Norte",
 			"postal_code_pattern": "84[02]"
 		},
-		"Surigao del Sur": {
-			"iso_code": "PH-SUR",
+		"PH-SUR": {
+			"name": "Surigao del Sur",
 			"postal_code_pattern": "83[01]"
 		},
-		"Tarlac": {
-			"iso_code": "PH-TAR",
+		"PH-TAR": {
+			"name": "Tarlac",
 			"postal_code_pattern": "23[01]"
 		},
-		"Tawi-Tawi": {
-			"iso_code": "PH-TAW",
+		"PH-TAW": {
+			"name": "Tawi-Tawi",
 			"postal_code_pattern": "750"
 		},
-		"Zambales": {
-			"iso_code": "PH-ZMB",
+		"PH-ZMB": {
+			"name": "Zambales",
 			"postal_code_pattern": "22[01]"
 		},
-		"Zamboanga del Norte": {
-			"iso_code": "PH-ZAN",
+		"PH-ZAN": {
+			"name": "Zamboanga del Norte",
 			"postal_code_pattern": "71[0-2]"
 		},
-		"Zamboanga del Sur": {
-			"iso_code": "PH-ZAS",
+		"PH-ZAS": {
+			"name": "Zamboanga del Sur",
 			"postal_code_pattern": "70[0-4]"
 		},
-		"Zamboanga Sibuguey": {
-			"iso_code": "PH-ZSI",
+		"PH-ZSI": {
+			"name": "Zamboanga Sibuguey",
 			"postal_code_pattern": "70[0-4]"
 		}
 	}

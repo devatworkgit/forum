@@ -1,213 +1,214 @@
 {
 	"country_code": "ES",
+	"parent_id": null,
+	"locale": "es",
 	"subdivisions": {
-		"A Coruña": {
-			"iso_code": "ES-C",
+		"ES-C": {
+			"name": "A Coruña",
 			"postal_code_pattern": "15"
 		},
-		"Álava": {
-			"iso_code": "ES-VI",
+		"ES-VI": {
+			"name": "Álava",
 			"postal_code_pattern": "01"
 		},
-		"Albacete": {
-			"iso_code": "ES-AB",
+		"ES-AB": {
+			"name": "Albacete",
 			"postal_code_pattern": "02"
 		},
-		"Alicante": {
-			"iso_code": "ES-A",
+		"ES-A": {
+			"name": "Alicante",
 			"postal_code_pattern": "03"
 		},
-		"Almería": {
-			"iso_code": "ES-AL",
+		"ES-AL": {
+			"name": "Almería",
 			"postal_code_pattern": "04"
 		},
-		"Asturias": {
-			"iso_code": "ES-O",
+		"ES-O": {
+			"name": "Asturias",
 			"postal_code_pattern": "33"
 		},
-		"Ávila": {
-			"iso_code": "ES-AV",
+		"ES-AV": {
+			"name": "Ávila",
 			"postal_code_pattern": "05"
 		},
-		"Badajoz": {
-			"iso_code": "ES-BA",
+		"ES-BA": {
+			"name": "Badajoz",
 			"postal_code_pattern": "06"
 		},
-		"Balears": {
+		"ES-PM": {
 			"name": "Balears",
-			"iso_code": "ES-PM",
 			"postal_code_pattern": "07"
 		},
-		"Barcelona": {
-			"iso_code": "ES-B",
+		"ES-B": {
+			"name": "Barcelona",
 			"postal_code_pattern": "08"
 		},
-		"Burgos": {
-			"iso_code": "ES-BU",
+		"ES-BU": {
+			"name": "Burgos",
 			"postal_code_pattern": "09"
 		},
-		"Cáceres": {
-			"iso_code": "ES-CC",
+		"ES-CC": {
+			"name": "Cáceres",
 			"postal_code_pattern": "10"
 		},
-		"Cádiz": {
-			"iso_code": "ES-CA",
+		"ES-CA": {
+			"name": "Cádiz",
 			"postal_code_pattern": "11"
 		},
-		"Cantabria": {
-			"iso_code": "ES-S",
+		"ES-S": {
+			"name": "Cantabria",
 			"postal_code_pattern": "39"
 		},
-		"Castellón": {
-			"iso_code": "ES-CS",
+		"ES-CS": {
+			"name": "Castellón",
 			"postal_code_pattern": "12"
 		},
-		"Ceuta": {
-			"iso_code": "ES-CE",
+		"ES-CE": {
+			"name": "Ceuta",
 			"postal_code_pattern": "51"
 		},
-		"Ciudad Real": {
-			"iso_code": "ES-CR",
+		"ES-CR": {
+			"name": "Ciudad Real",
 			"postal_code_pattern": "13"
 		},
-		"Córdoba": {
-			"iso_code": "ES-CO",
+		"ES-CO": {
+			"name": "Córdoba",
 			"postal_code_pattern": "14"
 		},
-		"Cuenca": {
-			"iso_code": "ES-CU",
+		"ES-CU": {
+			"name": "Cuenca",
 			"postal_code_pattern": "16"
 		},
-		"Girona": {
-			"iso_code": "ES-GI",
+		"ES-GI": {
+			"name": "Girona",
 			"postal_code_pattern": "17"
 		},
-		"Granada": {
-			"iso_code": "ES-GR",
+		"ES-GR": {
+			"name": "Granada",
 			"postal_code_pattern": "18"
 		},
-		"Guadalajara": {
-			"iso_code": "ES-GU",
+		"ES-GU": {
+			"name": "Guadalajara",
 			"postal_code_pattern": "19"
 		},
-		"Guipúzcoa": {
-			"iso_code": "ES-SS",
+		"ES-SS": {
+			"name": "Guipúzcoa",
 			"postal_code_pattern": "20"
 		},
-		"Huelva": {
-			"iso_code": "ES-H",
+		"ES-H": {
+			"name": "Huelva",
 			"postal_code_pattern": "21"
 		},
-		"Huesca": {
-			"iso_code": "ES-HU",
+		"ES-HU": {
+			"name": "Huesca",
 			"postal_code_pattern": "22"
 		},
-		"Jaén": {
-			"iso_code": "ES-J",
+		"ES-J": {
+			"name": "Jaén",
 			"postal_code_pattern": "23"
 		},
-		"La Rioja": {
-			"iso_code": "ES-LO",
+		"ES-LO": {
+			"name": "La Rioja",
 			"postal_code_pattern": "26"
 		},
-		"Las Palmas": {
-			"iso_code": "ES-GC",
+		"ES-GC": {
+			"name": "Las Palmas",
 			"postal_code_pattern": "35"
 		},
-		"León": {
-			"iso_code": "ES-LE",
+		"ES-LE": {
+			"name": "León",
 			"postal_code_pattern": "24"
 		},
-		"Lleida": {
-			"iso_code": "ES-L",
+		"ES-L": {
+			"name": "Lleida",
 			"postal_code_pattern": "25"
 		},
-		"Lugo": {
-			"iso_code": "ES-LU",
+		"ES-LU": {
+			"name": "Lugo",
 			"postal_code_pattern": "27"
 		},
-		"Madrid": {
-			"iso_code": "ES-M",
+		"ES-M": {
+			"name": "Madrid",
 			"postal_code_pattern": "28"
 		},
-		"Málaga": {
-			"iso_code": "ES-MA",
+		"ES-MA": {
+			"name": "Málaga",
 			"postal_code_pattern": "29"
 		},
-		"Melilla": {
-			"iso_code": "ES-ML",
+		"ES-ML": {
+			"name": "Melilla",
 			"postal_code_pattern": "52"
 		},
-		"Murcia": {
-			"iso_code": "ES-MU",
+		"ES-MU": {
+			"name": "Murcia",
 			"postal_code_pattern": "30"
 		},
-		"Navarra": {
-			"iso_code": "ES-NA",
+		"ES-NA": {
+			"name": "Navarra",
 			"postal_code_pattern": "31"
 		},
-		"Ourense": {
-			"iso_code": "ES-OR",
+		"ES-OR": {
+			"name": "Ourense",
 			"postal_code_pattern": "32"
 		},
-		"Palencia": {
-			"iso_code": "ES-P",
+		"ES-P": {
+			"name": "Palencia",
 			"postal_code_pattern": "34"
 		},
-		"Pontevedra": {
-			"iso_code": "ES-PO",
+		"ES-PO": {
+			"name": "Pontevedra",
 			"postal_code_pattern": "36"
 		},
-		"Salamanca": {
-			"iso_code": "ES-SA",
+		"ES-SA": {
+			"name": "Salamanca",
 			"postal_code_pattern": "37"
 		},
-		"Santa Cruz de Tenerife": {
-			"iso_code": "ES-TF",
+		"ES-TF": {
+			"name": "Santa Cruz de Tenerife",
 			"postal_code_pattern": "38"
 		},
-		"Segovia": {
-			"iso_code": "ES-SG",
+		"ES-SG": {
+			"name": "Segovia",
 			"postal_code_pattern": "40"
 		},
-		"Sevilla": {
-			"iso_code": "ES-SE",
+		"ES-SE": {
+			"name": "Sevilla",
 			"postal_code_pattern": "41"
 		},
-		"Soria": {
-			"iso_code": "ES-SO",
+		"ES-SO": {
+			"name": "Soria",
 			"postal_code_pattern": "42"
 		},
-		"Tarragona": {
-			"iso_code": "ES-T",
+		"ES-T": {
+			"name": "Tarragona",
 			"postal_code_pattern": "43"
 		},
-		"Teruel": {
-			"iso_code": "ES-TE",
+		"ES-TE": {
+			"name": "Teruel",
 			"postal_code_pattern": "44"
 		},
-		"Toledo": {
-			"iso_code": "ES-TO",
+		"ES-TO": {
+			"name": "Toledo",
 			"postal_code_pattern": "45"
 		},
-		"Valencia": {
-			"iso_code": "ES-V",
+		"ES-V": {
+			"name": "Valencia",
 			"postal_code_pattern": "46"
 		},
-		"Valladolid": {
-			"iso_code": "ES-VA",
+		"ES-VA": {
+			"name": "Valladolid",
 			"postal_code_pattern": "47"
 		},
-		"Vizcaya": {
-			"iso_code": "ES-BI",
+		"ES-BI": {
+			"name": "Vizcaya",
 			"postal_code_pattern": "48"
 		},
-		"Zamora": {
-			"iso_code": "ES-ZA",
+		"ES-ZA": {
+			"name": "Zamora",
 			"postal_code_pattern": "49"
 		},
-		"Zaragoza": {
-			"iso_code": "ES-Z",
+		"ES-Z": {
+			"name": "Zaragoza",
 			"postal_code_pattern": "50"
 		}
 	}

@@ -1,100 +1,102 @@
 {
 	"country_code": "AR",
+	"parent_id": null,
+	"locale": "es",
 	"subdivisions": {
-		"Buenos Aires": {
-			"iso_code": "AR-B",
+		"AR-B": {
+			"name": "Buenos Aires",
 			"postal_code_pattern": "B?[1-36-8]"
 		},
-		"Catamarca": {
-			"iso_code": "AR-K",
+		"AR-K": {
+			"name": "Catamarca",
 			"postal_code_pattern": "K?[45]"
 		},
-		"Chaco": {
-			"iso_code": "AR-H",
+		"AR-H": {
+			"name": "Chaco",
 			"postal_code_pattern": "H?3"
 		},
-		"Chubut": {
-			"iso_code": "AR-U",
+		"AR-U": {
+			"name": "Chubut",
 			"postal_code_pattern": "U?[89]"
 		},
-		"Ciudad Autónoma de Buenos Aires": {
-			"iso_code": "AR-C",
+		"AR-C": {
+			"name": "Ciudad Autónoma de Buenos Aires",
 			"postal_code_pattern": "C?1"
 		},
-		"Córdoba": {
-			"iso_code": "AR-X",
+		"AR-X": {
+			"name": "Córdoba",
 			"postal_code_pattern": "X?[235-8]"
 		},
-		"Corrientes": {
-			"iso_code": "AR-W",
+		"AR-W": {
+			"name": "Corrientes",
 			"postal_code_pattern": "W?3"
 		},
-		"Entre Ríos": {
-			"iso_code": "AR-E",
+		"AR-E": {
+			"name": "Entre Ríos",
 			"postal_code_pattern": "E?[1-3]"
 		},
-		"Formosa": {
-			"iso_code": "AR-P",
+		"AR-P": {
+			"name": "Formosa",
 			"postal_code_pattern": "P?[37]"
 		},
-		"Jujuy": {
-			"iso_code": "AR-Y",
+		"AR-Y": {
+			"name": "Jujuy",
 			"postal_code_pattern": "Y?4"
 		},
-		"La Pampa": {
-			"iso_code": "AR-L",
+		"AR-L": {
+			"name": "La Pampa",
 			"postal_code_pattern": "L?[3568]"
 		},
-		"La Rioja": {
-			"iso_code": "AR-F",
+		"AR-F": {
+			"name": "La Rioja",
 			"postal_code_pattern": "F?5"
 		},
-		"Mendoza": {
-			"iso_code": "AR-M",
+		"AR-M": {
+			"name": "Mendoza",
 			"postal_code_pattern": "M?[56]"
 		},
-		"Misiones": {
-			"iso_code": "AR-N",
+		"AR-N": {
+			"name": "Misiones",
 			"postal_code_pattern": "N?3"
 		},
-		"Neuquén": {
-			"iso_code": "AR-Q",
+		"AR-Q": {
+			"name": "Neuquén",
 			"postal_code_pattern": "Q?[38]"
 		},
-		"Río Negro": {
-			"iso_code": "AR-R",
+		"AR-R": {
+			"name": "Río Negro",
 			"postal_code_pattern": "R?[89]"
 		},
-		"Salta": {
-			"iso_code": "AR-A",
+		"AR-A": {
+			"name": "Salta",
 			"postal_code_pattern": "A?[34]"
 		},
-		"San Juan": {
-			"iso_code": "AR-J",
+		"AR-J": {
+			"name": "San Juan",
 			"postal_code_pattern": "J?5"
 		},
-		"San Luis": {
-			"iso_code": "AR-D",
+		"AR-D": {
+			"name": "San Luis",
 			"postal_code_pattern": "D?[4-6]"
 		},
-		"Santa Cruz": {
-			"iso_code": "AR-Z",
+		"AR-Z": {
+			"name": "Santa Cruz",
 			"postal_code_pattern": "Z?[89]"
 		},
-		"Santa Fe": {
-			"iso_code": "AR-S",
+		"AR-S": {
+			"name": "Santa Fe",
 			"postal_code_pattern": "S?[2368]"
 		},
-		"Santiago del Estero": {
-			"iso_code": "AR-G",
+		"AR-G": {
+			"name": "Santiago del Estero",
 			"postal_code_pattern": "G?[2-5]"
 		},
-		"Tierra del Fuego": {
-			"iso_code": "AR-V",
+		"AR-V": {
+			"name": "Tierra del Fuego",
 			"postal_code_pattern": "V?9"
 		},
-		"Tucumán": {
-			"iso_code": "AR-T",
+		"AR-T": {
+			"name": "Tucumán",
 			"postal_code_pattern": "T?[45]"
 		}
 	}

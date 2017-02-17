@@ -1,80 +1,82 @@
 {
 	"country_code": "UY",
+	"parent_id": null,
+	"locale": "es",
 	"subdivisions": {
-		"Artigas": {
-			"iso_code": "UY-AR",
+		"UY-AR": {
+			"name": "Artigas",
 			"postal_code_pattern": "55"
 		},
-		"Canelones": {
-			"iso_code": "UY-CA",
+		"UY-CA": {
+			"name": "Canelones",
 			"postal_code_pattern": "9[01]|1[456]"
 		},
-		"Cerro Largo": {
-			"iso_code": "UY-CL",
+		"UY-CL": {
+			"name": "Cerro Largo",
 			"postal_code_pattern": "37"
 		},
-		"Colonia": {
-			"iso_code": "UY-CO",
+		"UY-CO": {
+			"name": "Colonia",
 			"postal_code_pattern": "70|75204"
 		},
-		"Durazno": {
-			"iso_code": "UY-DU",
+		"UY-DU": {
+			"name": "Durazno",
 			"postal_code_pattern": "97"
 		},
-		"Flores": {
-			"iso_code": "UY-FS",
+		"UY-FS": {
+			"name": "Flores",
 			"postal_code_pattern": "85"
 		},
-		"Florida": {
-			"iso_code": "UY-FD",
+		"UY-FD": {
+			"name": "Florida",
 			"postal_code_pattern": "94|9060|97005"
 		},
-		"Lavalleja": {
-			"iso_code": "UY-LA",
+		"UY-LA": {
+			"name": "Lavalleja",
 			"postal_code_pattern": "30"
 		},
-		"Maldonado": {
-			"iso_code": "UY-MA",
+		"UY-MA": {
+			"name": "Maldonado",
 			"postal_code_pattern": "20"
 		},
-		"Montevideo": {
-			"iso_code": "UY-MO",
+		"UY-MO": {
+			"name": "Montevideo",
 			"postal_code_pattern": "1|91600"
 		},
-		"Paysandú": {
-			"iso_code": "UY-PA",
+		"UY-PA": {
+			"name": "Paysandú",
 			"postal_code_pattern": "60"
 		},
-		"Río Negro": {
-			"iso_code": "UY-RN",
+		"UY-RN": {
+			"name": "Río Negro",
 			"postal_code_pattern": "65|60002"
 		},
-		"Rivera": {
-			"iso_code": "UY-RV",
+		"UY-RV": {
+			"name": "Rivera",
 			"postal_code_pattern": "40"
 		},
-		"Rocha": {
-			"iso_code": "UY-RO",
+		"UY-RO": {
+			"name": "Rocha",
 			"postal_code_pattern": "27"
 		},
-		"Salto": {
-			"iso_code": "UY-SA",
+		"UY-SA": {
+			"name": "Salto",
 			"postal_code_pattern": "50"
 		},
-		"San José": {
-			"iso_code": "UY-SJ",
+		"UY-SJ": {
+			"name": "San José",
 			"postal_code_pattern": "80"
 		},
-		"Soriano": {
-			"iso_code": "UY-SO",
+		"UY-SO": {
+			"name": "Soriano",
 			"postal_code_pattern": "75|70003"
 		},
-		"Tacuarembó": {
-			"iso_code": "UY-TA",
+		"UY-TA": {
+			"name": "Tacuarembó",
 			"postal_code_pattern": "45"
 		},
-		"Treinta y Tres": {
-			"iso_code": "UY-TT",
+		"UY-TT": {
+			"name": "Treinta y Tres",
 			"postal_code_pattern": "33|30203|30204|30302|37007"
 		}
 	}
