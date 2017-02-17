@@ -13,6 +13,7 @@
         "drupal/better_exposed_filters": "^3.0@alpha",
         "drupal/contact_storage": "^1.0@beta",
         "drupal/devel": "^1.0@RC",
+        "drupal/flag": "^4.0@alpha",
         "drupal/token": "^1.0@RC"
     },
     "replace": {
