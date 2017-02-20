@@ -76,6 +76,18 @@
       margin-top: -7px;
     }
   }
+  .welcome-message-top {
+    color: $white;
+    font-family: $font-body;
+    font-size: 3em;
+    line-height: 1em;
+    margin-bottom: 0;
+
+    img {
+      vertical-align: top;
+      margin-top: -7px;
+    }
+  }
 
   .block-inner {
     width: 100%;

@@ -735,3 +735,17 @@ input[type="checkbox"] {
     }
   }
 }
+
+.learn-more-btn {
+  a {
+    display: inline-block;
+    padding: 7px 20px;
+    background-color: $white;
+    border-radius: 5px;
+    color: $lighter-black;
+    &:hover, &:focus {
+      color: $white;
+      background-color: $lighter-black;
+    }
+  }
+}
