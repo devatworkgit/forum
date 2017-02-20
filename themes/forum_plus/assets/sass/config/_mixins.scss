@@ -24,7 +24,6 @@
 @mixin font-style {
   font-family: $font-primary;
   font-size: $fs-18;
-  text-transform: uppercase;
 }
 
 @mixin border-radius($number...) {

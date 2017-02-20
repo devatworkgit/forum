@@ -108,7 +108,7 @@ see advanced_forum-structure.css.
 }
 /* line 107, ../../../sass/advanced_forum/plus/advanced-forum.plus.style.scss */
 .forum-table-topics td.views-field-title .sticky-label {
-  font-family: "rajdhanisemibold";
+  font-family: "allerbold";
 }
 /* line 110, ../../../sass/advanced_forum/plus/advanced-forum.plus.style.scss */
 .forum-table-topics td.views-field-title .username {
@@ -149,9 +149,8 @@ span.username {
 .forum-table-superheader .forum-table-name,
 .forum-table-superheader .forum-table-name a {
   color: #fff;
-  font-family: "rajdhanisemibold";
+  font-family: "allerbold";
   font-size: 1.2em;
-  text-transform: uppercase;
   font-size: 18px;
   margin: 0;
   line-height: 1;
@@ -240,9 +239,8 @@ td.forum-last-reply .username:hover, td.forum-last-reply .username:focus {
   border-radius: 5px 5px 0 0;
   color: #fff;
   display: block;
-  font-family: "rajdhanisemibold";
+  font-family: "allerbold";
   font-size: 1.2em;
-  text-transform: uppercase;
   float: none;
   margin: -15px -15px 15px;
   padding: 15px;
@@ -252,9 +250,8 @@ td.forum-last-reply .username:hover, td.forum-last-reply .username:focus {
 .forum-list-legend-sub-header {
   color: #2e2e2e;
   background: #fff;
-  font-family: "rajdhanisemibold";
+  font-family: "allerbold";
   font-size: 1.2em;
-  text-transform: uppercase;
   margin-bottom: 10px !important;
   font-size: 1.067em;
   padding-left: 0 !important;
@@ -319,9 +316,8 @@ td.forum-last-reply a:hover, td.forum-last-reply a:focus {
 .forum-table thead tr a:visited,
 .forum-table thead tr a:link {
   color: #fff;
-  font-family: "rajdhanisemibold";
+  font-family: "allerbold";
   font-size: 1.2em;
-  text-transform: uppercase;
   font-weight: normal;
   text-transform: none;
 }
@@ -504,9 +500,8 @@ th.forum-icon {
   border-radius: 5px 5px 0 0;
   padding: 15px 10px;
   color: #fff;
-  font-family: "rajdhanisemibold";
+  font-family: "allerbold";
   font-size: 1.2em;
-  text-transform: uppercase;
 }
 
 /* line 457, ../../../sass/advanced_forum/plus/advanced-forum.plus.style.scss */
@@ -803,9 +798,8 @@ div.forum-post {
 #forum-statistics #forum-statistics-header {
   background: #2e2e2e;
   border-bottom: 1px solid #eaeaea;
-  font-family: "rajdhanisemibold";
+  font-family: "allerbold";
   font-size: 1.2em;
-  text-transform: uppercase;
   padding: 15px 15px 10px;
 }
 /* line 717, ../../../sass/advanced_forum/plus/advanced-forum.plus.style.scss */
@@ -813,9 +807,8 @@ div.forum-post {
   background: #fff;
   color: #2e2e2e;
   border-top: 1px solid #eaeaea;
-  font-family: "rajdhanisemibold";
+  font-family: "allerbold";
   font-size: 1.2em;
-  text-transform: uppercase;
   font-size: 1.067em;
   padding: 15px;
 }
@@ -845,17 +838,15 @@ table.sticky-header {
 /* line 740, ../../../sass/advanced_forum/plus/advanced-forum.plus.style.scss */
 table.sticky-header th {
   color: #fff;
-  font-family: "rajdhanisemibold";
+  font-family: "allerbold";
   font-size: 1.2em;
-  text-transform: uppercase;
   padding: 10px;
 }
 /* line 744, ../../../sass/advanced_forum/plus/advanced-forum.plus.style.scss */
 table.sticky-header th a {
   color: #fff;
-  font-family: "rajdhanisemibold";
+  font-family: "allerbold";
   font-size: 1.2em;
-  text-transform: uppercase;
   font-size: 1em;
   font-weight: normal;
   text-transform: none;

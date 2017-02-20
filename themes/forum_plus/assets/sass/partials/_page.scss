@@ -67,7 +67,7 @@
   .welcome-message {
     color: $white;
     font-family: $font-body;
-    font-size: 4em;
+    font-size: 3.2em;
     line-height: 1em;
     margin-bottom: 0;
 
@@ -272,7 +272,7 @@
         color: $lighter-black;
         font-size: $fs-25;
         padding: 15px;
-
+        
         a {
           color: $lighter-black;
           &:hover, &:focus {
@@ -295,6 +295,7 @@
 
           a {
             color: $lighter-black;
+            font-family: $font-secondary;
             &:hover, &:focus {
               color: $blue;
             }
@@ -310,13 +311,14 @@
         th {
           background: $blue;
           color: $white;
-          font-weight: 500;
           padding: 10px 15px;
           font-size: $fs-14;
+          font-weight: inherit;
           &:first-child {
             border-bottom-left-radius: 5px;
             border-top-left-radius: 5px;
-            font-size: $fs-25;
+            font-size: $fs-22;
+            font-family: $font-primary;
           }
           &:last-child {
             border-bottom-right-radius: 5px;
@@ -341,7 +343,7 @@
         border: medium none;
         padding: 15px;
         vertical-align: middle;
-
+        max-width: 800px;
         > div {
           &:last-child {
             color: $lighter-black;
@@ -352,12 +354,19 @@
 
       a {
         color: $dark;
-        font-size: $fs-18;
         line-height: 8px;
         margin-bottom: 3px;
 
         &:hover, &:focus {
           color: $blue;
+        }
+      }
+      
+      td:first-child {
+        div:first-child {
+          a {
+            font-size: $fs-20;
+          }
         }
       }
 
