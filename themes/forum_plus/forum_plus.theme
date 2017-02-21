@@ -103,11 +103,14 @@ function forum_plus_preprocess_node(&$variables) {
 	if ($node->getType() == 'forum' || $node->getType() == 'question') {
 		// general info
 		$variables['links'] = isset($variables['content']['links'])?$variables['content']['links']:null;
-		$variables['comment'] = isset($variables['content']['comment_forum'])?$variables['content']['comment_forum']:null;
-		$variables['comment'] = isset($variables['content']['field_comments'])?$variables['content']['field_comments']:null;
+    if ($node->getType() == 'forum') {
+      $variables['comment'] = isset($variables['content']['comment_forum'])?$variables['content']['comment_forum']:null;
+    } elseif ($node->getType() == 'question') {
+      $variables['comment'] = isset($variables['content']['field_comments'])?$variables['content']['field_comments']:null;
+    }
 		unset($variables['content']['links']);
-		//unset($variables['content']['comment_forum']);
-		///unset($variables['content']['field_comments']);
+		unset($variables['content']['comment_forum']);
+		unset($variables['content']['field_comments']);
 
 		// count posts total in topic
 		$query = \Drupal::entityQuery('comment')
