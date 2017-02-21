@@ -92,7 +92,7 @@ function forum_plus_preprocess_maintenance_page(&$variables) {
 function forum_plus_preprocess_node(&$variables) {
   // Remove the "Add new comment" link on teasers or when the comment form is
   // displayed on the page.
-  if ($variables['teaser'] || !empty($variables['content']['comments']['comment_form'])) {
+  if ($variables['teaser'] || !empty($variables['content']['comments']['comment_form'] || !empty($variables['content']['comments']['field_comments'])) {
     unset($variables['content']['links']['comment']['#links']['comment-add']);
   }
 
@@ -104,8 +104,10 @@ function forum_plus_preprocess_node(&$variables) {
 		// general info
 		$variables['links'] = isset($variables['content']['links'])?$variables['content']['links']:null;
 		$variables['comment'] = isset($variables['content']['comment_forum'])?$variables['content']['comment_forum']:null;
+		$variables['comment'] = isset($variables['content']['field_comments'])?$variables['content']['field_comments']:null;
 		unset($variables['content']['links']);
 		unset($variables['content']['comment_forum']);
+		unset($variables['content']['field_comments']);
 
 		// count posts total in topic
 		$query = \Drupal::entityQuery('comment')
