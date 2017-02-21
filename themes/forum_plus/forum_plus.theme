@@ -129,40 +129,38 @@ function forum_plus_preprocess_comment(&$variables) {
 	if(!$comment->id()) {
 		return;
 	}
-	if ($comment->getTypeId() == 'comment_forum') {
-		// post index
-		$comment_storage = \Drupal::entityManager()->getStorage('comment');
-		$entity = $comment_storage->load($comment->id());
-		$entity_id = $entity->getCommentedEntityId();
-		$cids = \Drupal::entityQuery('comment')
-			->condition('entity_id', $entity_id)
-			->execute();
-		$index = 0;
-		$i = 0;
-		foreach ($cids as $key => $value) {
-			if ($value == $comment->id()) {
-				$index = $i;
-				break;
-			}
-			$i++;
-		}
-		$index += 2;
-		$permalink_url = $variables['permalink']->getGeneratedLink();
-		$permalink_url = explode(" ", $permalink_url)[1]; // result: href="/forum_plus/forum/headline-news-0#comment-x"
-		$permalink_url = explode("\"", $permalink_url)[1]; // result: /forum_plus/forum/headline-news-0#comment-x
-		$permalink_title = "#" . $index;
-		$permalink = \Drupal::l($permalink_title, $comment->permalink());
-		$variables['permalink'] = $permalink;
+  // post index
+  $comment_storage = \Drupal::entityManager()->getStorage('comment');
+  $entity = $comment_storage->load($comment->id());
+  $entity_id = $entity->getCommentedEntityId();
+  $cids = \Drupal::entityQuery('comment')
+    ->condition('entity_id', $entity_id)
+    ->execute();
+  $index = 0;
+  $i = 0;
+  foreach ($cids as $key => $value) {
+    if ($value == $comment->id()) {
+      $index = $i;
+      break;
+    }
+    $i++;
+  }
+  $index += 2;
+  $permalink_url = $variables['permalink']->getGeneratedLink();
+  $permalink_url = explode(" ", $permalink_url)[1]; // result: href="/forum_plus/forum/headline-news-0#comment-x"
+  $permalink_url = explode("\"", $permalink_url)[1]; // result: /forum_plus/forum/headline-news-0#comment-x
+  $permalink_title = "#" . $index;
+  $permalink = \Drupal::l($permalink_title, $comment->permalink());
+  $variables['permalink'] = $permalink;
 
-		// user info
-		$user = $comment->getOwner();
-		$deltaLastAccess = time() - $user->getLastAccessedTime();
-		$minutes = 15;
-		$variables['author_joined_date'] = date('m/d/Y - H:i', $user->getCreatedTime());
-		$variables['author_last_access'] = date('m/d/Y - H:i', $user->getLastAccessedTime());
-		$variables['author_is_online'] = ($deltaLastAccess <= $minutes * 60) ? 1:0;
-		$variables['title'] = strip_tags($variables['title']);
-	}
+  // user info
+  $user = $comment->getOwner();
+  $deltaLastAccess = time() - $user->getLastAccessedTime();
+  $minutes = 15;
+  $variables['author_joined_date'] = date('m/d/Y - H:i', $user->getCreatedTime());
+  $variables['author_last_access'] = date('m/d/Y - H:i', $user->getLastAccessedTime());
+  $variables['author_is_online'] = ($deltaLastAccess <= $minutes * 60) ? 1:0;
+  $variables['title'] = strip_tags($variables['title']);
 }
 
 /**
