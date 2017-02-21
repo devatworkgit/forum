@@ -682,24 +682,20 @@ input[type="checkbox"] {
   width: 100%;
 }
 /* line 317, ../sass/base/_elements.scss */
-.node .field--name-field-image,
-.node .field--type-image,
 .node .field--type-video-embed-field {
   margin: 0 -30px 15px;
 }
-/* line 322, ../sass/base/_elements.scss */
-.node .field--name-field-image img,
-.node .field--type-image img,
+/* line 320, ../sass/base/_elements.scss */
 .node .field--type-video-embed-field img {
   width: 100%;
 }
-/* line 327, ../sass/base/_elements.scss */
+/* line 325, ../sass/base/_elements.scss */
 .node .node__links {
   margin-bottom: 10px;
 }
 
 /* comment */
-/* line 335, ../sass/base/_elements.scss */
+/* line 333, ../sass/base/_elements.scss */
 .comment-wrapper h2 {
   color: #4e4e4e;
   font-weight: normal;
@@ -707,13 +703,13 @@ input[type="checkbox"] {
   font-size: 1.2em !important;
   text-transform: uppercase;
 }
-/* line 343, ../sass/base/_elements.scss */
+/* line 341, ../sass/base/_elements.scss */
 .comment-wrapper .indented {
   padding-left: 75px;
   margin-left: 0;
 }
 
-/* line 349, ../sass/base/_elements.scss */
+/* line 347, ../sass/base/_elements.scss */
 .comment, .question {
   padding: 20px 30px 20px 105px;
   position: relative;
@@ -727,21 +723,21 @@ input[type="checkbox"] {
   line-height: 0;
   visibility: hidden;
 }
-/* line 353, ../sass/base/_elements.scss */
+/* line 351, ../sass/base/_elements.scss */
 .comment h3, .question h3 {
   font-size: 1.2em;
   font-weight: bold;
   margin-bottom: 7px;
 }
-/* line 358, ../sass/base/_elements.scss */
+/* line 356, ../sass/base/_elements.scss */
 .comment h3 a, .question h3 a {
   color: #7d7d7d;
 }
-/* line 361, ../sass/base/_elements.scss */
+/* line 359, ../sass/base/_elements.scss */
 .comment h3 a:hover, .comment h3 a:focus, .question h3 a:hover, .question h3 a:focus {
   color: #4585f2;
 }
-/* line 368, ../sass/base/_elements.scss */
+/* line 366, ../sass/base/_elements.scss */
 .comment .submitted, .question .submitted {
   color: #bababa;
 }
@@ -754,30 +750,30 @@ input[type="checkbox"] {
   line-height: 0;
   visibility: hidden;
 }
-/* line 376, ../sass/base/_elements.scss */
+/* line 374, ../sass/base/_elements.scss */
 .comment .field--name-user-picture, .question .field--name-user-picture {
   border: 1px solid #eaeaea;
   margin: 0;
   max-width: 60px;
 }
-/* line 382, ../sass/base/_elements.scss */
+/* line 380, ../sass/base/_elements.scss */
 .comment ul.links.inline, .comment .link-wrapper, .question ul.links.inline, .question .link-wrapper {
   border-top: none;
   padding-top: 0 !important;
   margin-bottom: 0 !important;
 }
-/* line 387, ../sass/base/_elements.scss */
+/* line 385, ../sass/base/_elements.scss */
 .comment ul.links.inline li, .comment ul.links.inline .link, .comment .link-wrapper li, .comment .link-wrapper .link, .question ul.links.inline li, .question ul.links.inline .link, .question .link-wrapper li, .question .link-wrapper .link {
   color: #7d7d7d;
   display: inline-block;
   margin: 0 15px 5px 0;
   padding: 0;
 }
-/* line 393, ../sass/base/_elements.scss */
+/* line 391, ../sass/base/_elements.scss */
 .comment ul.links.inline li:first-child, .comment ul.links.inline .link:first-child, .comment .link-wrapper li:first-child, .comment .link-wrapper .link:first-child, .question ul.links.inline li:first-child, .question ul.links.inline .link:first-child, .question .link-wrapper li:first-child, .question .link-wrapper .link:first-child {
   margin-left: 0;
 }
-/* line 397, ../sass/base/_elements.scss */
+/* line 395, ../sass/base/_elements.scss */
 .comment ul.links.inline li a, .comment ul.links.inline .link a, .comment .link-wrapper li a, .comment .link-wrapper .link a, .question ul.links.inline li a, .question ul.links.inline .link a, .question .link-wrapper li a, .question .link-wrapper .link a {
   background: transparent;
   border: 1px solid #ededed;
@@ -790,7 +786,7 @@ input[type="checkbox"] {
   line-height: 1;
   display: inline-block;
 }
-/* line 409, ../sass/base/_elements.scss */
+/* line 407, ../sass/base/_elements.scss */
 .comment ul.links.inline li a:hover, .comment ul.links.inline li a:focus, .comment ul.links.inline .link a:hover, .comment ul.links.inline .link a:focus, .comment .link-wrapper li a:hover, .comment .link-wrapper li a:focus, .comment .link-wrapper .link a:hover, .comment .link-wrapper .link a:focus, .question ul.links.inline li a:hover, .question ul.links.inline li a:focus, .question ul.links.inline .link a:hover, .question ul.links.inline .link a:focus, .question .link-wrapper li a:hover, .question .link-wrapper li a:focus, .question .link-wrapper .link a:hover, .question .link-wrapper .link a:focus {
   background: #4585f2;
   color: #fff;
@@ -805,49 +801,49 @@ input[type="checkbox"] {
   line-height: 0;
   visibility: hidden;
 }
-/* line 421, ../sass/base/_elements.scss */
+/* line 419, ../sass/base/_elements.scss */
 .comment .views-field-uid, .comment .views-field-field-payer, .question .views-field-uid, .question .views-field-field-payer {
   float: left;
   font-weight: 700;
 }
-/* line 424, ../sass/base/_elements.scss */
+/* line 422, ../sass/base/_elements.scss */
 .comment .views-field-uid .views-label-field-payer, .comment .views-field-field-payer .views-label-field-payer, .question .views-field-uid .views-label-field-payer, .question .views-field-field-payer .views-label-field-payer {
   float: left;
   color: #7d7d7d;
 }
-/* line 430, ../sass/base/_elements.scss */
+/* line 428, ../sass/base/_elements.scss */
 .comment .views-field-uid, .question .views-field-uid {
   margin-right: 15px;
 }
-/* line 434, ../sass/base/_elements.scss */
+/* line 432, ../sass/base/_elements.scss */
 .comment .views-field-field-payer .field-content, .question .views-field-field-payer .field-content {
   float: left;
   margin-left: 5px;
 }
-/* line 439, ../sass/base/_elements.scss */
+/* line 437, ../sass/base/_elements.scss */
 .comment .views-field-body, .question .views-field-body {
   width: 100%;
   float: left;
   margin-top: 20px;
 }
-/* line 444, ../sass/base/_elements.scss */
+/* line 442, ../sass/base/_elements.scss */
 .comment .link-wrapper, .question .link-wrapper {
   float: right;
 }
-/* line 447, ../sass/base/_elements.scss */
+/* line 445, ../sass/base/_elements.scss */
 .comment .views-field-comment-count, .comment .views-field-count, .question .views-field-comment-count, .question .views-field-count {
   float: right;
 }
-/* line 450, ../sass/base/_elements.scss */
+/* line 448, ../sass/base/_elements.scss */
 .comment .views-field-last-comment-timestamp, .question .views-field-last-comment-timestamp {
   float: left;
   color: #7d7d7d;
 }
-/* line 454, ../sass/base/_elements.scss */
+/* line 452, ../sass/base/_elements.scss */
 .comment .views-field-comment-count, .question .views-field-comment-count {
   margin: 0 15px 5px 0;
 }
-/* line 456, ../sass/base/_elements.scss */
+/* line 454, ../sass/base/_elements.scss */
 .comment .views-field-comment-count span, .question .views-field-comment-count span {
   min-width: 20px;
   text-align: center;
@@ -857,7 +853,7 @@ input[type="checkbox"] {
   z-index: 2;
   position: relative;
 }
-/* line 465, ../sass/base/_elements.scss */
+/* line 463, ../sass/base/_elements.scss */
 .comment .views-field-comment-count:after, .question .views-field-comment-count:after {
   content: '';
   display: block;
@@ -871,7 +867,7 @@ input[type="checkbox"] {
   transform: rotate(45deg);
   margin-top: -5px;
 }
-/* line 477, ../sass/base/_elements.scss */
+/* line 475, ../sass/base/_elements.scss */
 .comment .views-field-count span, .question .views-field-count span {
   min-width: 20px;
   text-align: center;
@@ -881,7 +877,7 @@ input[type="checkbox"] {
   position: relative;
   line-height: 30px;
 }
-/* line 486, ../sass/base/_elements.scss */
+/* line 484, ../sass/base/_elements.scss */
 .comment .views-field-count:after, .question .views-field-count:after {
   content: '\2665';
   display: block;
@@ -891,37 +887,37 @@ input[type="checkbox"] {
   line-height: 30px;
   margin-top: -29px;
 }
-/* line 497, ../sass/base/_elements.scss */
+/* line 495, ../sass/base/_elements.scss */
 .comment .new, .question .new {
   float: right;
   margin: 0 0 5px 10px;
   color: #4585f2;
 }
-/* line 503, ../sass/base/_elements.scss */
+/* line 501, ../sass/base/_elements.scss */
 .comment .field-name-comment-body, .question .field-name-comment-body {
   margin-bottom: 5px;
 }
-/* line 507, ../sass/base/_elements.scss */
+/* line 505, ../sass/base/_elements.scss */
 .comment .profile, .question .profile {
   position: absolute;
   left: 30px;
   top: 20px;
 }
-/* line 514, ../sass/base/_elements.scss */
+/* line 512, ../sass/base/_elements.scss */
 .comment .submitted > p, .question .submitted > p {
   display: inline-block;
   margin-bottom: 0;
 }
-/* line 519, ../sass/base/_elements.scss */
+/* line 517, ../sass/base/_elements.scss */
 .comment .submitted .comment__time, .question .submitted .comment__time {
   display: block;
 }
 
-/* line 526, ../sass/base/_elements.scss */
+/* line 524, ../sass/base/_elements.scss */
 #comment-form label {
   min-width: 120px;
 }
-/* line 530, ../sass/base/_elements.scss */
+/* line 528, ../sass/base/_elements.scss */
 #comment-form .node {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -930,19 +926,19 @@ input[type="checkbox"] {
   margin-top: 30px;
 }
 
-/* line 539, ../sass/base/_elements.scss */
+/* line 537, ../sass/base/_elements.scss */
 .comment-form,
 .comment,
 .confirmation {
   background-color: #fff;
 }
-/* line 544, ../sass/base/_elements.scss */
+/* line 542, ../sass/base/_elements.scss */
 .comment-form .form-actions,
 .comment .form-actions,
 .confirmation .form-actions {
   margin-top: 30px;
 }
-/* line 547, ../sass/base/_elements.scss */
+/* line 545, ../sass/base/_elements.scss */
 .comment-form .form-actions .form-submit,
 .comment .form-actions .form-submit,
 .confirmation .form-actions .form-submit {
@@ -950,12 +946,12 @@ input[type="checkbox"] {
   margin-left: 0;
 }
 
-/* line 554, ../sass/base/_elements.scss */
+/* line 552, ../sass/base/_elements.scss */
 .comment-form {
   padding: 20px 30px;
 }
 
-/* line 558, ../sass/base/_elements.scss */
+/* line 556, ../sass/base/_elements.scss */
 .comment-preview {
   padding-top: 0;
   padding-left: 0;
@@ -963,89 +959,89 @@ input[type="checkbox"] {
   box-shadow: none;
 }
 
-/* line 566, ../sass/base/_elements.scss */
+/* line 564, ../sass/base/_elements.scss */
 #edit-author .description {
   padding-left: 125px;
   padding-top: 5px;
 }
-/* line 571, ../sass/base/_elements.scss */
+/* line 569, ../sass/base/_elements.scss */
 #edit-author #edit-date {
   min-width: 0;
   margin-bottom: 15px;
 }
-/* line 577, ../sass/base/_elements.scss */
+/* line 575, ../sass/base/_elements.scss */
 #edit-author #edit-status .form-radio {
   margin-right: 5px;
 }
 
 /* search page */
-/* line 585, ../sass/base/_elements.scss */
+/* line 583, ../sass/base/_elements.scss */
 #search-form {
   margin-bottom: 20px;
 }
-/* line 588, ../sass/base/_elements.scss */
+/* line 586, ../sass/base/_elements.scss */
 #search-form #edit-basic {
   margin-bottom: 20px;
 }
-/* line 591, ../sass/base/_elements.scss */
+/* line 589, ../sass/base/_elements.scss */
 #search-form #edit-basic label {
   margin-right: 5px;
 }
-/* line 595, ../sass/base/_elements.scss */
+/* line 593, ../sass/base/_elements.scss */
 #search-form #edit-basic .form-text, #search-form #edit-basic .form-email {
   height: 37px;
 }
-/* line 601, ../sass/base/_elements.scss */
+/* line 599, ../sass/base/_elements.scss */
 #search-form #edit-advanced label {
   min-width: 190px;
 }
 
-/* line 608, ../sass/base/_elements.scss */
+/* line 606, ../sass/base/_elements.scss */
 .search-advanced .criterion {
   float: none;
   margin: 0 0 20px;
 }
-/* line 612, ../sass/base/_elements.scss */
+/* line 610, ../sass/base/_elements.scss */
 .search-advanced .criterion label {
   min-width: 220px;
 }
-/* line 616, ../sass/base/_elements.scss */
+/* line 614, ../sass/base/_elements.scss */
 .search-advanced .criterion .form-checkbox {
   margin-right: 5px;
 }
 
-/* line 622, ../sass/base/_elements.scss */
+/* line 620, ../sass/base/_elements.scss */
 .search-results {
   margin-bottom: 20px;
   padding-left: 0;
 }
-/* line 626, ../sass/base/_elements.scss */
+/* line 624, ../sass/base/_elements.scss */
 .search-results li {
   margin-bottom: 15px;
   margin-left: 0;
   padding-bottom: 15px;
   border-bottom: 1px solid #e1e1e1;
 }
-/* line 632, ../sass/base/_elements.scss */
+/* line 630, ../sass/base/_elements.scss */
 .search-results li:last-child {
   border-bottom: none;
   margin-bottom: 0;
   padding-bottom: 0;
 }
-/* line 638, ../sass/base/_elements.scss */
+/* line 636, ../sass/base/_elements.scss */
 .search-results li h3 {
   font-size: 1.2em;
   margin-bottom: 10px;
 }
-/* line 642, ../sass/base/_elements.scss */
+/* line 640, ../sass/base/_elements.scss */
 .search-results li h3 a {
   color: #2e2e2e;
 }
-/* line 645, ../sass/base/_elements.scss */
+/* line 643, ../sass/base/_elements.scss */
 .search-results li h3 a:hover, .search-results li h3 a:focus {
   color: #4585f2;
 }
-/* line 653, ../sass/base/_elements.scss */
+/* line 651, ../sass/base/_elements.scss */
 .search-results .search-result__info {
   margin-bottom: 0;
   color: #999;
@@ -1053,7 +1049,7 @@ input[type="checkbox"] {
 }
 
 /* tags */
-/* line 662, ../sass/base/_elements.scss */
+/* line 660, ../sass/base/_elements.scss */
 .field--name-field-tags,
 .field-name-field-section,
 .field-name-field-category {
@@ -1061,7 +1057,7 @@ input[type="checkbox"] {
   margin-bottom: 5px;
   margin-top: 5px;
 }
-/* line 669, ../sass/base/_elements.scss */
+/* line 667, ../sass/base/_elements.scss */
 .field--name-field-tags .field-label,
 .field-name-field-section .field-label,
 .field-name-field-category .field-label {
@@ -1070,7 +1066,7 @@ input[type="checkbox"] {
   font-weight: 700;
   text-transform: uppercase;
 }
-/* line 676, ../sass/base/_elements.scss */
+/* line 674, ../sass/base/_elements.scss */
 .field--name-field-tags .field__items,
 .field-name-field-section .field__items,
 .field-name-field-category .field__items {
@@ -1078,14 +1074,14 @@ input[type="checkbox"] {
   overflow: hidden;
   text-transform: capitalize;
 }
-/* line 681, ../sass/base/_elements.scss */
+/* line 679, ../sass/base/_elements.scss */
 .field--name-field-tags .field__items li,
 .field-name-field-section .field__items li,
 .field-name-field-category .field__items li {
   display: inline-block;
   margin: 0 5px 5px 0;
 }
-/* line 685, ../sass/base/_elements.scss */
+/* line 683, ../sass/base/_elements.scss */
 .field--name-field-tags .field__items li a,
 .field-name-field-section .field__items li a,
 .field-name-field-category .field__items li a {
@@ -1098,7 +1094,7 @@ input[type="checkbox"] {
   padding: 4px 8px 3px;
   font-size: 0.912em;
 }
-/* line 695, ../sass/base/_elements.scss */
+/* line 693, ../sass/base/_elements.scss */
 .field--name-field-tags .field__items li a:hover, .field--name-field-tags .field__items li a:focus,
 .field-name-field-section .field__items li a:hover,
 .field-name-field-section .field__items li a:focus,
@@ -1107,12 +1103,12 @@ input[type="checkbox"] {
   background: #4585f2;
 }
 
-/* line 704, ../sass/base/_elements.scss */
+/* line 702, ../sass/base/_elements.scss */
 .views-field-field-tags {
   float: left;
   overflow: hidden;
 }
-/* line 708, ../sass/base/_elements.scss */
+/* line 706, ../sass/base/_elements.scss */
 .views-field-field-tags .item-list ul li {
   list-style: none;
   margin-left: 0;
@@ -1120,7 +1116,7 @@ input[type="checkbox"] {
   float: left;
   margin-bottom: 1px;
 }
-/* line 715, ../sass/base/_elements.scss */
+/* line 713, ../sass/base/_elements.scss */
 .views-field-field-tags .item-list ul li a {
   border: 1px solid #ededed;
   color: #888888;
@@ -1136,14 +1132,14 @@ input[type="checkbox"] {
   -moz-transition: all 300ms;
   transition: all 300ms;
 }
-/* line 729, ../sass/base/_elements.scss */
+/* line 727, ../sass/base/_elements.scss */
 .views-field-field-tags .item-list ul li a:hover, .views-field-field-tags .item-list ul li a:focus {
   background: #4585f2;
   border-color: #4585f2;
   color: #fff;
 }
 
-/* line 740, ../sass/base/_elements.scss */
+/* line 738, ../sass/base/_elements.scss */
 .learn-more-btn a {
   display: inline-block;
   padding: 7px 20px;
@@ -1151,7 +1147,7 @@ input[type="checkbox"] {
   border-radius: 5px;
   color: #383838;
 }
-/* line 746, ../sass/base/_elements.scss */
+/* line 744, ../sass/base/_elements.scss */
 .learn-more-btn a:hover, .learn-more-btn a:focus {
   color: #fff;
   background-color: #383838;
@@ -3581,7 +3577,6 @@ td.forum-number-topics, td.forum-number-posts {
 /* line 769, ../sass/partials/_page.scss */
 .forum-post-panel-sub .author-picture a {
   display: inline-block;
-  border: 1px solid #eaeaea;
   text-align: center;
   width: 100%;
 }
