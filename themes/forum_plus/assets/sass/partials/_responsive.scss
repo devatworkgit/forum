@@ -350,6 +350,18 @@
 			margin-left: 0;
 		}
 	}
+  
+  #contact-message-payer-contracts-form {
+    .form-item-field-name-0-value,
+    .field--name-field-email {
+      float: none;
+			width: 100%;
+      padding: 0;
+    }
+    .form-item-field-name-0-value, .field--name-field-email {
+      padding: 0;
+    }
+  }
 
 	#user-register-form {
 		#edit-account {
