@@ -669,6 +669,30 @@ td.forum-number-topics, td.forum-number-posts {
   }
 }
 
+#contact-message-payer-contracts-form {
+  .form-item-field-name-0-value,
+  .field--name-field-email {
+    float: left;
+    width: 50%;
+    max-width: inherit;
+    clear: none;
+    input.form-text, select {
+      width: 100%;
+    }
+  }
+  .form-item-field-name-0-value {
+    padding-right: 15px;
+    clear: left;
+  }
+  .field--name-field-email {
+    padding-left: 15px;
+  }
+  .captcha {
+    float: left;
+    width: 100%;
+  }
+}
+
 .action-links {
   margin: 0;
 }
