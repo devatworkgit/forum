@@ -100,7 +100,7 @@ function forum_plus_preprocess_node(&$variables) {
 /*	var_dump($node->getType());
 	var_dump($node);
 	exit;*/
-	if ($node->getType() == 'forum') {
+	if ($node->getType() == 'forum' || $node->getType() == 'question') {
 		// general info
 		$variables['links'] = isset($variables['content']['links'])?$variables['content']['links']:null;
 		$variables['comment'] = isset($variables['content']['comment_forum'])?$variables['content']['comment_forum']:null;
