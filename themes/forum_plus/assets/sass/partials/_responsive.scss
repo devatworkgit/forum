@@ -334,11 +334,15 @@
   }
 	/* users page*/
 	/* login */
-	#user-login-form, #user-register-form {
-		.form-item {
+	#user-login-form, #user-register-form, #user-form, .user-form {
+		.form-item, .field--name-field-first-name, .field--name-field-last-name, .field--name-field-i-m-a- {
 			float: none;
 			width: 100%;
+      padding: 0;
 		}
+    .form-item-current-pass + .form-item-mail {
+      padding: 0;
+    }
 		.form-text {
 			width: 100%;
 		}

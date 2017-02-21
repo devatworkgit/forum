@@ -566,31 +566,35 @@ td.forum-number-topics, td.forum-number-posts {
     padding-top: 5px;
   }
 
-  .form-actions {
-    margin-left: 50%;
-  }
-
   .form-managed-file {
     display: inline-block;
   }
 
-  .form-item {
+  .form-item-name, .form-item-pass {
     float: left;
     width: 50%;
   }
-
-  .form-text {
-    width: 90%;
+  .form-item-name {
+    padding-right: 15px;
+  }
+  .form-item-pass {
+    padding-left: 15px;
+  }
+  .captcha {
+    float: left;
+    width: 100%;
+  }
+  #edit-actions {
+    @include clearfix;
+    clear: both;
   }
 }
 
 .form-email {
   @extend .form-text;
-
-  height: 30px;
 }
 
-#user-register-form {
+#user-register-form, #user-form, .user-form {
   label {
     margin-right: 5px;
   }
@@ -610,14 +614,44 @@ td.forum-number-topics, td.forum-number-posts {
 
     @include clearfix;
 
-    .form-item {
-      float: left;
-      width: 50%;
+  }
+  
+  .form-item-mail, 
+  .form-item-name, 
+  .password-parent, 
+  .confirm-parent, 
+  .form-item-current-pass, 
+  .field--name-field-first-name, 
+  .field--name-field-last-name, 
+  .field--name-field-i-m-a- {
+    float: left;
+    width: 50%;
+    max-width: inherit;
+    clear: none;
+    input.form-text, select {
+      width: 100%;
     }
-
-    .form-type-email {
-      padding-right: 30px;
-    }
+  }
+  .form-item-mail, .form-item-current-pass, .password-parent, .field--name-field-first-name, .field--name-field-i-m-a- {
+    padding-right: 15px;
+    clear: left;
+  }
+  .form-item-name, .confirm-parent, .field--name-field-last-name {
+    padding-left: 15px;
+  }
+  .form-item-current-pass + .form-item-mail {
+    padding-right: 0;
+    padding-left: 15px;
+    clear: none;
+  }
+  
+  #edit-pass {
+    @include clearfix;
+    clear: both;
+  }
+  
+  #edit-pass--description, .password-suggestions {
+    clear: both;
   }
 
   .field--name-user-picture {
@@ -625,20 +659,12 @@ td.forum-number-topics, td.forum-number-posts {
       font-weight: 700;
     }
   }
-}
-
-#user-pass {
-  label {
-    min-width: 210px;
+  #edit-actions {
+    @include clearfix;
+    clear: both;
   }
-
-  .description {
-    padding-left: 215px;
-    padding-top: 5px;
-  }
-
-  .form-text {
-    max-width: 300px;
+  .captcha {
+    float: left;
     width: 100%;
   }
 }
