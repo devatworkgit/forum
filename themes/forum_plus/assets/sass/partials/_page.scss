@@ -11,6 +11,11 @@
   background-color: $white;
   box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
   padding: 15px;
+  @include clearfix;
+}
+
+.region-gmap {
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
 }
 
 .site-branding__logo {
@@ -148,15 +153,6 @@
 .path-contact {
   #main {
     padding-bottom: 15px;
-  }
-
-  #content {
-    background: $white;
-    padding: 30px 30px 15px;
-
-    @include border-radius(5px);
-
-    @include clearfix;
   }
 
   #block-getintouch {
