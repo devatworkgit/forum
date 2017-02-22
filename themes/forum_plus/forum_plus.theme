@@ -118,7 +118,6 @@ function forum_plus_preprocess_node(&$variables) {
           return ($a['#weight'] < $b['#weight']) ? -1 : 1;
         }
       }); 
-      kint($variables['comment'][0]['comments']);
     } elseif ($node->getType() == 'question') {
       $variables['comment'] = isset($variables['content']['field_comments'])?$variables['content']['field_comments']:null;
       foreach ($variables['comment'][0]['comments'] as $key => $comment) {
