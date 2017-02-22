@@ -127,7 +127,7 @@ function forum_plus_preprocess_node(&$variables) {
       $variables['comment'][0]['comments']['pager'] = $pager;
       
     } elseif ($node->getType() == 'question') {
-      $variables['comment'] = isset($variables['content']['comment_forum'])?$variables['content']['comment_forum']:null;
+       $variables['comment'] = isset($variables['content']['field_comments'])?$variables['content']['field_comments']:null;
       foreach ($variables['comment'][0]['comments'] as $key => $comment) {
         if(isset($comment['#weight'])) {
           $weight = $comment['#comment']->get('field_weight')->getValue();
