@@ -108,40 +108,47 @@ function forum_plus_preprocess_node(&$variables) {
       foreach ($variables['comment'][0]['comments'] as $key => $comment) {
         if(isset($comment['#weight'])) {
           $weight = $comment['#comment']->get('field_weight')->getValue();
+          $array_comments[$key] = $comment;
+          unset($variables['comment'][0]['comments'][$key]);
           if (isset($weight[0])) {
-            $variables['comment'][0]['comments'][$key]['#weight'] = intval($weight[0]['value']);
+            $array_comments[$key]['#weight'] = intval($weight[0]['value']);
           }
         }
       }
-      uasort($variables['comment'][0]['comments'], function($a, $b){
+      uasort($array_comments, function($a, $b){
         if(isset($a['#weight']) && isset($b['#weight'])) {
-          if ($a['#weight'] < $b['#weight']) {
-            return -1;
-          } else {
-            return 1;
-          }
+          return ($a['#weight'] < $b['#weight']) ? -1 : 1;
         }
       }); 
-      kint($variables['comment'][0]['comments']);
+      $variables['comment'][0]['comments'] = array_replace($variables['comment'][0]['comments'], $array_comments);
+     
+      $pager = $variables['comment'][0]['comments']['pager'];
+      unset($variables['comment'][0]['comments']['pager']);
+      $variables['comment'][0]['comments']['pager'] = $pager;
+      
     } elseif ($node->getType() == 'question') {
-      $variables['comment'] = isset($variables['content']['field_comments'])?$variables['content']['field_comments']:null;
+      $variables['comment'] = isset($variables['content']['comment_forum'])?$variables['content']['comment_forum']:null;
       foreach ($variables['comment'][0]['comments'] as $key => $comment) {
         if(isset($comment['#weight'])) {
           $weight = $comment['#comment']->get('field_weight')->getValue();
+          $array_comments[$key] = $comment;
+          unset($variables['comment'][0]['comments'][$key]);
           if (isset($weight[0])) {
-            $variables['comment'][0]['comments'][$key]['#weight'] = intval($weight[0]['value']);
+            $array_comments[$key]['#weight'] = intval($weight[0]['value']);
           }
         }
       }
-      uasort($variables['comment'][0]['comments'], function($a, $b){
+      uasort($array_comments, function($a, $b){
         if(isset($a['#weight']) && isset($b['#weight'])) {
-          if ($a['#weight'] < $b['#weight']) {
-            return -1;
-          } else {
-            return 1;
-          }
+          return ($a['#weight'] < $b['#weight']) ? -1 : 1;
         }
-      });
+      }); 
+      $variables['comment'][0]['comments'] = array_replace($variables['comment'][0]['comments'], $array_comments);
+     
+      $pager = $variables['comment'][0]['comments']['pager'];
+      unset($variables['comment'][0]['comments']['pager']);
+      $variables['comment'][0]['comments']['pager'] = $pager;
+      
     }
 		unset($variables['content']['links']);
 		unset($variables['content']['comment_forum']);
