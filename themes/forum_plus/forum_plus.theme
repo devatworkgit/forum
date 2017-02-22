@@ -105,8 +105,34 @@ function forum_plus_preprocess_node(&$variables) {
 		$variables['links'] = isset($variables['content']['links'])?$variables['content']['links']:null;
     if ($node->getType() == 'forum') {
       $variables['comment'] = isset($variables['content']['comment_forum'])?$variables['content']['comment_forum']:null;
+      foreach ($variables['comment'][0]['comments'] as $key => $comment) {
+        if(isset($comment['#weight'])) {
+          $weight = $comment['#comment']->get('field_weight')->getValue();
+          if (isset($weight[0])) {
+            $variables['comment'][0]['comments'][$key]['#weight'] = $weight[0]['value'];
+          }
+        }
+      }
+      uasort($variables['comment'][0]['comments'], function($a, $b){
+        if(isset($a['#weight']) && isset($b['#weight'])) {
+          return ($a['#weight'] < $b['#weight']) ? -1 : 1;
+        }
+      }); 
     } elseif ($node->getType() == 'question') {
       $variables['comment'] = isset($variables['content']['field_comments'])?$variables['content']['field_comments']:null;
+      foreach ($variables['comment'][0]['comments'] as $key => $comment) {
+        if(isset($comment['#weight'])) {
+          $weight = $comment['#comment']->get('field_weight')->getValue();
+          if (isset($weight[0])) {
+            $variables['comment'][0]['comments'][$key]['#weight'] = $weight[0]['value'];
+          }
+        }
+      }
+      uasort($variables['comment'][0]['comments'], function($a, $b){
+        if(isset($a['#weight']) && isset($b['#weight'])) {
+          return ($a['#weight'] < $b['#weight']) ? -1 : 1;
+        }
+      });
     }
 		unset($variables['content']['links']);
 		unset($variables['content']['comment_forum']);
@@ -166,6 +192,10 @@ function forum_plus_preprocess_comment(&$variables) {
   $variables['author_last_access'] = date('m/d/Y - H:i', $user->getLastAccessedTime());
   $variables['author_is_online'] = ($deltaLastAccess <= $minutes * 60) ? 1:0;
   $variables['title'] = strip_tags($variables['title']);
+  $sponsored = $comment->get('field_sponsored')->getValue();
+  if (isset($sponsored[0]) && $sponsored[0]['value']) {
+    $variables['attributes']['class'][] = 'sponsored';
+  }
 }
 
 /**
