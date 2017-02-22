@@ -122,7 +122,7 @@ function forum_plus_preprocess_node(&$variables) {
           }
         }
       }); 
-      kint($variables['comment'][0]['comments']);
+      //kint($variables['comment'][0]['comments']);
     } elseif ($node->getType() == 'question') {
       $variables['comment'] = isset($variables['content']['field_comments'])?$variables['content']['field_comments']:null;
       foreach ($variables['comment'][0]['comments'] as $key => $comment) {
