@@ -3787,6 +3787,11 @@ td.forum-number-topics, td.forum-number-posts {
   display: none;
 }
 
+/* line 972, ../sass/partials/_page.scss */
+.salesforce-contracts input {
+  display: block;
+}
+
 @media (max-width: 1199px) and (min-width: 992px) {
   /* line 2, ../sass/partials/_responsive.scss */
   .footer .block {
