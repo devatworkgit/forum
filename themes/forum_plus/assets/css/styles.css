@@ -3798,6 +3798,11 @@ td.forum-number-topics, td.forum-number-posts {
   padding: 1px;
 }
 
+/* line 983, ../sass/partials/_page.scss */
+.views-field-field-payer {
+  margin-right: 15px;
+}
+
 @media (max-width: 1199px) and (min-width: 992px) {
   /* line 2, ../sass/partials/_responsive.scss */
   .footer .block {
