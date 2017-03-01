@@ -3794,8 +3794,8 @@ td.forum-number-topics, td.forum-number-posts {
 
 /* line 977, ../sass/partials/_page.scss */
 .path-user .field--label-inline {
-  font-size: 18px;
-  padding: 5px;
+  font-size: 16px;
+  padding: 1px;
 }
 
 @media (max-width: 1199px) and (min-width: 992px) {
