@@ -2678,11 +2678,11 @@ html.js fieldset.collapsed {
 /* line 21, ../sass/partials/_page.scss */
 .site-branding__logo {
   position: absolute;
-  top: 1px;
+  top: 32px;
   left: 0px;
   z-index: 10;
-  width: 234px;
-  height: auto;
+  width: 168px;
+  height: 18px;
   /* .user-logged-in & {
     left: 0;
   } */
@@ -3790,6 +3790,12 @@ td.forum-number-topics, td.forum-number-posts {
 /* line 972, ../sass/partials/_page.scss */
 .salesforce-contracts input {
   display: block;
+}
+
+/* line 977, ../sass/partials/_page.scss */
+.path-user .field--label-inline {
+  font-size: 18px;
+  padding: 5px;
 }
 
 @media (max-width: 1199px) and (min-width: 992px) {
