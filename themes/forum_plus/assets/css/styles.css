@@ -3170,7 +3170,7 @@ td.forum-number-topics, td.forum-number-posts {
 }
 /* line 490, ../sass/partials/_page.scss */
 .node__content .field--type-comment, .node__content .view-content, .questions .field--type-comment, .questions .view-content {
-  margin-top: 30px;
+  /* margin-top: 30px; */
 }
 /* line 493, ../sass/partials/_page.scss */
 .node__content .field--type-comment .comment, .node__content .field--type-comment .question, .node__content .view-content .comment, .node__content .view-content .question, .questions .field--type-comment .comment, .questions .field--type-comment .question, .questions .view-content .comment, .questions .view-content .question {
