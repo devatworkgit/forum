@@ -3834,22 +3834,21 @@ td.forum-number-topics, td.forum-number-posts {
 }
 
 /* line 1013, ../sass/partials/_page.scss */
-#edit-pass--description,
-.js-password-confirm {
+#edit-pass--description {
   display: none !important;
 }
 
-/* line 1019, ../sass/partials/_page.scss */
+/* line 1018, ../sass/partials/_page.scss */
 .view-q-a .view-header {
   margin-bottom: 27px;
   display: inline-block;
 }
-/* line 1022, ../sass/partials/_page.scss */
+/* line 1021, ../sass/partials/_page.scss */
 .view-q-a .view-header .qa-menu {
   list-style: none;
   padding: 0px;
 }
-/* line 1025, ../sass/partials/_page.scss */
+/* line 1024, ../sass/partials/_page.scss */
 .view-q-a .view-header .qa-menu .menu-item {
   float: left;
   margin-right: 25px;
@@ -3857,13 +3856,13 @@ td.forum-number-topics, td.forum-number-posts {
   display: inline-block;
   margin-top: 10px;
 }
-/* line 1031, ../sass/partials/_page.scss */
+/* line 1030, ../sass/partials/_page.scss */
 .view-q-a .view-header .qa-menu .menu-item a {
   background: #4585f2;
   padding: 7px;
   color: #fff;
 }
-/* line 1039, ../sass/partials/_page.scss */
+/* line 1038, ../sass/partials/_page.scss */
 .view-q-a .view-filters {
   clear: both;
 }
