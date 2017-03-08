@@ -3849,14 +3849,15 @@ td.forum-number-topics, td.forum-number-posts {
   margin-right: 25px;
   background: none;
   display: inline-block;
+  margin-top: 10px;
 }
-/* line 1025, ../sass/partials/_page.scss */
+/* line 1026, ../sass/partials/_page.scss */
 .view-q-a .view-header .qa-menu .menu-item a {
   background: #4585f2;
   padding: 7px;
   color: #fff;
 }
-/* line 1033, ../sass/partials/_page.scss */
+/* line 1034, ../sass/partials/_page.scss */
 .view-q-a .view-filters {
   clear: both;
 }
