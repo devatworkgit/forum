@@ -991,5 +991,20 @@ td.forum-number-topics, td.forum-number-posts {
     overflow-y:scroll;
     display:block;
   }
+}
+
+.captcha{
+  border:none;
   
+  .summary{
+    display:none !important;
+  }
+  
+  .details-wrapper{
+    padding:0px;
+    
+    .details-description{
+      display:none;
+    }
+  }
 }

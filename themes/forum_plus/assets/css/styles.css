@@ -3814,6 +3814,23 @@ td.forum-number-topics, td.forum-number-posts {
   display: block;
 }
 
+/* line 996, ../sass/partials/_page.scss */
+.captcha {
+  border: none;
+}
+/* line 999, ../sass/partials/_page.scss */
+.captcha .summary {
+  display: none !important;
+}
+/* line 1003, ../sass/partials/_page.scss */
+.captcha .details-wrapper {
+  padding: 0px;
+}
+/* line 1006, ../sass/partials/_page.scss */
+.captcha .details-wrapper .details-description {
+  display: none;
+}
+
 @media (max-width: 1199px) and (min-width: 992px) {
   /* line 2, ../sass/partials/_responsive.scss */
   .footer .block {
