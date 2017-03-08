@@ -3817,16 +3817,18 @@ td.forum-number-topics, td.forum-number-posts {
 /* line 996, ../sass/partials/_page.scss */
 .captcha {
   border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
-/* line 999, ../sass/partials/_page.scss */
+/* line 1001, ../sass/partials/_page.scss */
 .captcha .summary {
   display: none !important;
 }
-/* line 1003, ../sass/partials/_page.scss */
+/* line 1005, ../sass/partials/_page.scss */
 .captcha .details-wrapper {
   padding: 0px;
 }
-/* line 1006, ../sass/partials/_page.scss */
+/* line 1008, ../sass/partials/_page.scss */
 .captcha .details-wrapper .details-description {
   display: none;
 }
