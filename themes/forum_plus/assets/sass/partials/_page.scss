@@ -1010,3 +1010,17 @@ td.forum-number-topics, td.forum-number-posts {
     }
   }
 }
+
+.qa-menu{
+  list-style: none;
+  .menu-item{
+    float: left;
+    margin-right: 25px;
+    background: none;
+    display: inline-block;
+    a{
+      background: #4585f2;
+      color: #fff;
+    }
+   }
+}
