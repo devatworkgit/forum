@@ -1011,16 +1011,27 @@ td.forum-number-topics, td.forum-number-posts {
   }
 }
 
-.qa-menu{
-  list-style: none;
-  .menu-item{
-    float: left;
-    margin-right: 25px;
-    background: none;
+.view-q-a{
+  .view-header{
+    margin-bottom: 27px;
     display: inline-block;
-    a{
-      background: #4585f2;
-      color: #fff;
+    .qa-menu{
+      list-style: none;
+      padding: 0px;
+      .menu-item{
+        float: left;
+        margin-right: 25px;
+        background: none;
+        display: inline-block;
+        a{
+          background: #4585f2;
+          padding: 7px;
+          color: #fff;
+        }
+       }
     }
-   }
-}
+  }
+  .view-filters{
+    clear:both;
+  }
+}  

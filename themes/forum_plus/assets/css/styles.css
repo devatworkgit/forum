@@ -3833,21 +3833,32 @@ td.forum-number-topics, td.forum-number-posts {
   display: none;
 }
 
-/* line 1014, ../sass/partials/_page.scss */
-.qa-menu {
-  list-style: none;
+/* line 1015, ../sass/partials/_page.scss */
+.view-q-a .view-header {
+  margin-bottom: 27px;
+  display: inline-block;
 }
-/* line 1016, ../sass/partials/_page.scss */
-.qa-menu .menu-item {
+/* line 1018, ../sass/partials/_page.scss */
+.view-q-a .view-header .qa-menu {
+  list-style: none;
+  padding: 0px;
+}
+/* line 1021, ../sass/partials/_page.scss */
+.view-q-a .view-header .qa-menu .menu-item {
   float: left;
   margin-right: 25px;
   background: none;
   display: inline-block;
 }
-/* line 1021, ../sass/partials/_page.scss */
-.qa-menu .menu-item a {
+/* line 1026, ../sass/partials/_page.scss */
+.view-q-a .view-header .qa-menu .menu-item a {
   background: #4585f2;
+  padding: 7px;
   color: #fff;
+}
+/* line 1034, ../sass/partials/_page.scss */
+.view-q-a .view-filters {
+  clear: both;
 }
 
 @media (max-width: 1199px) and (min-width: 992px) {
