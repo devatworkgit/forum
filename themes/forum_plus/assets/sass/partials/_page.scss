@@ -1010,6 +1010,11 @@ td.forum-number-topics, td.forum-number-posts {
   }
 }
 
+#edit-pass--description,
+.js-password-confirm{
+  display:none !important;
+}
+
 .view-q-a{
   .view-header{
     margin-bottom: 27px;
