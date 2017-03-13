@@ -30,7 +30,7 @@ class UserRegistrationPassword extends WebTestBase {
     $edit['pass[pass2]'] = $new_pass;
     $pass = $new_pass;
     $this->drupalPostForm('user/register', $edit, 'Create new account');
-    $this->assertText('In the meantime, a welcome message with further instructions has been sent to your email address.', 'User registered successfully.');
+    $this->assertText('A welcome message with further instructions has been sent to your e-mail address.', 'User registered successfully.');
 
     // Load the new user.
     $accounts = \Drupal::entityQuery('user')
@@ -114,7 +114,7 @@ class UserRegistrationPassword extends WebTestBase {
     $edit1['pass[pass1]'] = $new_pass = $this->randomMachineName();
     $edit1['pass[pass2]'] = $new_pass;
     $this->drupalPostForm('user/register', $edit1, 'Create new account');
-    $this->assertText('In the meantime, a welcome message with further instructions has been sent to your email address.', 'User registered successfully.');
+    $this->assertText('A welcome message with further instructions has been sent to your e-mail address.', 'User registered successfully.');
 
     // Request a new activation e-mail.
     $edit2 = array();
