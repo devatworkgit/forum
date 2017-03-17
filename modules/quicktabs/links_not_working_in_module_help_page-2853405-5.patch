@@ -1,0 +1,71 @@
+diff --git a/quicktabs.module b/quicktabs.module
+index c3110f2..4c8ef87 100644
+--- a/quicktabs.module
++++ b/quicktabs.module
+@@ -13,14 +13,14 @@ function quicktabs_help($route_name, RouteMatchInterface $route_match) {
+   switch ($route_name) {
+     case 'help.page.quicktabs':
+       $output = '<p>' . t('The Quicktabs module allows you to create blocks of tabbed content. Clicking on the tabs makes the corresponding content display instantly (it uses jQuery). The content for each tabbed section can be a node, view, block or another Quicktabs instance. You can create an unlimited number of Quicktabs instances, each of which will automatically have an associated block.') . '</p>';
+-      $output .= '<p>' . t('The <a href="!quicktabs">quicktabs page</a> displays all quicktabs currently available on your site. Create new quicktabs using the <a href="!add-quicktab">add quicktab page</a> (the block containing a new quicktab must also be enabled on the <a href="!blocks">blocks administration page</a>).', array('!quicktabs' => \Drupal::url('quicktabs.admin'), '!add-quicktab' => \Drupal::url('entity.settings.add'), '!blocks' => \Drupal::url('block.admin_display'))) . '</p>';
++      $output .= '<p>' . t('The <a href="@quicktabs">quicktabs page</a> displays all quicktabs currently available on your site. Create new quicktabs using the <a href="@add-quicktab">add quicktab page</a> (the block containing a new quicktab must also be enabled on the <a href="@blocks">blocks administration page</a>).', array('@quicktabs' => \Drupal::url('quicktabs.admin'), '@add-quicktab' => \Drupal::url('entity.settings.add'), '@blocks' => \Drupal::url('block.admin_display'))) . '</p>';
+       return $output;
+     case 'quicktabs.admin':
+-      $output = '<p>' . t('Each Quicktabs instance has a corresponding block that is managed on the <a href="!blocks">blocks administration page</a>.', array('!blocks' => \Drupal::Url('block.admin_display'))). '</p>';
++      $output = '<p>' . t('Each Quicktabs instance has a corresponding block that is managed on the <a href="@blocks">blocks administration page</a>.', array('@blocks' => \Drupal::Url('block.admin_display'))). '</p>';
+       return $output;
+   }
+   if ($route_name == 'quicktabs.admin' && Drupal::moduleHandler()->moduleExists('block')) {
+-    return '<p>' . t('Each Quicktabs instance has a corresponding block that is managed on the <a href="!blocks">blocks administration page</a>.', array('!blocks' => \Drupal::Url('block.admin_display'))) . '</p>';
++    return '<p>' . t('Each Quicktabs instance has a corresponding block that is managed on the <a href="@blocks">blocks administration page</a>.', array('@blocks' => \Drupal::Url('block.admin_display'))) . '</p>';
+   }
+ }
+ 
+@@ -105,7 +105,7 @@ function quicktabs_block_view($delta = '') {
+  *  array would be array(array('title' => 'custom', 'contents' => array('#markup' =>
+  *  t('Some markup'), 'weight' => 5));
+  *
+- * @return A render array that can be used as block content in hook_block_view 
++ * @return A render array that can be used as block content in hook_block_view
+  *  (see quicktabs_block_view()), but can also just be added to the page array
+  *  during hook_page_alter, or output anywhere else where it's sure to get
+  *  passed through drupal_render().
+@@ -150,10 +150,10 @@ function quicktabs_build_quicktabs($name, $settings = array(), $custom_tabs = ar
+     if ($item['type'] != 'prerendered') {
+       ctools_plugin_load_class('quicktabs', 'contents', $item['type'], 'handler');
+     }
+-  
++
+     // Add item's weight to our weights array so that we can then sort by weight.
+     $weight[$key] = $item['weight'];
+-    
++
+     // Make sure we're not going to try to load the same QuickSet instance
+     // inside itself.
+     if ($item['type'] == 'qtabs' && $item['machine_name'] == $name) {
+@@ -197,7 +197,7 @@ function quicktabs_ajax($name, $index, $type) {
+   array_unshift($variable_args, $name);
+ 
+   $data = QuickSet::ajaxRenderContent($type, $variable_args);
+-  
++
+   $commands = array();
+   $tabpage_id = 'quicktabs-tabpage-'. $name .'-' . $index;
+   $commands[] = ajax_command_append('#quicktabs-container-'. $name, '<div id="' . $tabpage_id .'" class="quicktabs-tabpage">'. $data .'</div>');
+@@ -316,7 +316,7 @@ function quicktabs_i18n_string_info() {
+  * @return mixed
+  */
+ function quicktabs_translate($name, $string, $langcode = NULL, $textgroup = 'quicktabs') {
+-  return function_exists('i18n_string') ? i18n_string($textgroup . ':' . $name, $string, array('langcode' => $langcode)) : $string; 
++  return function_exists('i18n_string') ? i18n_string($textgroup . ':' . $name, $string, array('langcode' => $langcode)) : $string;
+ }
+ 
+ /**
+@@ -597,7 +597,7 @@ function theme_qt_quicktabs($variables) {
+   $element = $variables['element'];
+   $output = '<div '. drupal_attributes($element['#options']['attributes']) .'>';
+   $output .= drupal_render($element['tabs']);
+-  
++
+   $output .= drupal_render($element['container']);
+ 
+   $output .= '</div>';

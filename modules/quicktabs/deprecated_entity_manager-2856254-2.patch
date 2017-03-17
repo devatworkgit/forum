@@ -1,0 +1,22 @@
+diff --git a/src/Plugin/QuickContent/QuickNodeContent.php b/src/Plugin/QuickContent/QuickNodeContent.php
+index 5a0b0ee..7617790 100644
+--- a/src/Plugin/QuickContent/QuickNodeContent.php
++++ b/src/Plugin/QuickContent/QuickNodeContent.php
+@@ -42,7 +42,7 @@ class QuickNodeContent extends QuickContent implements  QuicktabContentInterface
+       '#size' => 20,
+       '#default_value' => isset($tab['nid']) ? $tab['nid'] : '',
+     );
+-    $entity_info = \Drupal::entityManager()->getDefinition('node');
++    $entity_info = \Drupal::entityTypeManager()->getDefinition('node');
+     $view_modes = array();
+     foreach ($entity_info['view modes'] as $view_mode_name => $view_mode) {
+       $view_modes[$view_mode_name] = $view_mode['label'];
+@@ -78,7 +78,7 @@ class QuickNodeContent extends QuickContent implements  QuicktabContentInterface
+     }
+     $output = array();
+     if (isset($item['nid'])) {
+-      $node = \Drupal::entityManager()->getStorage('node')->load($item['nid']);
++      $node = \Drupal::entityTypeManager()->getStorage('node')->load($item['nid']);
+       if (!empty($node)) {
+         if (node_access('view', $node)) {
+           $buildmode = $item['view_mode'];

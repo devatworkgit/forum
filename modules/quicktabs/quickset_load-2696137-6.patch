@@ -1,0 +1,30 @@
+From 3210f5b8942b0f94e0e2da5fc2c0412980507eb2 Mon Sep 17 00:00:00 2001
+From: Rajashree Datar <rdatar@faichi.com>
+Date: Tue, 12 Apr 2016 12:07:58 +0530
+Subject: [PATCH] Issue #2696137 : Fixed Quickset::Load error
+
+---
+ src/QuickSet.php | 9 +++++++++
+ 1 file changed, 9 insertions(+)
+
+diff --git a/src/QuickSet.php b/src/QuickSet.php
+index 0a1824a..da9e53d 100644
+--- a/src/QuickSet.php
++++ b/src/QuickSet.php
+@@ -251,4 +251,13 @@ class QuickSet {
+     $active_tab = (isset($active_tab) && isset($this->contents[$active_tab])) ? $active_tab : QUICKTABS_DELTA_NONE;
+     return $active_tab;
+   }
++
++  /**
++   * This method loads the quickset tab
++   * @return \Drupal\Core\Entity\EntityInterface|null
++   * The entity object, or NULL if there is no entity with the given ID.
++   */
++  public static function load($machine_name) {
++    return entity_load('node', $machine_name);
++  }
+ }
+-- 
+1.9.1
+
