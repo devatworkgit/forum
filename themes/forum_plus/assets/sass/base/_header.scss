@@ -287,26 +287,29 @@ html.js fieldset.collapsed {
             background: none;
             opacity: 0;
             display: none;
-            right: -10px;
             margin: 0;
             padding: 25px 0 0;
             position: absolute;
             top: 30px;
             text-align: right;
-            width: 100%;
             z-index: 10;
+            border-bottom: 1px solid #fff;
 
             @include transition;
 
             li {
-              display: inline-block;
+              display: block;
               padding: 0;
-
+              background-color: #4585f2;
+              border-left: 1px solid #fff;
+              border-right: 1px solid #fff;
               a {
                 color: $white;
                 padding: 0 10px;
                 line-height: 40px;
                 text-transform: none;
+                width: 100%;
+                text-align: left;
                 font: {
                   family: $font-body;
                   size: $fs-15;

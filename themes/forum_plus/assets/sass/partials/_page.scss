@@ -1016,44 +1016,70 @@ td.forum-number-topics, td.forum-number-posts {
 
 .view-q-a{
   .view-header{
-    margin-bottom: 27px;
     display: inline-block;
-    .qa-menu{
-      list-style: none;
-      padding: 0px;
-      .menu-item{
-        float: left;
-        margin-right: 25px;
-        background: none;
-        display: inline-block;
-        margin-top: 10px;
-        a{
-          background: #4585f2;
-          padding: 7px;
-          color: #fff;
-        }
-       }
+    width: 100%;
+    .qa-menu {
+      float: right;
     }
+    h2 {
+      float: left;
+    }
+  }
+  .qa-menu {
+    list-style: none;
+    padding: 0px;
+    .menu-item {
+      float: left;
+      background: none;
+      display: inline-block;
+      a {
+        background: #4585f2;
+        padding: 7px;
+        color: #fff;
+      }
+    }
+  }
+  .js-form-item-eref-node-titles {
+    .description {
+      font-size: inherit;
+      margin-top: 20px;
+      .qa-menu {
+        float: right;
+        margin-left: 10px;
+      }
+    }
+  }
+  .js-form-item-title, .js-form-item-created, .js-form-item-sort-by {
+    clear: left;
   }
   .view-filters{
     clear:both;
+    padding: 15px;
+    background-color: #f4f4f4;
+    border: 1px solid #d8d8d8;
   }
 }  
 
 #block-fronttabs {
   margin-bottom: 30px;
   li {
-    display: inline-block;
+    display: block;
+    float: left;
+    width: 31.33333333333%;
+    margin: 0 1% 0 1%;
     a {
       background: transparent;
-      border: 1px 1px 0 1px solid $border-color;
+      border-top: 1px solid $border-color;
+      border-left: 1px solid $border-color;
+      border-right: 1px solid $border-color;
       color: $dark-grey-2;
-      padding: 6px 20px 4px;
+      padding: 6px 0 4px;
       -webkit-border-radius: 3px 3px 0 0;
       -moz-border-radius: 3px 3px 0 0;
       border-radius: 3px 3px 0 0;
       display: inline-block;
-
+      width: 100%;
+      text-align: center;
       &:hover,
       &:focus,
       &.active {
