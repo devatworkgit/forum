@@ -10,7 +10,6 @@ skins-menu:
   - core/drupal
   - core/drupalSettings
 
-
 global-styling:
   version: VERSION
   css:
@@ -40,6 +39,7 @@ corescript:
         assets/js/mobile_menu.js: {}
         assets/js/jquery.smooth-scroll.js: {}
         assets/js/script.js: {}
+        assets/js/front_tabs.js: {}
 
 
     dependencies:

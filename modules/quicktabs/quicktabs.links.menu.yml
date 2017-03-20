@@ -1,5 +1,0 @@
-quciktabs.admin:
-  title: 'Quick Tabs'
-  parent: system.admin_structure
-  description: 'Create blocks of tabbed content.'
-  route_name: quicktabs.admin

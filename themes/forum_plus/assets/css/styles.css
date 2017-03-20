@@ -3867,6 +3867,32 @@ td.forum-number-topics, td.forum-number-posts {
   clear: both;
 }
 
+/* line 1043, ../sass/partials/_page.scss */
+#block-fronttabs {
+  margin-bottom: 30px;
+}
+/* line 1045, ../sass/partials/_page.scss */
+#block-fronttabs li {
+  display: inline-block;
+}
+/* line 1047, ../sass/partials/_page.scss */
+#block-fronttabs li a {
+  background: transparent;
+  border: 1px 1px 0 1px solid #ededed;
+  color: #888888;
+  padding: 6px 20px 4px;
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+  display: inline-block;
+}
+/* line 1057, ../sass/partials/_page.scss */
+#block-fronttabs li a:hover, #block-fronttabs li a:focus, #block-fronttabs li a.active {
+  background: #4585f2;
+  color: #fff;
+  border-color: #4585f2;
+}
+
 @media (max-width: 1199px) and (min-width: 992px) {
   /* line 2, ../sass/partials/_responsive.scss */
   .footer .block {

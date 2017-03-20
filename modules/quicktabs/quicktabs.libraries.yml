@@ -1,7 +1,0 @@
-quicktabs:
-  version: 1.x
-  js:
-    js/quicktabs.js: {}
-  css:
-    theme:
-      css/quicktabs.css: {}
