@@ -5,4 +5,10 @@
  */
 function devatwork_custom_form_views_exposed_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
   $form['title']['#attributes']['placeholder'] = t('Type question.');
+  $form['sort_by']['#title']= '';
+  $form['eref_node_titles']['#weight']= 1;
+  $form['created']['#weight']= 2;
+  $form['comment_count']['#weight']= 3;
+  $form['sort_by']['#weight']= 4;
+  $form['title']['#weight']= 5;
 }

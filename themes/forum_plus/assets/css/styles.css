@@ -365,7 +365,7 @@ input[type="file"] {
 select {
   border-color: #d8d8d8;
   color: #777;
-  min-width: 220px;
+  min-width: 200px;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -3884,21 +3884,59 @@ td.forum-number-topics, td.forum-number-posts {
   padding: 7px;
   color: #fff;
 }
-/* line 1043, ../sass/partials/_page.scss */
+/* line 1042, ../sass/partials/_page.scss */
+.view-q-a .js-form-item-eref-node-titles {
+  width: 100%;
+  margin-right: 0;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #d8d8d8;
+}
+/* line 1047, ../sass/partials/_page.scss */
 .view-q-a .js-form-item-eref-node-titles .description {
   font-size: inherit;
   margin-top: 20px;
+  line-height: 30px;
 }
-/* line 1046, ../sass/partials/_page.scss */
+/* line 1051, ../sass/partials/_page.scss */
 .view-q-a .js-form-item-eref-node-titles .description .qa-menu {
-  float: right;
   margin-left: 10px;
+  display: inline-block;
+  margin-bottom: -9px;
 }
-/* line 1052, ../sass/partials/_page.scss */
-.view-q-a .js-form-item-title, .view-q-a .js-form-item-created, .view-q-a .js-form-item-sort-by {
+/* line 1059, ../sass/partials/_page.scss */
+.view-q-a .js-form-item-title label {
+  position: relative;
+}
+/* line 1061, ../sass/partials/_page.scss */
+.view-q-a .js-form-item-title label:after {
+  display: inline-block;
+  font-family: "Nucleo Mini";
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #888888;
+  content: "\ea66";
+  z-index: 99;
+  transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  padding: 0 1px;
+  margin-right: -27px;
+  margin-left: 10px;
+  position: absolute;
+}
+/* line 1082, ../sass/partials/_page.scss */
+.view-q-a .js-form-item-title input {
+  padding-left: 30px;
+}
+/* line 1086, ../sass/partials/_page.scss */
+.view-q-a .js-form-item-created {
   clear: left;
 }
-/* line 1055, ../sass/partials/_page.scss */
+/* line 1089, ../sass/partials/_page.scss */
 .view-q-a .view-filters {
   clear: both;
   padding: 15px;
@@ -3907,18 +3945,18 @@ td.forum-number-topics, td.forum-number-posts {
   margin-bottom: 15px;
 }
 
-/* line 1064, ../sass/partials/_page.scss */
+/* line 1098, ../sass/partials/_page.scss */
 #block-fronttabs {
   margin-bottom: 30px;
 }
-/* line 1066, ../sass/partials/_page.scss */
+/* line 1100, ../sass/partials/_page.scss */
 #block-fronttabs li {
   display: block;
   float: left;
   width: 31.33333333333%;
   margin: 0 1% 0 1%;
 }
-/* line 1071, ../sass/partials/_page.scss */
+/* line 1105, ../sass/partials/_page.scss */
 #block-fronttabs li a {
   background: transparent;
   border-top: 1px solid #ededed;
@@ -3933,17 +3971,17 @@ td.forum-number-topics, td.forum-number-posts {
   width: 100%;
   text-align: center;
 }
-/* line 1084, ../sass/partials/_page.scss */
+/* line 1118, ../sass/partials/_page.scss */
 #block-fronttabs li a:hover, #block-fronttabs li a:focus, #block-fronttabs li a.active {
   background: #4585f2;
   color: #fff;
   border-color: #4585f2;
 }
 
-/* line 1095, ../sass/partials/_page.scss */
+/* line 1129, ../sass/partials/_page.scss */
 input, select, textarea {
   /*border: 1px solid #999;
-  height: 35px;
+  min-height: 35px;
   -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);*/

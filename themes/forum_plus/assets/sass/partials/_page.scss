@@ -1040,16 +1040,50 @@ td.forum-number-topics, td.forum-number-posts {
     }
   }
   .js-form-item-eref-node-titles {
+    width: 100%;
+    margin-right: 0;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #d8d8d8;
     .description {
       font-size: inherit;
       margin-top: 20px;
+      line-height: 30px;
       .qa-menu {
-        float: right;
         margin-left: 10px;
+        display: inline-block;
+        margin-bottom: -9px;
       }
     }
   }
-  .js-form-item-title, .js-form-item-created, .js-form-item-sort-by {
+  .js-form-item-title {
+    label {
+      position: relative;
+      &:after {
+        display: inline-block;
+        font-family: "Nucleo Mini";
+        font-style: normal;
+        font-weight: normal;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        color: #888888;
+        content: "\ea66";
+        z-index: 99;
+        transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -ms-transform: scaleX(-1);
+        -moz-transform: scaleX(-1);
+        padding: 0 1px;
+        margin-right: -27px;
+        margin-left: 10px;
+        position: absolute;
+      }
+    }
+    input {
+      padding-left: 30px;
+    }
+  }
+  .js-form-item-created {
     clear: left;
   }
   .view-filters{
@@ -1094,7 +1128,7 @@ td.forum-number-topics, td.forum-number-posts {
 
 input , select, textarea{
   /*border: 1px solid #999;
-  height: 35px;
+  min-height: 35px;
   -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);*/
