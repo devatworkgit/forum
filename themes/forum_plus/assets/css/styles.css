@@ -347,7 +347,7 @@ input:focus, button:focus, select:focus, textarea:focus {
 
 /* line 68, ../sass/base/_base.scss */
 input, select, textarea {
-  min-height: 40px;
+  /*min-height: 40px;*/
 }
 
 /* line 72, ../sass/base/_base.scss */
@@ -3944,7 +3944,7 @@ input, select, textarea {
   color: #525865;
   border-radius: 4px;
   border: 1px solid #d1d1d1;
-  box-shadow: inset 1px 2px 8px rgba(0, 0, 0, 0.07);
+  box-shadow: inset 2px 4px 9px rgba(0, 0, 0, 0.1);
   font-family: inherit;
   font-size: 1em;
   line-height: 1.45;
