@@ -347,7 +347,7 @@ input:focus, button:focus, select:focus, textarea:focus {
 
 /* line 68, ../sass/base/_base.scss */
 input, select, textarea {
-  min-height: 40px;
+  /*min-height: 40px;*/
 }
 
 /* line 72, ../sass/base/_base.scss */
