@@ -1569,25 +1569,24 @@ html.js fieldset.collapsed {
   #block-mainnavigation ul.menu li.menu-item--expanded:hover ul.menu, #block-mainnavigation ul.menu li.menu-item--expanded:focus ul.menu, #block-mainnavigation ul.menu li.menu-item--expanded.menu-item--active-trail ul.menu {
     opacity: 1;
     filter: none;
-    display: block;
   }
 }
 /* User Login */
 @media (max-width: 390px) {
-  /* line 399, ../sass/base/_header.scss */
+  /* line 398, ../sass/base/_header.scss */
   .user-logged-in .headline .block-menu {
     float: left;
   }
-  /* line 402, ../sass/base/_header.scss */
+  /* line 401, ../sass/base/_header.scss */
   .user-logged-in .headline .block-menu ul.menu li {
     margin-right: 5px;
     margin-left: 0;
   }
-  /* line 408, ../sass/base/_header.scss */
+  /* line 407, ../sass/base/_header.scss */
   .user-logged-in .headline .block {
     margin-bottom: 5px;
   }
-  /* line 411, ../sass/base/_header.scss */
+  /* line 410, ../sass/base/_header.scss */
   .user-logged-in .headline .block:first-child {
     display: block;
   }
