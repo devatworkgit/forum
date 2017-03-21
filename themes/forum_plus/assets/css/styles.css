@@ -388,6 +388,13 @@ pre {
   border-radius: 0;
 }
 
+/* line 105, ../sass/base/_base.scss */
+input[type="submit"] {
+  background: #4585f2;
+  padding: 7px;
+  color: #fff;
+}
+
 /* line 2, ../sass/base/_elements.scss */
 .views-view-grid .views-col {
   float: left;
