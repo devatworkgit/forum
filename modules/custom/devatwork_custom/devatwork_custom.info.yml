@@ -1,0 +1,7 @@
+name: DevAtWork Custom functions
+description: Custom module from www.devat.work
+core: 8.x
+type: module
+package: DevAtWork
+configure: entity.flag.collection
+version: '8.x-1.0-alpha1'
