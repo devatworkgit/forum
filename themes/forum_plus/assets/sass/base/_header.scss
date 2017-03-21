@@ -379,10 +379,11 @@ html.js fieldset.collapsed {
             }
           }
 
-          &:hover, &:focus, &.menu-item--active-trail {
+          &:hover, &:focus {
             ul.menu {
               opacity: 1;
               filter: none;
+              display: block;
             }
           }
         }
