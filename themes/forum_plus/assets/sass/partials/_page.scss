@@ -1092,7 +1092,7 @@ td.forum-number-topics, td.forum-number-posts {
   }
 }
 
-input {
+input , select, textarea{
   border: 1px solid #999;
   height: 25px;
   -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
