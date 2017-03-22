@@ -4051,7 +4051,7 @@ option {
   width: 100%;
 }
 /* line 1203, ../sass/partials/_page.scss */
-#views-exposed-form-q-a-block-1 .js-form-item-title .edit-title {
+#views-exposed-form-q-a-block-1 .js-form-item-title #edit-title {
   width: 73%;
 }
 
