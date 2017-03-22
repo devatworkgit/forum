@@ -1147,21 +1147,26 @@ input , select, textarea{
   -moz-transition: .18s ease-out;
   -o-transition: .18s ease-out;
   transition: .18s ease-out;*/
-      -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    font-size: 15px;
-    height: 40px;
-    background-color: white;
-    transition: background-color .3s;
-    transition: border-color .3s;
-    border-color: #D8DFE6;
-    border-radius: 3px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  font-size: 15px;
+  height: 40px;
+  background-color: white;
+  transition: background-color .3s;
+  transition: border-color .3s;
+  border-color: #D8DFE6;
+  border-radius: 3px;
   
 }
 option{
   padding: 10px;
-  background-color: grey;
+  background-color: white;
+  font-size: 17px;
+  padding-top: 20px;
+  line-height: 15px;
+  font-weight: 100;
+  color: rgba(68, 68, 68, 0.7);
 }
 #question_btn{
   font-size: 19px;
