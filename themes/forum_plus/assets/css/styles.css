@@ -4046,6 +4046,10 @@ option {
   margin-top: 20px;
   margin-right: 10px;
 }
+/* line 1201, ../sass/partials/_page.scss */
+#views-exposed-form-q-a-block-1 .js-form-item-title {
+  width: 100%;
+}
 
 @media (max-width: 1199px) and (min-width: 992px) {
   /* line 2, ../sass/partials/_responsive.scss */
