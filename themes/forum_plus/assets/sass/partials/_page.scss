@@ -1082,6 +1082,7 @@ td.forum-number-topics, td.forum-number-posts {
     }
     input {
       padding-left: 30px;
+      width: 73%;
     }
   }
   .js-form-item-created {
@@ -1200,8 +1201,5 @@ option{
   
   .js-form-item-title{
     width: 100%;
-    #edit-title{
-      width: 73% !important;
-    }
   }
 }

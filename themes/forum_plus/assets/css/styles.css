@@ -3932,12 +3932,13 @@ td.forum-number-topics, td.forum-number-posts {
 /* line 1083, ../sass/partials/_page.scss */
 .view-q-a .js-form-item-title input {
   padding-left: 30px;
+  width: 73%;
 }
-/* line 1087, ../sass/partials/_page.scss */
+/* line 1088, ../sass/partials/_page.scss */
 .view-q-a .js-form-item-created {
   clear: left;
 }
-/* line 1090, ../sass/partials/_page.scss */
+/* line 1091, ../sass/partials/_page.scss */
 .view-q-a .view-filters {
   clear: both;
   padding: 15px;
@@ -3946,18 +3947,18 @@ td.forum-number-topics, td.forum-number-posts {
   margin-bottom: 15px;
 }
 
-/* line 1099, ../sass/partials/_page.scss */
+/* line 1100, ../sass/partials/_page.scss */
 #block-fronttabs {
   margin-bottom: 30px;
 }
-/* line 1101, ../sass/partials/_page.scss */
+/* line 1102, ../sass/partials/_page.scss */
 #block-fronttabs li {
   display: block;
   float: left;
   width: 31.33333333333%;
   margin: 0 1% 0 1%;
 }
-/* line 1106, ../sass/partials/_page.scss */
+/* line 1107, ../sass/partials/_page.scss */
 #block-fronttabs li a {
   background: transparent;
   border-top: 1px solid #ededed;
@@ -3972,14 +3973,14 @@ td.forum-number-topics, td.forum-number-posts {
   width: 100%;
   text-align: center;
 }
-/* line 1119, ../sass/partials/_page.scss */
+/* line 1120, ../sass/partials/_page.scss */
 #block-fronttabs li a:hover, #block-fronttabs li a:focus, #block-fronttabs li a.active {
   background: #4585f2;
   color: #fff;
   border-color: #4585f2;
 }
 
-/* line 1130, ../sass/partials/_page.scss */
+/* line 1131, ../sass/partials/_page.scss */
 input, select, textarea {
   /*border: 1px solid #999;
   min-height: 35px;
@@ -4012,7 +4013,7 @@ input, select, textarea {
   border-radius: 3px;
 }
 
-/* line 1162, ../sass/partials/_page.scss */
+/* line 1163, ../sass/partials/_page.scss */
 option {
   padding: 10px;
   background-color: white;
@@ -4023,36 +4024,32 @@ option {
   color: rgba(68, 68, 68, 0.7);
 }
 
-/* line 1171, ../sass/partials/_page.scss */
+/* line 1172, ../sass/partials/_page.scss */
 #question_btn {
   font-size: 19px;
 }
 
-/* line 1179, ../sass/partials/_page.scss */
+/* line 1180, ../sass/partials/_page.scss */
 #views-exposed-form-q-a-block-1 .qa-menu .menu-item a {
   background: none;
   padding: 0px;
   color: #4585f2;
 }
-/* line 1188, ../sass/partials/_page.scss */
+/* line 1189, ../sass/partials/_page.scss */
 #views-exposed-form-q-a-block-1 .form-item-eref-node-titles label {
   float: left;
   margin-top: 26px;
   margin-right: 4px;
 }
-/* line 1194, ../sass/partials/_page.scss */
+/* line 1195, ../sass/partials/_page.scss */
 #views-exposed-form-q-a-block-1 .form-item-eref-node-titles .form-select {
   float: left;
   margin-top: 20px;
   margin-right: 10px;
 }
-/* line 1201, ../sass/partials/_page.scss */
+/* line 1202, ../sass/partials/_page.scss */
 #views-exposed-form-q-a-block-1 .js-form-item-title {
   width: 100%;
-}
-/* line 1203, ../sass/partials/_page.scss */
-#views-exposed-form-q-a-block-1 .js-form-item-title #edit-title {
-  width: 73% !important;
 }
 
 @media (max-width: 1199px) and (min-width: 992px) {
