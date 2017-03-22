@@ -1147,23 +1147,17 @@ input , select, textarea{
   -moz-transition: .18s ease-out;
   -o-transition: .18s ease-out;
   transition: .18s ease-out;*/
+      -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    font-size: 15px;
+    height: 40px;
+    background-color: #F2F4F6;
+    transition: background-color .3s;
+    transition: border-color .3s;
+    border-color: #D8DFE6;
+    border-radius: 3px;
   
-    display: block;
-    width: 100%;
-    height: 34px;
-    padding: 6px 12px;
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #555;
-    background-color: #fff;
-    background-image: none;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
-    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
-    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
-    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
 
 #question_btn{

@@ -4000,42 +4000,36 @@ input, select, textarea {
   -moz-transition: .18s ease-out;
   -o-transition: .18s ease-out;
   transition: .18s ease-out;*/
-  display: block;
-  width: 100%;
-  height: 34px;
-  padding: 6px 12px;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #555;
-  background-color: #fff;
-  background-image: none;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
-  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  font-size: 15px;
+  height: 40px;
+  background-color: #F2F4F6;
+  transition: background-color .3s;
+  transition: border-color .3s;
+  border-color: #D8DFE6;
+  border-radius: 3px;
 }
 
-/* line 1169, ../sass/partials/_page.scss */
+/* line 1163, ../sass/partials/_page.scss */
 #question_btn {
   font-size: 19px;
 }
 
-/* line 1177, ../sass/partials/_page.scss */
+/* line 1171, ../sass/partials/_page.scss */
 #views-exposed-form-q-a-block-1 .qa-menu .menu-item a {
   background: none;
   padding: 0px;
   color: #4585f2;
 }
-/* line 1186, ../sass/partials/_page.scss */
+/* line 1180, ../sass/partials/_page.scss */
 #views-exposed-form-q-a-block-1 .form-item-eref-node-titles label {
   float: left;
   margin-top: 26px;
   margin-right: 4px;
 }
-/* line 1192, ../sass/partials/_page.scss */
+/* line 1186, ../sass/partials/_page.scss */
 #views-exposed-form-q-a-block-1 .form-item-eref-node-titles .form-select {
   float: left;
   margin-top: 20px;
