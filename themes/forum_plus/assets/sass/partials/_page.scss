@@ -1045,6 +1045,7 @@ td.forum-number-topics, td.forum-number-posts {
     padding-bottom: 1em;
     border-bottom: 1px solid #d8d8d8;
     .description {
+      float: left;
       font-size: inherit;
       margin-top: 20px;
       line-height: 30px;
@@ -1153,13 +1154,28 @@ input , select, textarea{
 }
 
 #views-exposed-form-q-a-block-1{
+  
+  .qa-menu{
+    .menu-item{
+      a{
+        background: none;
+        padding: 0px; 
+        color: #4585f2;
+      }
+    }
+  }
+  
   .form-item-eref-node-titles{
     label{
       float: left;
+      margin-top: 26px;
+      margin-right: 4px;
     }
     
     .form-select{
       float: left;
+      margin-top: 20px;
+      margin-right: 10px;
     }
   }
 }

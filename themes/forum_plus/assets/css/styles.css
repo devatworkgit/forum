@@ -3893,21 +3893,22 @@ td.forum-number-topics, td.forum-number-posts {
 }
 /* line 1047, ../sass/partials/_page.scss */
 .view-q-a .js-form-item-eref-node-titles .description {
+  float: left;
   font-size: inherit;
   margin-top: 20px;
   line-height: 30px;
 }
-/* line 1051, ../sass/partials/_page.scss */
+/* line 1052, ../sass/partials/_page.scss */
 .view-q-a .js-form-item-eref-node-titles .description .qa-menu {
   margin-left: 10px;
   display: inline-block;
   margin-bottom: -9px;
 }
-/* line 1059, ../sass/partials/_page.scss */
+/* line 1060, ../sass/partials/_page.scss */
 .view-q-a .js-form-item-title label {
   position: relative;
 }
-/* line 1061, ../sass/partials/_page.scss */
+/* line 1062, ../sass/partials/_page.scss */
 .view-q-a .js-form-item-title label:after {
   display: inline-block;
   font-family: "Nucleo Mini";
@@ -3928,15 +3929,15 @@ td.forum-number-topics, td.forum-number-posts {
   margin-left: 10px;
   position: absolute;
 }
-/* line 1082, ../sass/partials/_page.scss */
+/* line 1083, ../sass/partials/_page.scss */
 .view-q-a .js-form-item-title input {
   padding-left: 30px;
 }
-/* line 1086, ../sass/partials/_page.scss */
+/* line 1087, ../sass/partials/_page.scss */
 .view-q-a .js-form-item-created {
   clear: left;
 }
-/* line 1089, ../sass/partials/_page.scss */
+/* line 1090, ../sass/partials/_page.scss */
 .view-q-a .view-filters {
   clear: both;
   padding: 15px;
@@ -3945,18 +3946,18 @@ td.forum-number-topics, td.forum-number-posts {
   margin-bottom: 15px;
 }
 
-/* line 1098, ../sass/partials/_page.scss */
+/* line 1099, ../sass/partials/_page.scss */
 #block-fronttabs {
   margin-bottom: 30px;
 }
-/* line 1100, ../sass/partials/_page.scss */
+/* line 1101, ../sass/partials/_page.scss */
 #block-fronttabs li {
   display: block;
   float: left;
   width: 31.33333333333%;
   margin: 0 1% 0 1%;
 }
-/* line 1105, ../sass/partials/_page.scss */
+/* line 1106, ../sass/partials/_page.scss */
 #block-fronttabs li a {
   background: transparent;
   border-top: 1px solid #ededed;
@@ -3971,14 +3972,14 @@ td.forum-number-topics, td.forum-number-posts {
   width: 100%;
   text-align: center;
 }
-/* line 1118, ../sass/partials/_page.scss */
+/* line 1119, ../sass/partials/_page.scss */
 #block-fronttabs li a:hover, #block-fronttabs li a:focus, #block-fronttabs li a.active {
   background: #4585f2;
   color: #fff;
   border-color: #4585f2;
 }
 
-/* line 1129, ../sass/partials/_page.scss */
+/* line 1130, ../sass/partials/_page.scss */
 input, select, textarea {
   /*border: 1px solid #999;
   min-height: 35px;
@@ -4001,18 +4002,28 @@ input, select, textarea {
   transition: .18s ease-out;
 }
 
-/* line 1151, ../sass/partials/_page.scss */
+/* line 1152, ../sass/partials/_page.scss */
 #question_btn {
   font-size: 19px;
 }
 
-/* line 1157, ../sass/partials/_page.scss */
+/* line 1160, ../sass/partials/_page.scss */
+#views-exposed-form-q-a-block-1 .qa-menu .menu-item a {
+  background: none;
+  padding: 0px;
+  color: #4585f2;
+}
+/* line 1169, ../sass/partials/_page.scss */
 #views-exposed-form-q-a-block-1 .form-item-eref-node-titles label {
   float: left;
+  margin-top: 26px;
+  margin-right: 4px;
 }
-/* line 1161, ../sass/partials/_page.scss */
+/* line 1175, ../sass/partials/_page.scss */
 #views-exposed-form-q-a-block-1 .form-item-eref-node-titles .form-select {
   float: left;
+  margin-top: 20px;
+  margin-right: 10px;
 }
 
 @media (max-width: 1199px) and (min-width: 992px) {
