@@ -4001,6 +4001,11 @@ input, select, textarea {
   transition: .18s ease-out;
 }
 
+/* line 1151, ../sass/partials/_page.scss */
+#question_btn {
+  padding: 19px;
+}
+
 @media (max-width: 1199px) and (min-width: 992px) {
   /* line 2, ../sass/partials/_responsive.scss */
   .footer .block {
