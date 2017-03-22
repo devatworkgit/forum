@@ -1159,7 +1159,10 @@ input , select, textarea{
     border-radius: 3px;
   
 }
-
+option{
+  padding: 10px;
+  background-color: grey;
+}
 #question_btn{
   font-size: 19px;
 }

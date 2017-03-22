@@ -4012,24 +4012,30 @@ input, select, textarea {
   border-radius: 3px;
 }
 
-/* line 1163, ../sass/partials/_page.scss */
+/* line 1162, ../sass/partials/_page.scss */
+option {
+  padding: 10px;
+  background-color: grey;
+}
+
+/* line 1166, ../sass/partials/_page.scss */
 #question_btn {
   font-size: 19px;
 }
 
-/* line 1171, ../sass/partials/_page.scss */
+/* line 1174, ../sass/partials/_page.scss */
 #views-exposed-form-q-a-block-1 .qa-menu .menu-item a {
   background: none;
   padding: 0px;
   color: #4585f2;
 }
-/* line 1180, ../sass/partials/_page.scss */
+/* line 1183, ../sass/partials/_page.scss */
 #views-exposed-form-q-a-block-1 .form-item-eref-node-titles label {
   float: left;
   margin-top: 26px;
   margin-right: 4px;
 }
-/* line 1186, ../sass/partials/_page.scss */
+/* line 1189, ../sass/partials/_page.scss */
 #views-exposed-form-q-a-block-1 .form-item-eref-node-titles .form-select {
   float: left;
   margin-top: 20px;
