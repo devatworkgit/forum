@@ -4003,7 +4003,16 @@ input, select, textarea {
 
 /* line 1151, ../sass/partials/_page.scss */
 #question_btn {
-  padding: 19px;
+  font-size: 19px;
+}
+
+/* line 1157, ../sass/partials/_page.scss */
+#views-exposed-form-q-a-block-1 .form-item-eref-node-titles label {
+  float: left;
+}
+/* line 1161, ../sass/partials/_page.scss */
+#views-exposed-form-q-a-block-1 .form-item-eref-node-titles .form-select {
+  float: left;
 }
 
 @media (max-width: 1199px) and (min-width: 992px) {

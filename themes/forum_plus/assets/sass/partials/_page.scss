@@ -1149,5 +1149,17 @@ input , select, textarea{
 }
 
 #question_btn{
-  padding: 19px;
+  font-size: 19px;
+}
+
+#views-exposed-form-q-a-block-1{
+  .form-item-eref-node-titles{
+    label{
+      float: left;
+    }
+    
+    .form-select{
+      float: left;
+    }
+  }
 }
