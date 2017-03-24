@@ -323,6 +323,16 @@ html.js fieldset.collapsed {
                   border-radius: 0;
                   text-decoration: none;
                 }
+                &[href="/#forum"], &[href="/#q&a"], &[href="/#blogs"] {
+                  background: transparent;
+                  color: $white;
+                  &:hover,
+                  &:focus,
+                  &.active {
+                    background: $white;
+                    color: $blue;
+                  }
+                }
               }
 
               &.menu-item--expanded {

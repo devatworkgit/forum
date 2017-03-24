@@ -1525,11 +1525,21 @@ html.js fieldset.collapsed {
     border-radius: 0;
     text-decoration: none;
   }
-  /* line 328, ../sass/base/_header.scss */
+  /* line 326, ../sass/base/_header.scss */
+  #block-mainnavigation ul.menu li.menu-item--expanded ul.menu li a[href="/#forum"], #block-mainnavigation ul.menu li.menu-item--expanded ul.menu li a[href="/#q&a"], #block-mainnavigation ul.menu li.menu-item--expanded ul.menu li a[href="/#blogs"] {
+    background: transparent;
+    color: #fff;
+  }
+  /* line 329, ../sass/base/_header.scss */
+  #block-mainnavigation ul.menu li.menu-item--expanded ul.menu li a[href="/#forum"]:hover, #block-mainnavigation ul.menu li.menu-item--expanded ul.menu li a[href="/#forum"]:focus, #block-mainnavigation ul.menu li.menu-item--expanded ul.menu li a[href="/#forum"].active, #block-mainnavigation ul.menu li.menu-item--expanded ul.menu li a[href="/#q&a"]:hover, #block-mainnavigation ul.menu li.menu-item--expanded ul.menu li a[href="/#q&a"]:focus, #block-mainnavigation ul.menu li.menu-item--expanded ul.menu li a[href="/#q&a"].active, #block-mainnavigation ul.menu li.menu-item--expanded ul.menu li a[href="/#blogs"]:hover, #block-mainnavigation ul.menu li.menu-item--expanded ul.menu li a[href="/#blogs"]:focus, #block-mainnavigation ul.menu li.menu-item--expanded ul.menu li a[href="/#blogs"].active {
+    background: #fff;
+    color: #4585f2;
+  }
+  /* line 338, ../sass/base/_header.scss */
   #block-mainnavigation ul.menu li.menu-item--expanded ul.menu li.menu-item--expanded {
     position: relative;
   }
-  /* line 331, ../sass/base/_header.scss */
+  /* line 341, ../sass/base/_header.scss */
   #block-mainnavigation ul.menu li.menu-item--expanded ul.menu li.menu-item--expanded ul.menu {
     background: #4585f2;
     display: none;
@@ -1542,37 +1552,37 @@ html.js fieldset.collapsed {
     top: 40px;
     width: auto;
   }
-  /* line 343, ../sass/base/_header.scss */
+  /* line 353, ../sass/base/_header.scss */
   #block-mainnavigation ul.menu li.menu-item--expanded ul.menu li.menu-item--expanded ul.menu:after {
     border-bottom: none;
   }
-  /* line 347, ../sass/base/_header.scss */
+  /* line 357, ../sass/base/_header.scss */
   #block-mainnavigation ul.menu li.menu-item--expanded ul.menu li.menu-item--expanded ul.menu li {
     display: block;
   }
-  /* line 350, ../sass/base/_header.scss */
+  /* line 360, ../sass/base/_header.scss */
   #block-mainnavigation ul.menu li.menu-item--expanded ul.menu li.menu-item--expanded ul.menu li a {
     color: #fff;
     display: block;
   }
-  /* line 354, ../sass/base/_header.scss */
+  /* line 364, ../sass/base/_header.scss */
   #block-mainnavigation ul.menu li.menu-item--expanded ul.menu li.menu-item--expanded ul.menu li a:hover, #block-mainnavigation ul.menu li.menu-item--expanded ul.menu li.menu-item--expanded ul.menu li a:focus {
     background: #fff;
     color: #4585f2;
   }
-  /* line 367, ../sass/base/_header.scss */
+  /* line 377, ../sass/base/_header.scss */
   #block-mainnavigation ul.menu li.menu-item--expanded ul.menu li:hover ul.menu, #block-mainnavigation ul.menu li.menu-item--expanded ul.menu li:focus ul.menu, #block-mainnavigation ul.menu li.menu-item--expanded ul.menu li.active-trail:hover ul.menu {
     display: block;
     opacity: 1;
     filter: none;
   }
-  /* line 374, ../sass/base/_header.scss */
+  /* line 384, ../sass/base/_header.scss */
   #block-mainnavigation ul.menu li.menu-item--expanded ul.menu li.forum-date {
     float: left;
     line-height: 40px;
     color: #fff;
   }
-  /* line 383, ../sass/base/_header.scss */
+  /* line 393, ../sass/base/_header.scss */
   #block-mainnavigation ul.menu li.menu-item--expanded:hover ul.menu, #block-mainnavigation ul.menu li.menu-item--expanded:focus ul.menu {
     opacity: 1;
     filter: none;
@@ -1581,20 +1591,20 @@ html.js fieldset.collapsed {
 }
 /* User Login */
 @media (max-width: 390px) {
-  /* line 399, ../sass/base/_header.scss */
+  /* line 409, ../sass/base/_header.scss */
   .user-logged-in .headline .block-menu {
     float: left;
   }
-  /* line 402, ../sass/base/_header.scss */
+  /* line 412, ../sass/base/_header.scss */
   .user-logged-in .headline .block-menu ul.menu li {
     margin-right: 5px;
     margin-left: 0;
   }
-  /* line 408, ../sass/base/_header.scss */
+  /* line 418, ../sass/base/_header.scss */
   .user-logged-in .headline .block {
     margin-bottom: 5px;
   }
-  /* line 411, ../sass/base/_header.scss */
+  /* line 421, ../sass/base/_header.scss */
   .user-logged-in .headline .block:first-child {
     display: block;
   }
