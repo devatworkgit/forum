@@ -4060,6 +4060,8 @@ option {
 /* line 1202, ../sass/partials/_page.scss */
 #views-exposed-form-q-a-block-1 .js-form-item-title {
   width: 100%;
+  border-top: 1px solid #d8d8d8;
+  padding-top: 15px;
 }
 
 @media (max-width: 1199px) and (min-width: 992px) {
