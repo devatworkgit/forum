@@ -4034,30 +4034,31 @@ option {
   color: rgba(68, 68, 68, 0.7);
 }
 
-/* line 1172, ../sass/partials/_page.scss */
+/* line 1173, ../sass/partials/_page.scss */
 #question_btn {
-  font-size: 19px;
+  padding: 10px 30px 10px 30px;
+  font-size: 15px;
 }
 
-/* line 1180, ../sass/partials/_page.scss */
+/* line 1182, ../sass/partials/_page.scss */
 #views-exposed-form-q-a-block-1 .qa-menu .menu-item a {
   background: none;
   padding: 0px;
   color: #4585f2;
 }
-/* line 1189, ../sass/partials/_page.scss */
+/* line 1191, ../sass/partials/_page.scss */
 #views-exposed-form-q-a-block-1 .form-item-eref-node-titles label {
   float: left;
   margin-top: 26px;
   margin-right: 4px;
 }
-/* line 1195, ../sass/partials/_page.scss */
+/* line 1197, ../sass/partials/_page.scss */
 #views-exposed-form-q-a-block-1 .form-item-eref-node-titles .form-select {
   float: left;
   margin-top: 20px;
   margin-right: 10px;
 }
-/* line 1202, ../sass/partials/_page.scss */
+/* line 1204, ../sass/partials/_page.scss */
 #views-exposed-form-q-a-block-1 .js-form-item-title {
   width: 100%;
   border-top: 1px solid #d8d8d8;
