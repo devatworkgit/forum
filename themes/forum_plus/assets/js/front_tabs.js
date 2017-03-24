@@ -40,7 +40,7 @@
         $('a[href="/#q&a"]').addClass('active');
       } else if ($(location).attr('hash') == '#blogs') {
         $('#block-views-block-blogs-block-1').removeClass('hidden');
-        $('a[href="/#q&a"]').addClass('active');
+        $('a[href="/#blogs"]').addClass('active');
       }
       
       $('a[href="/#forum"], a[href="/#q&a"], a[href="/#blogs"]').click( function(event) {
