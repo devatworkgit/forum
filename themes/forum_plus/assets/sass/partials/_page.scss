@@ -1169,8 +1169,10 @@ option{
   font-weight: 100;
   color: rgba(68, 68, 68, 0.7);
 }
+
 #question_btn{
-  font-size: 19px;
+  padding: 10px 30px 10px 30px;
+  font-size: 15px;
 }
 
 #views-exposed-form-q-a-block-1{
@@ -1201,5 +1203,7 @@ option{
   
   .js-form-item-title{
     width: 100%;
+    border-top: 1px solid #d8d8d8;
+    padding-top: 15px;
   }
 }
