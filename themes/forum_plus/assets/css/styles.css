@@ -4041,25 +4041,25 @@ option {
 }
 
 /* line 1182, ../sass/partials/_page.scss */
-#views-exposed-form-q-a-block-1 .qa-menu .menu-item a {
+#views-exposed-form-q-a-block-1 .qa-menu .menu-item a, #views-exposed-form-q-a-questions-page .qa-menu .menu-item a {
   background: none;
   padding: 0px;
   color: #4585f2;
 }
 /* line 1191, ../sass/partials/_page.scss */
-#views-exposed-form-q-a-block-1 .form-item-eref-node-titles label {
+#views-exposed-form-q-a-block-1 .form-item-eref-node-titles label, #views-exposed-form-q-a-questions-page .form-item-eref-node-titles label {
   float: left;
   margin-top: 26px;
   margin-right: 4px;
 }
 /* line 1197, ../sass/partials/_page.scss */
-#views-exposed-form-q-a-block-1 .form-item-eref-node-titles .form-select {
+#views-exposed-form-q-a-block-1 .form-item-eref-node-titles .form-select, #views-exposed-form-q-a-questions-page .form-item-eref-node-titles .form-select {
   float: left;
   margin-top: 20px;
   margin-right: 10px;
 }
 /* line 1204, ../sass/partials/_page.scss */
-#views-exposed-form-q-a-block-1 .js-form-item-title {
+#views-exposed-form-q-a-block-1 .js-form-item-title, #views-exposed-form-q-a-questions-page .js-form-item-title {
   width: 100%;
   border-top: 1px solid #d8d8d8;
   padding-top: 15px;
