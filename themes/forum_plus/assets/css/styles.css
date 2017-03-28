@@ -4065,6 +4065,11 @@ option {
   padding-top: 15px;
 }
 
+/* line 1211, ../sass/partials/_page.scss */
+#edit-terms-of-use-checkbox {
+  margin-top: -10px;
+}
+
 @media (max-width: 1199px) and (min-width: 992px) {
   /* line 2, ../sass/partials/_responsive.scss */
   .footer .block {
