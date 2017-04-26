@@ -7,7 +7,7 @@ index ffbe5c1..8031bff 100644
      class: Drupal\flag\FlagLinkBuilder
      arguments: ['@entity.manager', '@flag']
 +  flag.twig.count:
-+    arguments: ['@renderer']
++    arguments: ['@renderer', '@url_generator', '@theme.manager', '@date.formatter']
 +    class: Drupal\flag\TwigExtension\FlagCount
 +    tags:
 +      - { name: twig.extension }

@@ -34,7 +34,7 @@ class OptionsListFilterTest extends OptionsTestBase {
     $column_map = ['nid' => 'nid'];
     $this->assertIdenticalResultset($view, $resultset, $column_map);
   }
-  
+
   /**
    * Tests options list field filter when grouped.
    */
@@ -108,4 +108,5 @@ class OptionsListFilterTest extends OptionsTestBase {
     $column_map = ['nid' => 'nid'];
     $this->assertIdenticalResultset($view, $resultset, $column_map);
   }
+
 }

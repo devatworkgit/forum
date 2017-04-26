@@ -63,7 +63,7 @@ views.filter.in_operator:
         reduce:
           type: boolean
           label: 'Reduce'
-      group_info:
+    group_info:
       mapping:
         group_items:
           sequence:
@@ -126,7 +126,6 @@ views.filter.group_item.*:
 
 views.filter.group_item.boolean:
   type: views_filter_group_item
-  label: 'Group items'
   mapping:
     value:
       type: views.filter_value.string
@@ -136,7 +135,7 @@ views.filter.group_item.in_operator:
   mapping:
     value:
       type: views.filter_value.in_operator
- 
+
 # Schema for the views filter value.
 views.filter_value.string:
   type: string
